@@ -1,0 +1,316 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\addbibresource{agbib.bib} % Specify the bibliography file to include publications
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\RequirePackage[quiet]{fontspec}
+\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+
+\newfontfamily\bodyfont[]{Helvetica Neue}
+\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
+\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+
+\rfoot{\thinfont{Gonzales CV; page \thepage}}
+\cfoot{}
+\lhead{}
+\chead{}
+\rhead{}
+
+
+
+%%%%% added packages by me
+\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
+
+\begin{document}
+
+\header{aaron}{gonzales}{} % Your name and current job title/field % removed title
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+505.750.2214 
+%505.750.2214
+11104 Apache NE
+Albuquerque, NM 87112
+~
+\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}
+~
+%\href{http://www.smith.com}{http://www.smith.com}
+\href{http://lnkd.in/b8kfQSe}{Linked\faLinkedin}
+%\section{languages}
+%english mother tongue
+%spanish \& italian fluency
+\section{programming at a glance}
+Java, Python, R, C, Bash
+~
+\section{about}
+I am a scientifically-minded analyst with a penchant for finding creative, effective solutions to complex problems.
+I am looking for a graduate program to bolster my expertise to find those solutions.
+\end{aside}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{research/work experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2011--Current}
+%{Elaine Bearer, MD\textendash PhD \textemdash University of New Mexico}
+%{Albuquerque, NM}
+%%%%%%%%%%%%%%%%%%%%%%suggested from nina lanza%
+{University of New Mexico, Albuquerque, NM \textemdash Supervisor: Elaine Bearer, MD\textendash PhD}
+{}
+{\emph{\textbf{Analyst/Programmer}} \\
+Senior analyst in a neuroscience research lab in the School of Medicine 
+working on and managing various projects. \\
+\textbf{primary duties}: \\
+Analyzing scientific data, primarily manganese-enhanced magnetic resonance imaging (MEMRI) data 
+taken from transgenic mice,
+vesicular cargo transport in axons, 
+DNA methylation, and histological microscopy. Analysis methods included
+statistical parametric mapping, 
+extensions of the general linear model, 
+and data visualization.
+Writing programs and scripts to automate or facilitate analysis 
+that can be used by other lab members for analysis on their projects. 
+Implementing reproducible research methods and documentation. \\
+\textbf{other duties}: \\
+Preparing scientific posters, presentations, and manuscripts, 
+assisting with grant writing, database searching, and study design. 
+Training, instructing, and managing both student employees and volunteers at various levels of training 
+(e.g., early undergraduate, late undergraduate, postbaccalaureate, and graduate). }
+\end{entrylist}
+%------------------------------------------------
+
+\begin{entrylist}
+\entry
+{2010--2011}
+%{Julia Stephen, PhD \textemdash The Mind Research Network}
+%{Albuquerque, NM}
+{The Mind Research Network, Albuquerque, NM \textemdash Supervisor: Julia Stephen, PhD}
+{}
+{\emph{\textbf{Research Associate}} \\
+Worked on a study investigating multi-sensory integration in
+patients with schizophrenic and healthy normal volunteers. \\
+\textbf{duties}:\\
+Acquiring data by scanning research subjects using both functional
+magnetic resonance imaging (fMRI) and magnetoencephalography (MEG), writing
+programs and scripts to automate analysis tasks, 
+participant payment, data analysis.}
+\end{entrylist}
+
+%------------------------------------------------
+\section{research internships}
+\begin{entrylist}
+\entry
+{2008-2010}
+%{Pilar Sanjuan, PhD \textemdash The Mind Research Network}
+%{Albuquerque, NM}
+{The Mind Research Network, Albuquerque, NM \textemdash Supervisor: Pilar Sanjuan, PhD}
+{}
+{\emph{\textbf{Student Volunteer}} \\
+Assisted with a study investigating substance use disorders and
+post-traumatic stress disorder (PTSD) in recently returned combat veterans. \\
+\textbf{duties}: \\
+Recruiting, entering data, constructing SPSS databases, scoring
+measures, analyzing data, editing fMRI and MEG tasks in Presentation; running research
+participants in fMRI, running participants in the MEG scanner; phone screening participants,
+some analysis of fMRI image data; tracking and reviewing pre-processing of imaging data.}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+{2008}
+{University of New Mexico, Albuquerque, NM \textemdash Supervisor: Akaysha Tang, PhD}
+{}
+{\textbf{\emph{Student Volunteer}} \\
+Assisted with a study investigating stress regulation in rats and assisted an
+expert in troubleshooting and repairing an EEG system for a study investigating stress in
+humans. \\
+\textbf{duties}: \\
+Collecting, coding, and entering data, gathering literature for a grant
+proposal, testing and analyzing EEG equipment, contacting equipment vendors, replacing
+computer components, diagnosing and rebuilding workstations.}
+%------------------------------------------------
+\end{entrylist}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\section{consulting work}
+\begin{entrylist}
+\entry
+{2014}
+{Pima Vascular}
+{}
+{\textbf{\emph{Statistical Consultant}} \\
+Analyzed data from a clincical trial for a novel stent used in vascular surgery. 
+Analysis included data munging, Kaplan-Meier estimates, and Cox Proportional Hazard modeling
+in \textbf{R}.}
+\end {entrylist}
+
+\begin{entrylist}
+\entry
+{2014}
+{Fame4good.com}
+{}
+{\textbf{\emph{Social Media Consultant}} \\
+Tested and analyzed advertisements as they affected goal conversions and website traffic.}
+\end {entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2016}
+{Master of Science {\normalfont in Computer Science}}
+{University of New Mexico}
+{Beginning fall 2014}
+%------------------------------------------------
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010}
+{Bachelor of Science {\normalfont in Psychology}}
+{University of New Mexico}
+{Minor in Computer Science}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{computer skills}
+\begin{description}
+   \item[\textbf{\textit{programming languages and tools}}] \hfill \\  
+	 MATLAB, Java, \textbf{R}, C, Python, bash, Knitr, \LaTeX, git
+   %\item[\textbf{\textit{editors and IDEs}}] \hfill \\
+	 %Eclipse, RStudio, vim
+   \item[\textbf{\textit{software packages and operating systems}}] \hfill \\
+	 %\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+	   %\item[software packages] \hfill \\
+	    \textbf{General} \\
+	    Microsoft Office, Linux, Microsoft Windows, Apple OSX \\
+	   %\item[specialized] \hfill \\
+	    \textbf{Specialized} \\
+	    %Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ, MIPAV, \textbf{SPM8}, \textbf{FSL}, \textbf{NiftyReg}, MetaMorph 
+	    Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ, MIPAV, SPM8, FSL, NiftyReg, MetaMorph 
+	 %\end{description}
+\end{description}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{publications}
+
+\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
+
+%\printbibsection{book}{books} % Print all books from the bibliography
+
+\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, notkeyword={france}, heading=subbibliography]
+\end{refsection}
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+
+
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+\printbibsection{misc}{manuscripts in preparation} % Print all miscellaneous entries from the bibliography
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	Relevant coursework SECTION
+%----------------------------------------------------------------------------------------
+\section{relevant coursework}
+\begin{description}
+   \item[\textbf{\textit{statistics}}] \hfill \\
+	 Advanced Data Analysis I (STAT 527) - Graduate statistics with a focus on practical analysis using \textbf{R}. 
+	 Topics included linear regression, non-parametric statistics, literate programming, and general linear methods. \hfill  \\
+	 Advanded Data Analysis II (STAT 528) - Continuation of STAT 527. 
+	 Topics include cluster analysis, principal component analysis, multivariate methods, 
+	 logistic and polynomial regression, experimental design, visualization, and efficient code using \textbf{R}.
+   \item[\textbf{\textit{computer science}}] \hfill \\
+	 %\begin{itemize}
+	   Computational Linguistics – semester project involved four persons 
+	   working on a Java-based joke generator querying a substantial SQL database using 
+	   XML templates with Baysien inference and other machine-learning features to improve quality 
+	   of the jokes. \hfill \\
+	   Data Organization \hfill \\
+	   Intermediate Programming \hfill \\
+	   Artificial Intelligence (graph searching algorithims, including $A^*$, Dijkstra). 
+	 %\end{itemize}
+   \item[\textbf{\textit{psychology}}] \hfill \\  
+	 Neuroimaging, Neuroanatomy, Research Methods 
+   \item[\textbf{\textit{other}}] \hfill \\
+	 Linear Algebra \textemdash Khan Academy; MIT OpenCourseware \hfill \\
+	 Introduction to Data Science \textemdash University of Washington via Coursera \hfill \\
+	 Algorithms: Design and Analysis, Part 1 \textemdash Stanford University via Coursera
+\end{description}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{other interests/accolades}
+
+
+\textbf{personal} \\
+Olympic Weightlifting 
+\begin{itemize}
+\item 2013 New Mexico Games: Silver Medalist, 85kg class
+\item 2013 Barnholth Memorial Invitational: Silver Medalist, 85kg class
+\end{itemize}
+%Powerlifting 
+%\begin{itemize}
+%\item 2013 Natural Athlete Strength Association (NASA) Powerlifting Meet (September): 1st Place, Powerlifting, 81kg class
+%; 1st place, Powersports, 81kg class ---- comment by julia
+%\item NASA New Mexico State Record: Power Clean (set in September 2013)
+%\end{itemize}
+UNM Mountaineering Club President; 2007-2008 \\
+
+\end{document}

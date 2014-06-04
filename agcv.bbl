@@ -1,0 +1,2423 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{entry}{chronological}
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist{entry}{chronological}
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{3}
+  \sortlist{entry}{chronological}
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{alzYoung}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{title}{A large-scale investigation into live fucntional circuitry in murine models of neurological disorders}
+      \field{year}{2014}
+    \endentry
+    \entry{alzOld}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ff3f472708715ec419f28ed62d7b3256}{Chavez}{C\bibinitperiod}{Frances}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \strng{fullhash}{fd13a65ea7a53700353b325cf3ce3cb7}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{title}{Functional circuitry is robust in the presence of heavy Abeta plaque laod}
+      \field{year}{2014}
+    \endentry
+    \entry{skullstrip}{misc}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \strng{fullhash}{1ea4d8de3e2ef4ed26b59aee3d7fbf61}
+      \field{sortinit}{2}
+      \field{labeltitle}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{title}{An automated, template based brain-extraction toolkit for mouse magnetic resonance imaging}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsdmethods}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dfa115b9b6a8ef65413f0a13d7bdf10c}{Zhang}{Z\bibinitperiod}{Xiaowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \strng{fullhash}{de00a856bb9ff7a3b487d077c84fee4d}
+      \field{sortinit}{2}
+      \field{labeltitle}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{title}{\textit{In-vivo} Imaging of fear pathways in mice: an MEMRI method}
+      \field{year}{2014}
+    \endentry
+    \entry{ptsd}{misc}{}
+      \name{labelname}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=b01e1852c570514feda86e99260d6521}{Delora}{D\bibinitperiod}{Adam}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cacd69e51be80affde433970f2c6edad}{Zhang}{Z\bibinitperiod}{Xiowei}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \strng{fullhash}{c8e258eb7a7a6940e4d930cdc50aa497}
+      \field{sortinit}{2}
+      \field{labeltitle}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{title}{Functional circuitry is perturbed in a mouse model of PTSD}
+      \field{year}{2014}
+    \endentry
+    \entry{stentpaper}{misc}{}
+      \name{labelname}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=3a4236de7dafb77047bd642cff9457db}{Montero-Baker}{M\bibinithyphendelim B\bibinitperiod}{Miguel}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=644f5f26424efa587a48c60a281e2156}{Ziomek}{Z\bibinitperiod}{Gregory}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=cccb3c4fd9deb55634c0bbccdb891357}{Jr}{J\bibinitperiod}{Luis\bibnamedelimb R\bibnamedelima Leon}{L\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=77eaac6e454378c75f8560dc31941140}{Mills}{M\bibinitperiod}{Joseph\bibnamedelima L}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=e41b6cb80c2db2b2d2924b49e515a299}{Jr}{J\bibinitperiod}{John\bibnamedelimb P\bibnamedelima Pacanowski}{J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{19628cb20fbd67a8601a45f9add3652f}
+      \strng{fullhash}{19628cb20fbd67a8601a45f9add3652f}
+      \field{sortinit}{2}
+      \field{labeltitle}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{title}{The RESTORE Registry: The Initial United States Experience with Lower Extremity Revascualarization on Real World Patients with the Supera Stent}
+      \field{year}{2014, submitted}
+    \endentry
+    \entry{appsfn2013}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{booktitle}{2013 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Aging deficits in axonal transport are exacerbated by abeta plaques: An MEMRI study}}
+      \field{year}{2013}
+    \endentry
+    \entry{alzDementia}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{Alzheimer's \& dementia : The journal of the Alzheimer's Association}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{volume}{9}
+      \field{year}{2013}
+      \field{pages}{190}
+      \verb{url}
+      \verb DOI:%2010.1016/j.jalz.2013.05.329
+      \endverb
+    \endentry
+    \entry{fearsfn2012}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=ab067fd5af423bde18b2782dfaf523ac}{Gallagher}{G\bibinitperiod}{J.\bibnamedelimi J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=574e95d114a9926a694bb0df46c80726}{Zhang}{Z\bibinitperiod}{X.}{X\bibinitperiod}{}{}{}{}}%
+        {{hash=2e101f14342aad0f87ae937f587978f1}{Jacobs}{J\bibinitperiod}{R.\bibnamedelimi E.}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=4b769083bb2441a4895c9fce928e5c5e}{Bearer}{B\bibinitperiod}{E.\bibnamedelimi L.}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{86c9adccafea687e539e0a0e81ac174f}
+      \strng{fullhash}{86c9adccafea687e539e0a0e81ac174f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{booktitle}{2012 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Live imaging of mesolimbic circuitry and activity in transgenic mouse models of post-traumatic stress by manganese-enhanced mri}
+      \field{year}{2012}
+    \endentry
+    \entry{faseb}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=7b58e715cec2ab8c3d774483b230ca0b}{Gallagher}{G\bibinitperiod}{Joseph\bibnamedelima J}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=eff3494f957c93074ff76b4118eb7758}{Jacobs}{J\bibinitperiod}{Russell\bibnamedelima E}{R\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8b1695217b340073060fb30d2ae2b92a}
+      \strng{fullhash}{8b1695217b340073060fb30d2ae2b92a}
+      \field{sortinit}{2}
+      \field{labeltitle}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{booktitle}{FASEB Journal 26}
+      \field{title}{Imaging functional anatomy in the brain of mouse models of human disease}
+      \field{year}{2012}
+    \endentry
+    \entry{trasportascb12}{inproceedings}{}
+      \name{labelname}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=895ac379391758e56a9090742ed73ee7}{Pascal}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=68f9f5dadbd5df96d6d6fa46e62e4376}{Loewenberg}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=2aa8a10be2e89de8fdefe3dbd218b501}{Adair}{A\bibinitperiod}{V.}{V\bibinitperiod}{}{}{E.\bibnamedelimi Cristini}{E\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+        {{hash=8a15459e362eede68ec675f66fb2b037}{Bearer}{B\bibinitperiod}{EL}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New Orleans, LA USA}%
+      }
+      \strng{namehash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \strng{fullhash}{01a23dbc162b32b3771c5a52fdf8b10f}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{booktitle}{Mol. Biol. Cell, 23,4663, abstract 1984}
+      \field{month}{12}
+      \field{title}{Measurements and modeling of axonal transport: Amyloid precursor protein wins over negative charge in the race to the synapse}
+      \field{year}{2012}
+    \endentry
+    \entry{physbiopaper}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=96142172261e50a5fbbfaa24d6777db7}{Seamster}{S\bibinitperiod}{Pamela\bibnamedelima E}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=107778bf5559f449f60e47e41c4de759}{Loewenberg}{L\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=711968dfa7e47b4526188843d9153ed5}{Pascal}{P\bibinitperiod}{Jennifer}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e77cc710f478e800de5fe0cd69850ef7}{Chauviere}{C\bibinitperiod}{Arnaud}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=1929f97ccc1aaca2836132eac363386e}{Cristini}{C\bibinitperiod}{Vittorio}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=0c85a5f7115bb12828f636be22d91c30}{Bearer}{B\bibinitperiod}{Elaine\bibnamedelima L}{E\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{124bd54bfed701b4c42e35feafdb7d53}
+      \strng{fullhash}{124bd54bfed701b4c42e35feafdb7d53}
+      \field{sortinit}{2}
+      \field{labeltitle}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{journaltitle}{Physical Biology}
+      \field{number}{5}
+      \field{title}{Quantitative measurements and modeling of cargo–motor interactions during fast transport in the living axon}
+      \field{volume}{9}
+      \field{year}{2012}
+      \field{pages}{055005}
+      \verb{url}
+      \verb http://stacks.iop.org/1478-3975/9/i=5/a=055005
+      \endverb
+    \endentry
+    \entry{stephenSFN2010}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=b98e15c7d396a038141676b20ac74843}{Stephen}{S\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=0010afb2f506b5c5488206578e23b8d0}{Geeda}{G\bibinitperiod}{L.\bibnamedelimi Urrea\bibnamedelima A.}{L\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=8a2829269ee536324cc569cf008d3c3f}{Romero}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=618930405df278873eeeea63bafe2698}{Aine}{A\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=174cea1d7a23bb98ae2641c567e85544}{Bustillo}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {San Diego, CA USA}%
+      }
+      \strng{namehash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \strng{fullhash}{f44f0b0b1cfe5649502a09c2029b96ec}
+      \field{sortinit}{2}
+      \field{labeltitle}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{booktitle}{2010 Neuroscience Meeting Planner}
+      \field{month}{11}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{Auditory and visual integration differences from left temporal cortex in schizophrenia}
+      \field{year}{2010}
+    \endentry
+    \entry{standup}{report}{}
+      \name{labelname}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=289ec4ec8cb9593f32f023cbf33b4d01}{\textbf{Aaron\bibnamedelimb Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=979599b9f11cf35cf05ff27bfd4ff74b}{Moore}{M\bibinitperiod}{Seth}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=6d5a2fff9a6273eec28ca39284bac0d4}{Rammohan}{R\bibinitperiod}{Roshan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c34d9a02e05bfcf968937bc92d35424c}{Torres}{T\bibinitperiod}{Yamel}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {UNM}%
+      }
+      \strng{namehash}{8853e4083e8928856c2f20921bb993f2}
+      \strng{fullhash}{8853e4083e8928856c2f20921bb993f2}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{month}{12}
+      \field{number}{CS471}
+      \field{title}{{Experiments in Artificial Humor: Improvements to STANDUP}}
+      \field{type}{class project}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://www.dropbox.com/s/xdu4lcz5ftqic5i/ExperimentsInArtificialHumor_FINAL_VERSION.pdf
+      \endverb
+    \endentry
+    \entry{akayshaposter}{inproceedings}{}
+      \name{labelname}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{11}{}{%
+        {{hash=7c99ffa0b3cb459a5d4d0ac04176f2d4}{Tang}{T\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{hash=6d835994964fc8e7707badf9ad8148f8}{Romeo}{R\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6b7e3aaff308b98e54cb88f45a84be3e}{Chen}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=e95f3d2c8a041a0cbbaa437484b803f2}{Plakio}{P\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=dd14209e59939224a64c7e5cf9dd1954}{Delvecchio}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=65fd15a87e58552d21ba9baa8744e45a}{Nguyen}{N\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{Zhang}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=047f39cd162b44a9a6ca124de4fc204e}{Youngblood}{Y\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9d57005ef855028f0d4fa1d1ba5e8d9d}{\textbf{A.\bibnamedelimi Gonzales}}{\\bibinitperiod}{}{}{}{}{}{}}%
+        {{hash=48ae9efe47358b828d56059ca9c1390a}{McEwen}{M\bibinitperiod}{B.\bibnamedelimi S.}{B\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5277b3f0d4a4f4811a98a0815282771c}
+      \strng{fullhash}{5277b3f0d4a4f4811a98a0815282771c}
+      \field{sortinit}{2}
+      \field{labeltitle}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{booktitle}{2009 Neuroscience Meeting Planner}
+      \field{month}{10}
+      \field{note}{Poster session presented at the annual meeting of the Society for Neuroscience}
+      \field{title}{{Good stress regulator begets good stress regulator: Predicting offspring stress regulation from maternal stress regulation}}
+      \field{year}{2009}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
