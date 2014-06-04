@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.10.3)  23 MAY 2014 13:39
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.10.3)  4 JUN 2014 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1275,8 +1275,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
-
-(./agcv.out) (./agcv.out)
 \@outlinefile=\write5
 \openout5 = `agcv.out'.
 
@@ -1288,34 +1286,34 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 48.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 85.
+(Font)              scaled to size 10.00015pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.00006pt on input line 85.
+(Font)              scaled to size 7.00006pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 85.
+(Font)              scaled to size 5.00008pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 85.
+(Font)              scaled to size 9.99985pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.99986pt on input line 85.
+(Font)              scaled to size 6.99986pt on input line 83.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 85.
+(Font)              scaled to size 4.99992pt on input line 83.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--115
+Underfull \hbox (badness 10000) in paragraph at lines 83--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--132
+Underfull \hbox (badness 10000) in paragraph at lines 114--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--151
+Underfull \hbox (badness 10000) in paragraph at lines 133--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--167
+Underfull \hbox (badness 10000) in paragraph at lines 150--165
 
  []
 
@@ -1332,63 +1330,63 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 172--182
+Underfull \hbox (badness 10000) in paragraph at lines 170--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--191
+Underfull \hbox (badness 10000) in paragraph at lines 181--189
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--206
+Underfull \hbox (badness 10000) in paragraph at lines 195--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--216
+Underfull \hbox (badness 10000) in paragraph at lines 205--214
 
  []
 
 \blx@maxsegment@1=\count362
 \blx@sectionciteorder@1=\count363
-Package biblatex Info: Reference section=1 on input line 245.
-Package biblatex Info: Setting label 'refsection:1' on input line 245.
-Package biblatex Info: Reference section=0 on input line 245.
+Package biblatex Info: Reference section=1 on input line 243.
+Package biblatex Info: Setting label 'refsection:1' on input line 243.
+Package biblatex Info: Reference section=0 on input line 243.
 \blx@maxsegment@2=\count364
 \blx@sectionciteorder@2=\count365
-Package biblatex Info: Reference section=2 on input line 249.
-Package biblatex Info: Setting label 'refsection:2' on input line 249.
+Package biblatex Info: Reference section=2 on input line 247.
+Package biblatex Info: Setting label 'refsection:2' on input line 247.
 [2]
-Package biblatex Info: Reference section=0 on input line 252.
+Package biblatex Info: Reference section=0 on input line 250.
 \blx@maxsegment@3=\count366
 \blx@sectionciteorder@3=\count367
-Package biblatex Info: Reference section=3 on input line 262.
-Package biblatex Info: Setting label 'refsection:3' on input line 262.
-Package biblatex Info: Reference section=0 on input line 262.
+Package biblatex Info: Reference section=3 on input line 260.
+Package biblatex Info: Setting label 'refsection:3' on input line 260.
+Package biblatex Info: Reference section=0 on input line 260.
  [3]
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 
 AED: lastpage setting LastPage
 [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 309.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 309.
  (./agcv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 316.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 309.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 309.
 Package logreq Info: Writing requests to 'agcv.run.xml'.
 \openout1 = `agcv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39819 strings out of 493934
- 724344 string characters out of 6148803
+ 39816 strings out of 493934
+ 724315 string characters out of 6148803
  1139891 words of memory out of 5000000
- 42574 multiletter control sequences out of 15000+600000
+ 42575 multiletter control sequences out of 15000+600000
  5478 words of font info for 78 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  74i,12n,68p,890b,1108s stack positions out of 5000i,500n,10000p,200000b,80000s
