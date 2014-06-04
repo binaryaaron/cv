@@ -1,13 +1,15 @@
 # About
-Based entirely off of the Adrien Friggeri CV, modfied to suit my tastes a bit. I added in a coverletter option (friggeri-cv-coverletter.cls) that follows the same style as the CV and can be stitched together after compiling.
+Based entirely off of the Adrien Friggeri CV, modfied to suit my tastes a bit. I added in a coverletter option (friggeri-cv-coverletter.cls) that follows the same style as the CV and can be stitched together after compiling. Minor tweaks were made to both cls files. 
 
-from original readme:
+
+
+# Original Friggeri Readme: 
+
+## About
 Latest version of my CV, typesetted in Helvetica and using colors inspired by Monokai (there is an `print` option which renders in black and white, and reverts the header to dark on light, if printing on paper is needed).
 
 Uses TikZ for the header, XeTeX and fontspec to use Helvetica Neue, biblatex to print my publications and textpos for the aside.
-
-
-# License
+##License
 
 Copyright (C) 2012, Adrien Friggeri
 
