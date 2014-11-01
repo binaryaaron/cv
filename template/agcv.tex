@@ -32,9 +32,13 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
-\newfontfamily\bodyfont[]{Helvetica Neue}
-\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
-\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+\newfontfamily\bodyfont[]{Futura}
+\newfontfamily\thinfont[]{Source Code Pro Light}
+\newfontfamily\headingfont[]{Futura}
+%\newfontfamily\headingfont[]{Source Code Pro Semibold}
+\newfontfamily\specialfont[]{Futura}
+%\setmainfont{Source Code Pro Light}
+\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
 \rfoot{\thinfont{Gonzales CV; page \thepage}}
 \cfoot{}
@@ -57,19 +61,19 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{contact}
+{\thinfont\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}}
 505.750.2214 
 %505.750.2214
 1332 Vassar NE
 Albuquerque, NM 87106
+\href{http://lnkd.in/b8kfQSe}{Linked\scriptsize{\faLinkedin}}
 ~
-\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}
 ~
 %\href{http://www.smith.com}{http://www.smith.com}
-\href{http://lnkd.in/b8kfQSe}{Linked\scriptsize{\faLinkedin}}
 %\section{languages}
 %english mother tongue
 \section{programming at a glance}
-Java, Python, R, C, Bash
+Java, Python, R
 ~
 \section{about}
 I enjoy using computer science to solve emergent problems in our world.
@@ -86,9 +90,10 @@ I enjoy using computer science to solve emergent problems in our world.
 %------------------------------------------------
 \entry
 {2016}
-{Master of Science, {\normalfont Computer Science}}
+{{\bodyfont Master of Science,} Computer Science}
 {University of New Mexico}
-{Specializing in Data Mining and Machine Learning} 
+{Specializing in data mining with an emphasis on textual semantic analysis
+and predictive modeling with internet data.} 
 %------------------------------------------------
 \end{entrylist}
 
@@ -96,17 +101,18 @@ I enjoy using computer science to solve emergent problems in our world.
 %------------------------------------------------
 \entry
 {2010}
-{Bachelor of Science, {\normalfont Psychology}}
+{{\bodyfont Bachelor of Science,} Psychology}
 {University of New Mexico}
-{Specalized in Neuroscience with a minor in Computer Science}
+{Specalized in neuroscience with a minor in computer science}
 %------------------------------------------------
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
+%         Research/work	
 %----------------------------------------------------------------------------------------
 \section{research/work experience}
 
+ %\item[\textbf{\textit{programming languages and tools}}] \hfill \\  
 \begin{entrylist}
 %------------------------------------------------
 \entry
@@ -114,11 +120,11 @@ I enjoy using computer science to solve emergent problems in our world.
 %{Elaine Bearer, MD\textendash PhD \textemdash University of New Mexico}
 %{Albuquerque, NM}
 %%%%%%%%%%%%%%%%%%%%%%suggested from nina lanza%
-{University of New Mexico, Albuquerque, NM \textemdash Supervisor: Elaine Bearer, MD\textendash PhD}
+{University of New Mexico, Albuquerque, NM \textemdash PI: Elaine Bearer, MD\textendash PhD}
 {}
 {\emph{\textbf{Analyst/Programmer}} \\
-Senior analyst in a neuroscience research lab in the School of Medicine 
-working on and managing various projects. \\
+Lead analyst in a neuroscience research lab 
+contributing to and managing various projects. \\
 \textbf{primary duties}: \\
 Analyzing scientific data, primarily manganese-enhanced magnetic resonance imaging (MEMRI) data 
 taken from transgenic mice,
@@ -127,10 +133,10 @@ DNA methylation, and histological microscopy. Analysis methods included
 statistical parametric mapping, 
 extensions of the general linear model, 
 data visualization, and modeling.
-Writing programs and scripts to automate or facilitate analysis 
-that can be used by other lab members for analysis on their projects. 
-Implementing reproducible research methods and documentation. 
-Developing methods to expedite research capacity. \\
+Authored programs and scripts to automate and facilitate analyses 
+that were and are used by other lab members. 
+Noteably, developed a method to reduce a pivotal task from several hours to several
+minutes.\\
 \textbf{other duties}: \\
 Preparing scientific posters, presentations, and manuscripts, 
 assisting with grant writing, database searching, and study design. 
@@ -144,7 +150,7 @@ Training, instructing, and managing both student employees and volunteers at var
 {\footnotesize{2010--2011}}
 %{Julia Stephen, PhD \textemdash The Mind Research Network}
 %{Albuquerque, NM}
-{The Mind Research Network, Albuquerque, NM \textemdash Supervisor: Julia Stephen, PhD}
+{The Mind Research Network, Albuquerque, NM \textemdash PI: Julia Stephen, PhD}
 {}
 {\emph{\textbf{Research Associate}} \\
 Worked on a study investigating multi-sensory integration in
@@ -155,7 +161,9 @@ magnetic resonance imaging (fMRI) and magnetoencephalography (MEG), writing
 programs and scripts to automate analysis tasks, 
 participant payment, data analysis.} \\ \\ 
 \end{entrylist}
+\newpage
 
+\newgeometry{ left=2cm,top=2cm,right=1.25cm,bottom=1.20cm,nohead,nofoot }
 %------------------------------------------------
 \section{research internships}
 \begin{entrylist}
@@ -163,7 +171,7 @@ participant payment, data analysis.} \\ \\
 {\footnotesize{2008-2010}}
 %{Pilar Sanjuan, PhD \textemdash The Mind Research Network}
 %{Albuquerque, NM}
-{The Mind Research Network, Albuquerque, NM \textemdash Supervisor: Pilar Sanjuan, PhD}
+{The Mind Research Network, Albuquerque, NM \textemdash PI: Pilar Sanjuan, PhD}
 {}
 {\emph{\textbf{Student Volunteer}} \\
 Assisted with a study investigating substance use disorders and
@@ -178,7 +186,7 @@ some analysis of fMRI image data; tracking and reviewing pre-processing of imagi
 \begin{entrylist}
 \entry
 {\footnotesize{2008}}
-{University of New Mexico, Albuquerque, NM \textemdash Supervisor: Akaysha Tang, PhD}
+{University of New Mexico, Albuquerque, NM \textemdash PI: Akaysha Tang, PhD}
 {}
 {\textbf{\emph{Student Volunteer}} \\
 Assisted with a study investigating stress regulation in rats and assisted an
@@ -194,6 +202,24 @@ computer components, diagnosing and rebuilding workstations.}
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
+\section{computer skills}
+\begin{description}
+   \item[\textbf{\textit{programming languages and tools}}] \hfill \\  
+	 Java, \textbf{R}(caret, ggplot), Python (scikit, gensim, bokeh, matplotlib, ggplot), bash, \LaTeX, git
+   \item[\textbf{\textit{software packages and operating systems}}] \hfill \\
+	 %\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+	    \textbf{General} \\
+		Linux (Ubuntu/CentOS), Microsoft Windows, Apple OS X \\
+	    \textbf{Specialized} \\
+	    Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ, MIPAV, SPM8, FSL, NiftyReg, MetaMorph 
+	 %\end{description}
+\end{description}
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
 \section{consulting work}
 \begin{entrylist}
 \entry
@@ -217,28 +243,6 @@ Tested and analyzed advertisements as they affected goal conversions and website
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{computer skills}
-\begin{description}
-   \item[\textbf{\textit{programming languages and tools}}] \hfill \\  
-	 MATLAB, Java, \textbf{R}, C, Python, bash, Knitr, \LaTeX, git
-   %\item[\textbf{\textit{editors and IDEs}}] \hfill \\
-	 %Eclipse, RStudio, vim
-   \item[\textbf{\textit{software packages and operating systems}}] \hfill \\
-	 %\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-	   %\item[software packages] \hfill \\
-	    \textbf{General} \\
-		Linux (Ubuntu/CentOS), Microsoft Windows, Apple OS X \\
-	   %\item[specialized] \hfill \\
-	    \textbf{Specialized} \\
-	    Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ, MIPAV, SPM8, FSL, NiftyReg, MetaMorph 
-	 %\end{description}
-\end{description}
-
-
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
 
 \section{publications}
@@ -267,32 +271,26 @@ Tested and analyzed advertisements as they affected goal conversions and website
 %----------------------------------------------------------------------------------------
 %	Relevant coursework SECTION
 %----------------------------------------------------------------------------------------
-\section{relevant coursework}
+\section{Favorite Courses}
 \begin{description}
-   \item[\textbf{\textit{statistics}}] \hfill \\
-	 Advanced Data Analysis I - Graduate statistics with a focus on practical analysis using \textbf{R}. 
-	 Topics included linear regression, non-parametric statistics, literate programming, and general linear methods. \hfill  \\
-	 Advanded Data Analysis II - Continuation of ADAI.
-	 Topics include cluster analysis, principal component analysis, multivariate methods, 
-	 logistic and polynomial regression, experimental design, visualization, and efficient code using \textbf{R}.
-   \item[\textbf{\textit{computer science}}] \hfill \\
-	 %\begin{itemize}
-%	   Computational Linguistics – semester project involved four persons 
-%	   working on a Java-based joke generator querying a substantial SQL database using 
-%	   XML templates with Baysien inference and other machine-learning features to improve quality 
-%	   of the jokes. \hfill \\
-	   Computational Linguistics \hfill \\
-	   Data Structures\hfill \\
-	   Algorithms \hfill \\
-	   Software Engineering \hfill \\
-	   Artificial Intelligence %(graph searching algorithims, including $A^*$, Dijkstra). 
-	 %\end{itemize}
-   \item[\textbf{\textit{psychology}}] \hfill \\  
-	 Neuroimaging, Research Methods 
-%   \item[\textbf{\textit{other}}] \hfill \\
-%	 Linear Algebra \textemdash Khan Academy; MIT OpenCourseware \hfill \\
-	 %Introduction to Data Science \textemdash University of Washington via Coursera \hfill \\
-%	 Algorithms: Design and Analysis, Part 1 \textemdash Stanford University via Coursera
+ %\item[\textbf{\textit{computer science}}] \hfill \\
+  \item \textbf{Data Mining } - 
+    Graduate introduction to data mining from both a theoretical and practical
+    perspective including dimensionality reduciton, clustering, classification,
+    machine learning, neural networks, time-series analysis, and graph mining.
+    Course project involves latent dirichlet allocation of 50 million captured
+    tweets to forecast economic movements. \hfill \\
+   \item \textbf{Computational Linguistics} - 
+     Theoretitcal and practical introduction to semantic analysis, models of
+     languages, speech synthesis, hidden Markov models, and other topics.
+     Semester group project added a feed-forward neural network and n-gram
+     query filter system to a joke generation system. \hfill \\
+ %\item[\textbf{\textit{statistics}}] \hfill \\
+ \item \textbf{Advanced Data Analysis I/II} - 
+     Graduate statistics with a focus on practical analysis using \textbf{R}.
+     Topics included linear, logistic, and polynomial regression,
+     non-parametric methods, cluster analysis, PCA, multivariate methods,
+     experiment design and visualization.
 \end{description}
 
 %----------------------------------------------------------------------------------------
