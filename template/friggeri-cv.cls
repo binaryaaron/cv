@@ -75,7 +75,8 @@
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){} ;
+    %\node[anchor=west](pic) at (-5.5,0){\includegraphics[width=.25\textwidth]{bertrandrussell.jpg}};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
@@ -84,6 +85,7 @@
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont #3%
     };
+    %picture?
   \end{tikzpicture}
   \vspace{2.5cm}
   \vspace{-2\parskip}
@@ -144,7 +146,7 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
+  #1&\parbox[t]{18.8cm}{%
     \textbf{#2}%
     \hfill%
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
@@ -311,5 +313,11 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=6.1cm,top=2cm,right=1.25cm,bottom=1.20cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=1.50cm,bottom=1.20cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
+\hypersetup
+{
+  hidelinks = true ,
+  pdfauthor = Aaron Gonzales,
+  pdftitle = Curriculum Vitae
+}
