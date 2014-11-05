@@ -30,11 +30,11 @@
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-\newfontfamily\bodyfont[]{Source Code Pro}
-\newfontfamily\thinfont[]{Source Code Pro Light}
-\newfontfamily\headingfont[]{Source Code Pro Semibold}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Source Code Pro Semibold}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Source Code Pro Semibold}
+\newfontfamily\bodyfont[]{Futura}
+\newfontfamily\thinfont[]{Futura}
+\newfontfamily\headingfont[]{Futura}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
+\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
 
 \rfoot{}
 %\cfoot{\thinfont{Gonzales CV; page \thepage}}
@@ -50,7 +50,7 @@
 
 \begin{document}
 
-\header{aaron}{gonzales}{curriculum vit\ae} % Your name and current job title/field % removed title
+\header{Aaron}{Gonzales}{curriculum vit\ae} % Your name and current job title/field % removed title
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -126,49 +126,37 @@ I enjoy using computer science to solve emergent problems in our world.
         employees and volunteers\\*
     \end{itemize}
 %------------------------------------------------
-%  \item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
-%    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
-%    {\smallheaderfont summary:} \\*
-%    RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed to
-%    a study investigating multi-sensory integration in
-%    patients with schizophrenia and healthy normal volunteers. \\*
-%    {\smallheaderfont Duties:} \\*
-%    Acquiring data by scanning research subjects using both functional
-%    magnetic resonance imaging (fMRI) and magnetoencephalography (MEG), writing
-%    small programs and scripts to automate analysis tasks, data analysis.  \\*
+  \item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
+    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
+    {\smallheaderfont summary:} \\*
+    RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed
+    to a study investigating multi-sensory integration in patients with
+    schizophrenia. \\*
 \end{description}
 %\newpage
 %------------------------------------------------
 %\section{research internships}
-%\begin{description}
-%  \item  {\largeheaderfont Student Volunteer } {\smallheaderfont \hfill 2008\textemdash 2010} \\*
-%    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
-%    Assisted with a study ran by Pilar Sanjuan, PhD investigating substance use disorders and
-%    post-traumatic stress disorder (PTSD) in recently returned combat veterans. \\*
-%    {\smallheaderfont duties:} \\*
-%    Recruiting, entering data, constructing SPSS databases, scoring
-%    measures, analyzing data, editing fMRI and MEG tasks in Presentation; running research
-%    participants in fMRI, running participants in the MEG scanner; phone screening participants,
-%    some analysis of fMRI image data; tracking and reviewing pre-processing of
-%    imaging data.
-%\end{description}
+
+\begin{description}
+  \item  {\largeheaderfont Student Volunteer } {\smallheaderfont \hfill 2008\textemdash 2010} \\*
+    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
+    Assisted with a study ran by Pilar Sanjuan, PhD investigating substance use
+    and post-traumatic stress disorder (PTSD) in recently returned combat
+    veterans. \\*
+\end{description}
 
 %%%%%%% sets this to remove the sidebar %%%%%%%%%%
-%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-%
-%\begin{description}
-%  %\item  \emph {\textbf{Student Volunteer}}  \hfill {\footnotesize 2008 }
-%  \item  {\largeheaderfont Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
-%    {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
-%Assisted Akaysha Tang, PhD, with a study investigating stress regulation in rats and assisted an
-%expert in troubleshooting and repairing an EEG system for a study investigating stress in
-%humans.\\*
-%\textbf{duties}: \\*
-%Collecting, coding, and entering data, gathering literature for a grant
-%proposal, testing and analyzing EEG equipment, contacting equipment vendors, replacing
-%computer components, diagnosing and rebuilding workstations.
-%%------------------------------------------------
-%\end{description}
+\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+
+\begin{description}
+  %\item  \emph {\textbf{Student Volunteer}}  \hfill {\footnotesize 2008 }
+  \item  {\largeheaderfont Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
+    {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
+    Assisted Akaysha Tang, PhD, with a study investigating stress regulation in
+    rats and assisted an expert in troubleshooting and repairing an EEG system
+    for a study investigating stress in humans.\\*
+%------------------------------------------------
+\end{description}
 
 %------------------------------------------------
 %------------------------------------------------
@@ -223,6 +211,7 @@ I enjoy using computer science to solve emergent problems in our world.
 \nocite{*}
 \printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, keyword={selected}, heading=subbibliography]
 \printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
+%\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
 \end{refsection}
 
 %\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
@@ -240,17 +229,17 @@ I enjoy using computer science to solve emergent problems in our world.
 %----------------------------------------------------------------------------------------
 %	Relevant coursework SECTION
 %----------------------------------------------------------------------------------------
-\section{Favorite Courses}
+\section{favorite courses}
 \begin{description}
  %\item[\textbf{\emph{computer science}}] \hfill \\
   \item \textbf{Data Mining } \\*
     Graduate introduction to data mining from both a theoretical and practical
     perspective including data cleaning, dimensionality reduction,
-    classification(e.g. Bayes, boosting, bagging, random forests) , clustering
+    classification (e.g. Bayes, boosting, bagging, random forests) ,clustering
     (e.g. density-based, co-clustering, subspace), machine learning,
     time-series analysis, and graph mining.  Course project involves latent
-    dirichlet allocation of 50 million captured tweets to forecast economic
-    movements. \hfill
+    dirichlet allocation and other semantic analysis of 50 million captured
+    tweets to forecast economic movements. \hfill
    \item \textbf{Computational Linguistics} \\*
      Theoretical and practical introduction to semantic analysis, models of
      languages, speech synthesis, hidden Markov models, and other topics.
