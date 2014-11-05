@@ -46,11 +46,17 @@
 
 
 %%%%% added packages by me
-\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
-
+%\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
+\usepackage{etoolbox}
+\newtoggle{cv}
+\togglefalse{cv}
 \begin{document}
 
-\header{Aaron}{Gonzales}{curriculum vit\ae} % Your name and current job title/field % removed title
+\iftoggle{cv}{
+\header{Aaron}{Gonzales}{curriculum vit\ae} 
+}{
+\header{Aaron}{Gonzales}{resume} 
+}
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -101,7 +107,11 @@ I enjoy using computer science to solve emergent problems in our world.
 %----------------------------------------------------------------------------------------
 %         Research/work	
 %----------------------------------------------------------------------------------------
+\iftoggle{cv}{
+\section{research/work experience}
+}{
 \section{selected research/work experience}
+}
 \begin{description}
   %\item \emph{\textbf{Analyst/Programmer}}  \hfill
   \item {\largeheaderfont Analyst/Programmer} \hfill 
@@ -126,6 +136,7 @@ I enjoy using computer science to solve emergent problems in our world.
         employees and volunteers\\*
     \end{itemize}
 %------------------------------------------------
+    \iftoggle{cv}{
   \item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
     {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
     {\smallheaderfont summary:} \\*
@@ -133,10 +144,13 @@ I enjoy using computer science to solve emergent problems in our world.
     to a study investigating multi-sensory integration in patients with
     schizophrenia. \\*
 \end{description}
+}{
+  \end{description}
+}
 %\newpage
 %------------------------------------------------
 %\section{research internships}
-
+  \iftoggle{cv}{
 \begin{description}
   \item  {\largeheaderfont Student Volunteer } {\smallheaderfont \hfill 2008\textemdash 2010} \\*
     {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
@@ -149,7 +163,6 @@ I enjoy using computer science to solve emergent problems in our world.
 \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 
 \begin{description}
-  %\item  \emph {\textbf{Student Volunteer}}  \hfill {\footnotesize 2008 }
   \item  {\largeheaderfont Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
     {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
     Assisted Akaysha Tang, PhD, with a study investigating stress regulation in
@@ -157,7 +170,8 @@ I enjoy using computer science to solve emergent problems in our world.
     for a study investigating stress in humans.\\*
 %------------------------------------------------
 \end{description}
-
+}{
+}
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
@@ -203,16 +217,37 @@ I enjoy using computer science to solve emergent problems in our world.
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
+%\newgeometry{ left=1.75cm,top=1.5cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 
+\iftoggle{cv}{
+\section{publications}
+} {
+%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \section{selected publications}
-\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
-\newgeometry{ left=1.75cm,top=1.5cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+}
+%\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
+\iftoggle{cv}{
 \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\nocite{*}
+\printbibliography[sorting=chronological, type=article, title={articles in peer-reviewed journals}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, heading=subbibliography]
+\end{refsection}
+}{
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+\begin{refsection}
+\nocite{*}
+\printbibliography[sorting=chronological, type=article, title={articles in peer-reviewed journals}, heading=subbibliography]
+\end{refsection}
+\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+\begin{refsection}
 \nocite{*}
 \printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, keyword={selected}, heading=subbibliography]
 \printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
-%\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
 \end{refsection}
+}
+%\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
+%\end{refsection}
 
 %\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
 %\nocite{*}
@@ -235,7 +270,7 @@ I enjoy using computer science to solve emergent problems in our world.
   \item \textbf{Data Mining } \\*
     Graduate introduction to data mining from both a theoretical and practical
     perspective including data cleaning, dimensionality reduction,
-    classification (e.g. Bayes, boosting, bagging, random forests) ,clustering
+    classification (e.g. Bayes, boosting, bagging, random forests), clustering
     (e.g. density-based, co-clustering, subspace), machine learning,
     time-series analysis, and graph mining.  Course project involves latent
     dirichlet allocation and other semantic analysis of 50 million captured
