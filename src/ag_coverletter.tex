@@ -5,11 +5,8 @@
 % Aaron Gonzales (agonzales@cs.unm.edu) with inspiration and attribution to 
 % Adrien Friggeri (adrien@friggeri.net)
 % https://github.com/afriggeri/CV
-<<<<<<< HEAD
 % https://github.com/xysmas/cv
-=======
 % Added by Aaron Gonzales (agonzales@cs.unm.edu)
->>>>>>> coverletter_head_issue
 %
 % License:
 % CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
@@ -23,18 +20,25 @@
 %made new .cls for this 
 \documentclass[12pt]{friggeri-cv-coverletter} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
-%\addbibresource{agbib.bib} % Specify the bibliography file to include publications
 \usepackage{marvosym}
 \usepackage{fontspec}
 \usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{amsmath}
+\usepackage{minted}
+
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
 \newfontfamily\bodyfont[]{Helvetica Neue}
 \newfontfamily\thinfont[]{Helvetica Neue UltraLight}
 \newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
+
+\setmonofont{Consolas}
+\renewcommand{\theFancyVerbLine}{
+  \sffamily\textcolor[rgb]{0.5,0.5,0.5}{\scriptsize\arabic{FancyVerbLine}}}
+
 
 %\rfoot{\thinfont{Gonzales CV; page \thepage}}
 \cfoot{}
@@ -49,42 +53,44 @@
 %----------------------------------------------------------------------------------------
 %	Company Contact information
 %----------------------------------------------------------------------------------------
-<<<<<<< HEAD
-\textbf{Company name}
+\textbf{Company name} \\
 \textbf{Company address} \\
-\textbf{sub address} \\
+\textbf{another line} \\
 \textbf{city state zip} \\
-=======
-\textbf{company name} \\
-\textbf{company address} \\
-\textbf{company address} \\
-\textbf{company city}
->>>>>>> coverletter_head_issue
-\\
-\\
 %----------------------------------------------------------------------------------------
 %	text, enter salutation in the section braces
 %----------------------------------------------------------------------------------------
 
 \section{Dear some guy/girl}
 
-<<<<<<< HEAD
 I am awesome and you should hire me for whatever the hell it is you do. 
-\\
-=======
-hire me \\
+\begin{align}
+  \forall x_i \in X \\
+  \sum_{i=1}^n \left(x_i | Y = y_j\right)
+\end{align}
+  
+Big words that make you sound smrt.
 
->>>>>>> coverletter_head_issue
+\begin{minted}[mathescape,
+               linenos,
+               numbersep=5pt,
+               gobble=2,
+               frame=lines,
+               framesep=2mm]{csharp}
+  string title = "This is a Unicode π in the sky"
+  /*
+  Defined as $\pi=\lim_{n\to\infty}\frac{P_n}{d}$ where $P$ is the perimeter
+  of an $n$-sided regular polygon circumscribing a
+  circle of diameter $d$.
+  */
+  const double pi = 3.1415926535
+\end{minted}
 %----------------------------------------------------------------------------------------
-%	Uses mod to get signature
+%     Uses mod to get signature
 %----------------------------------------------------------------------------------------
-\\
-\\
 Sincerely, \\
 \textbf{Aaron Gonzales}
 
-<<<<<<< HEAD
-=======
 %\begin{entrylist}
 %------------------------------------------------
 %\entry
@@ -97,5 +103,4 @@ Sincerely, \\
 
 
 
->>>>>>> coverletter_head_issue
 \end{document}
