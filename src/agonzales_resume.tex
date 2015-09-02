@@ -52,48 +52,56 @@
 \togglefalse{cv}
 \begin{document}
 
+% \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \iftoggle{cv}{
 \header{Aaron}{Gonzales}{curriculum vit\ae}
 }{
-\header{Aaron}{Gonzales}{resume}
+\header {Aaron}{ Gonzales}
+{\{\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu},
+\small{505.385.9209}\}}
+  { \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+  \href{http://github.com/xysmas}{\huge{\faGithub} }}
+
 }
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{aside} % In the aside, each new line forces a line break
-\section{contact}
-\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}
-\href{http://aarongonzales.net}{aarongonzales.net}
-%505.750.2214
-%1332 Vassar NE
-%Albuquerque, NM 87106
-\href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin}\ }, \href{http://github.com/xysmas}{\scriptsize{\faGithub} }
-%\href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin} \ \ \normalsize{aaronknowsdata} }
-%\href{http://github.com/xysmas}{\scriptsize{\faGithub} \ \ \normalsize{xysmas}}
-~
-%\section{languages}
-\section{programming at a glance}
-Java, Python, R
-~
+% \begin{aside} % In the aside, each new line forces a line break
+% \section{contact}
+% \href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}
+% \href{http://aarongonzales.net}{aarongonzales.net}
+% 505.385.9209
+% %1332 Vassar NE
+% %Albuquerque, NM 87106
+% \href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin}\ }, \href{http://github.com/xysmas}{\scriptsize{\faGithub} }
+% %\href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin} \ \ \normalsize{aaronknowsdata} }
+% %\href{http://github.com/xysmas}{\scriptsize{\faGithub} \ \ \normalsize{xysmas}}
+% ~
+% %\section{languages}
+% \section{programming at a glance}
+% Java, Python, R
+% ~
+% \section{about}
+% Computer science graduate student with strong analytical skills and extensive
+% research experience seeking a data science position after May 2016 graduation.
+% \end{aside}
+
 \section{about}
 Computer science graduate student with strong analytical skills and extensive
-research experience seeking a summer 2015 internship. 
-\end{aside}
-
-
+research experience seeking a data science position after May 2016 graduation.
 
 %----------------------------------------------------------------------------------------
 %	Education
 %----------------------------------------------------------------------------------------
-\thispagestyle{empty}
+
 \section{education}
 \begin{description}
 %------------------------------------------------
   \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
     {\smallheaderfont 2014\textemdash 2016 (expected)} \\*
-    {\footnotesize \emph{The University of New Mexico  \hfill 3.5 cumulative GPA}} \\*
+    {\footnotesize \emph{The University of New Mexico  \hfill 3.8 cumulative GPA}} \\*
     Concentrating in data mining and machine learning.
 %------------------------------------------------
 \end{description}
@@ -115,18 +123,40 @@ research experience seeking a summer 2015 internship.
 \section{selected research/work experience}
 }
 \begin{description}
-  \item {\largeheaderfont Research Assistant} \hfill
+  \item {\largeheaderfont Data Scientist Intern, TripAdvisor} \hfill
+    {\smallheaderfont Summer 2015}\\*
+    {\footnotesize \emph{Greater Boston Area, MA}} \\*
+    {\smallheaderfont summary}: \\*
+    Data scientist with the Vacation Rentals team under George Bezerra, PhD.
+    Developed an algorithm to improve the ranking system for
+    properties and predict how well a new property will perform using the
+    ranking system.
+    \begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
+      \item Models were developed on approximately 5 terabytes of web traffic
+    history using a system no team member had used before
+    \item Models were built to scale with millions of daily visitors and are
+      regenerated nightly, accounting for a 90-day sliding window of history to
+      capture recent trends in property metrics
+    \item A/B testing showed my model improved a revenue metric (revenue per
+        visitor) by 2.36\% and conversion rates by approximately 1\%
+    \item Worked with engineering teams to create long-term architectural
+      solutions to better support and integrate data science solutions with
+      engineering constraints
+    \\*
+    \end{itemize}
+
+  \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
     {\smallheaderfont 2015\textemdash current}\\*
-    {\footnotesize \emph{The University of New Mexico, Albuquerque, NM }} \\*
+    {\footnotesize \emph{Albuquerque, NM }} \\*
     {\smallheaderfont summary}: \\*
     Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab
     applying data mining techniques to predict system faults and refine resource
     management in high-performance computing systems. Partnering with Los
-    Alamos National Laboratory. \\*
+    Alamos National Laboratory and the Center for Advanced Research Computing. \\*
 
-  \item {\largeheaderfont Analyst/Programmer} \hfill 
+  \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
-    {\footnotesize \emph{The University of New Mexico, Albuquerque, NM }} \\*
+    {\footnotesize \emph{Albuquerque, NM }} \\*
     {\smallheaderfont summary}: \\*
     Lead analyst in a neuroscience research lab run by Elaine Bearer,
     MD\textemdash PhD, managing various research projects and lab members. \\*
@@ -139,9 +169,8 @@ research experience seeking a summer 2015 internship.
       \item Major contribution to landing a 2.7 million dollar NIH
         R01 grant to study the etiology of post traumatic stress disorder via
         neuroimaging and genetics using transgenic mouse models
-      \item Lead author on three research papers (one submitted, two nearing
-        submission), three conference abstracts and presentations, and coauthor on
-        many more submitted and pending papers and abstracts 
+      \item Authorship on 10 total conference posters, conference
+        presentations, and journal articles
       \item Trained and mentored 10 undergraduate and postbaccalaureate student
         employees and volunteers\\*
     \end{itemize}
@@ -170,7 +199,7 @@ research experience seeking a summer 2015 internship.
 \end{description}
 
 %%%%%%% sets this to remove the sidebar %%%%%%%%%%
-\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 
 \begin{description}
   \item  {\largeheaderfont Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
@@ -186,22 +215,17 @@ research experience seeking a summer 2015 internship.
 \section{computer skills}
 \begin{description}
    \item {\smallheaderfont programming languages, notable libraries, and tools} \\*
-	Java, \textbf{R} (caret, ggplot2), Python (scikit-learn, gensim, 
-        matplotlib, pandas, statsmodels), linux shell scripting, \LaTeX, git,
-        svn, MongoDB, and map/reduce. Some experience with Javascript, C/C++,
-        and Matlab.
-    \item {\smallheaderfont software packages and operating systems} \\*
-	 %\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-        Linux (Ubuntu/CentOS), Microsoft Windows, Apple OS X, Adobe
-        Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ,
-        MIPAV, SPM8, FSL, NiftyReg, and MetaMorph.
-	 %\end{description}
+        Java, \textbf{R} (caret, ggplot2, pylr), Python (scikit-learn, gensim,
+        matplotlib, pandas, statsmodels, Cython, sqlalchemy), linux shell
+        scripting, \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
+        MSSQL). Some experience with Javascript, HTML, CSS, D3.js, C/C++, and
+        Matlab.
+    \item {\smallheaderfont software packages and operating systems} \\* Linux
+      (Ubuntu/CentOS), Microsoft Windows, Apple OS X, VirtualBox, Amazon Web
+      Services (ec2, s3, Redshift), Adobe Illustrator, Adobe InDesign, Adobe
+      Photoshop, Amira, ImageJ, MIPAV, SPM8, FSL, NiftyReg, and MetaMorph.
 \end{description}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-%\newgeometry{ left=1.75cm,top=1.5cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 
 \iftoggle{cv}{
 \section{publications}
@@ -219,7 +243,7 @@ research experience seeking a summer 2015 internship.
 \end{refsection}
 }{
 %\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \begin{refsection}
 \nocite{*}
 \printbibliography[sorting=chronological, type=article, title={articles in peer-reviewed journals}, heading=subbibliography]
@@ -230,47 +254,6 @@ research experience seeking a summer 2015 internship.
 \printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
 \end{refsection}
 }
-%\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
-%\end{refsection}
-
-%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
-%\nocite{*}
-%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-%\end{refsection}
-
-
-%\printbibsection{report}{research reports} % Print all research reports from the bibliography
-
-%\printbibsection{misc}{manuscripts in preparation} % Print all miscellaneous entries from the bibliography
-
-
-%----------------------------------------------------------------------------------------
-%----------------------------------------------------------------------------------------
-%	Relevant coursework SECTION
-%----------------------------------------------------------------------------------------
-\section{selected coursework}
-\begin{description}
-  \item \textbf{Data Mining} \\*
-    Graduate introduction to data mining from both a theoretical and practical
-    perspective including data cleaning, dimensionality reduction,
-    classification, clustering, time--series mining, and graph mining. Course
-    project involved a novel application of latent semantic indexing, topic
-    modeling, and time--series mining of 84 million tweets to forecast economic
-    movements using vector autoregressive models. \\* Report can be seen at
-    \href{http://aarongonzales.net/projects/twittermoods/}{aarongonzales.net/projects/twittermoods/}. \hfill 
-  
-  \item \textbf{Computational Linguistics} \\*
-     Theoretical and practical introduction to semantic analysis, models of
-     languages, speech synthesis, hidden Markov models, and other topics.
-     Semester group project augmenting a computational humor system with a
-     feed-forward neural network and $n$-gram query filter system to enhance
-     output.
- \item \textbf{Advanced Data Analysis I/II} \\*
-     Graduate statistics with a focus on practical analysis using \textbf{R}.
-     Topics included linear, logistic, and polynomial regression,
-     non-parametric methods, cluster analysis, PCA, multivariate methods,
-     experiment design and visualization.
-\end{description}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION

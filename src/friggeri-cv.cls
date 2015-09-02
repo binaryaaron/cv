@@ -73,22 +73,27 @@
   \color{white}%
 }
 
-\newcommand{\header}[3]{%
+\newcommand{\header}[4]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){} ;
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
+    minimum height=3.7cm] (box) at (current page.north){} ;
     %\node[anchor=west](pic) at (-5.5,0){\includegraphics[width=.25\textwidth]{bertrandrussell.jpg}};
-    \node [anchor=center] (name) at (box) {%
-      \fontsize{40pt}{72pt}\color{header}%
+    \node [above=0.1cm] (name) at (box) {%
+      \fontsize{36pt}{64pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
-    \node [anchor=north] at (name.south) {%
-      \fontsize{14pt}{24pt}\color{header}%
+    \node [anchor=north] (contact) at (name.south) {%
+      \fontsize{12pt}{20pt}\color{header}%
       \thinfont #3%
+    };
+    \node [anchor=north] at (contact.south) {%
+      \fontsize{10pt}{36pt}\color{header}%
+      \thinfont #4%
     };
     %picture?
   \end{tikzpicture}
-  \vspace{2.5cm}
-  \vspace{-2\parskip}
+  \vspace{1.5cm}
+  % \vspace{-2\parskip}
 }
 
 
@@ -313,7 +318,7 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=6.1cm,top=2cm,right=1.50cm,bottom=1.20cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1.5cm,top=2cm,right=1.40cm,bottom=1.10cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup
 {
