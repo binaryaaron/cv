@@ -12,13 +12,13 @@
 % Important notes:
 % This template needs to be compiled with XeLaTeX and the bibliography, if used,
 % needs to be compiled with biber rather than bibtex.
-% 
+%
 % Aaron Gonzales
-% changed many formatting options, did away with tabular as a style, 
-% changed fonts, margins for the 2nd+ page, etc. 
+% changed many formatting options, did away with tabular as a style, ditched
+% sidebar, changed fonts, margins for the 2nd+ page, etc.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
 \addbibresource{agbib.bib} % Specify the bibliography file to include publications
 \usepackage{marvosym}
@@ -88,31 +88,9 @@
 % research experience seeking a data science position after May 2016 graduation.
 % \end{aside}
 
-\section{about}
-Computer science graduate student with strong analytical skills and extensive
-research experience seeking a data science position after May 2016 graduation.
-
-%----------------------------------------------------------------------------------------
-%	Education
-%----------------------------------------------------------------------------------------
-
-\section{education}
-\begin{description}
-%------------------------------------------------
-  \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
-    {\smallheaderfont 2014\textemdash 2016 (expected)} \\*
-    {\footnotesize \emph{The University of New Mexico  \hfill 3.8 cumulative GPA}} \\*
-    Concentrating in data mining and machine learning.
-%------------------------------------------------
-\end{description}
-\begin{description}
-%------------------------------------------------
-  \item  {\largeheaderfont Bachelor of Science, Psychology } \hfill
-    {\smallheaderfont 2010 }\\*
-    {\footnotesize \emph{The University of New Mexico  }} \\*
-    Concentrated in neuroscience with a minor in computer science.
-%------------------------------------------------
-\end{description}
+% \section{about}
+% Computer science graduate student with strong analytical skills and extensive
+% research experience seeking a data science position after May 2016 graduation.
 
 %----------------------------------------------------------------------------------------
 %         Research/work	
@@ -127,34 +105,32 @@ research experience seeking a data science position after May 2016 graduation.
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
     {\smallheaderfont summary}: \\*
-    Data scientist with the Vacation Rentals team under George Bezerra, PhD.
-    1) Developed a novel ranking system for 720,000+
-    rental properties and 2) used gradient-boosting machines to predict how
-    well new properties will perform using the learned ranking system.
-    \begin{itemize} \itemsep1pt \parskip0pt \parsep0pt
-      \item Models were developed on approximately 5 terabytes of web traffic
-        history using Hadoop, Hive, Python, and scikit-learn
-      \item Models were built to scale with millions of daily visitors
-            and able to account for a 90-day sliding
-            historical window to capture recent trends in visitor behavior
-      \item Feature generation for the predictive model included computer-vision
-            techniques, sentiment analysis, and more.
-      \item A/B testing showed that my model improved a revenue metric (revenue per
-            visitor) by 2.36\% and conversion rates by approximately 1\%
-      \item Worked with engineering teams to create long-term architectural
-            solutions to better support and integrate data science solutions with
-            engineering constraints
-    \\*
+    Data scientist intern with the Vacation Rentals team under George Bezerra, PhD.
+    Developed a predictive model that included a novel ranking system for
+    720,000+ rental properties and used gradient-boosting machines to predict
+    how well new properties will perform. \\*
+    {\smallheaderfont notable accomplishments}:
+    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+      \item The model was built with approximately 5 terabytes of web traffic
+            history using Hive, Python, pandas, and scikit-learn
+      \item The model scales with millions of daily visitors and self-tunes to
+            fluctuations in visitor usage patterns
+      \item A/B testing showed that the model \textbf{increased revenue-per-visitor by
+            4.3\%} for one type of traffic
+      \item A/B testing showed that integrating the model with another model
+            \textbf{increased revenue-per-visitor by 9.57\%} on a greater range of
+            traffic
+      \item The model is now in use across all of TripAdvisor Vacation Rentals' sites\\*
     \end{itemize}
 
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
     {\smallheaderfont 2015\textemdash current}\\*
     {\footnotesize \emph{Albuquerque, NM }} \\*
     {\smallheaderfont summary}: \\*
-    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab
-    using data science to predict system faults and refine resource
-    management in high-performance computing systems. Partnering with Los
-    Alamos National Laboratory and the Center for Advanced Research Computing. \\*
+    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab.  I
+    am investigating high-performance computing resource monitoring strategies
+    using data science. We are collaborating with Los Alamos National
+    Laboratory and the Center for Advanced Research Computing. \\*
 
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
@@ -168,7 +144,7 @@ research experience seeking a data science position after May 2016 graduation.
         resulting in a 100x (3 hours manually $\rightarrow$ 30 seconds)
         reduction on time spent in critical image preprocessing steps and
         numerous batch processing steps for other tasks
-      \item Designed, ran, and analyzed a pilot study that was responsible for
+      \item Designed, ran, and analyzed a pilot study that was instrumental for
         landing a \$2.7 million dollar NIH R01 grant to study the etiology of
         post traumatic stress disorder via neuroimaging and genetics using
         transgenic mouse models
@@ -214,15 +190,44 @@ research experience seeking a data science position after May 2016 graduation.
 \end{description}
 }{
 }
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+
+\section{education}
+\begin{description}
 %------------------------------------------------
+  \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
+    {\smallheaderfont 2014\textemdash 2016 (expected)} \\*
+    {\footnotesize \emph{The University of New Mexico  \hfill 3.8 cumulative GPA}} \\*
+    Concentrating in data mining and machine learning.
+%------------------------------------------------
+\end{description}
+\begin{description}
+%------------------------------------------------
+  \item  {\largeheaderfont Bachelor of Science, Psychology } \hfill
+    {\smallheaderfont 2010 }\\*
+    {\footnotesize \emph{The University of New Mexico  }} \\*
+    Concentrated in neuroscience and minored in computer science.
+%------------------------------------------------
+\end{description}
+
+%------------------------------------------------
+\newpage
 \section{computer skills}
 \begin{description}
    \item {\smallheaderfont programming languages, notable libraries, and tools} \\*
         Java, \textbf{R} (caret, ggplot2, plyr), Python (scikit-learn, gensim,
-        matplotlib, pandas, statsmodels, Cython, sqlalchemy), linux shell
-        scripting, \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
-        MSSQL). Some experience with Javascript, HTML, CSS, D3.js, C/C++, and
+        matplotlib, pandas, statsmodels, Cython, sqlalchemy), C, bash,
+        \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
+        MSSQL). Some experience with Javascript, HTML, CSS, D3.js, C++, and
         Matlab.
+    \item {\smallheaderfont data science techniques} \\*
+        data munging, supervised learning (random forests, gradient boosting,
+        neural networks, regression, SVMs), unsupervised learning
+        (autoencoders, self-organizing maps, DBSCAN, k-means/mediods, EM),
+        outlier analysis, novelty detection, time-series analysis,
+        dimensionality reduction, feature selection.
     \item {\smallheaderfont software packages and operating systems} \\* Linux
       (Ubuntu/CentOS), Microsoft Windows, Apple OS X, VirtualBox, Amazon Web
       Services (ec2, s3, Redshift), Adobe Illustrator, Adobe InDesign, Adobe
@@ -254,7 +259,7 @@ research experience seeking a data science position after May 2016 graduation.
 \begin{refsection}
 \nocite{*}
 \printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, keyword={selected}, heading=subbibliography]
-\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
+%\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
 \end{refsection}
 }
 
