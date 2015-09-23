@@ -36,8 +36,10 @@
   \colorlet{brown}{gray}
   \colorlet{blue}{gray}
   \colorlet{red}{gray}
-  \colorlet{fillheader}{white}
-  \colorlet{header}{gray}
+  \colorlet{fillheader}{gray}
+  \colorlet{header}{white}
+  % \colorlet{fillheader}{white}
+  % \colorlet{header}{gray}
 \else
   \colorlet{fillheader}{gray}
   \colorlet{header}{white}
@@ -207,7 +209,7 @@
     \newunit%
     \printlist{publisher}%
     \setunit*{\addcomma\space}%
-    \printfield{year}%
+    \printfield{note}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}
@@ -318,7 +320,7 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=1.3cm,top=2cm,right=1.30cm,bottom=1.0cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1.5cm,top=2cm,right=1.90cm,bottom=1.0cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup
 {
