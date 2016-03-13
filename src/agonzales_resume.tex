@@ -30,11 +30,11 @@
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-\newfontfamily\bodyfont[]{Futura}
-\newfontfamily\thinfont[]{Futura}
+\newfontfamily\bodyfont[]{Hack}
+\newfontfamily\thinfont[]{Hack}
 \newfontfamily\headingfont[]{Futura}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Hack}
+\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Hack}
 
 \rfoot{}
 %\cfoot{\thinfont{Gonzales CV; page \thepage}}
@@ -43,7 +43,7 @@
 \chead{}
 \rhead{}
 
-
+\newcommand{\icon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
 
 %%%%% added packages by me
 %\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
@@ -53,15 +53,14 @@
 \begin{document}
 
 % \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\iftoggle{cv}{
-\header{Aaron}{Gonzales}{curriculum vit\ae}
-}{
-\header {Aaron}{ Gonzales}
+\iftoggle{cv}
+{\header{Aaron}{~Gonzales}{curriculum vit\ae}}
+{\header {Aaron}{~Gonzales}
 {\{\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu},
-\small{505.385.9209}\}}
-  { \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+505.385.9209,
+\href{http://aarongonzales.net}{aarongonzales.net}\}}
+  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
   \href{http://github.com/xysmas}{\huge{\faGithub} }}
-
 }
 
 %----------------------------------------------------------------------------------------
@@ -95,18 +94,20 @@
 %----------------------------------------------------------------------------------------
 %         Research/work	
 %----------------------------------------------------------------------------------------
-\iftoggle{cv}{
-\section{research/work experience}
-}{
-\section{selected research/work experience}
+\section{about}
+I solve problems.
+\iftoggle{cv}
+{\section{research/work experience}
+}
+{\section{selected research/work experience}
 }
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item {\largeheaderfont Data Scientist Intern, TripAdvisor} \hfill
+  \item \icon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    {\smallheaderfont summary}: \\*
+    % {\smallheaderfont summary}: \\*
     Data scientist intern with the Vacation Rentals team under George Bezerra, PhD.
-    Developed a predictive model that included a novel ranking system for
+    Developed a novel ranking system for
     720,000+ rental properties and used gradient-boosting machines to predict
     how well new properties will perform. \\*
     {\smallheaderfont notable accomplishments}:
@@ -117,8 +118,8 @@
             fluctuations in visitor usage patterns
       \item A/B testing showed that the model \textbf{increased a key visitor conversion
             rate by 3.46\%} and \textbf{decreased visitor bounce rate by 0.46\%}
-      \item A/B testing showed that integrating the model with another model
-            \textbf{increased revenue per visitor by 9.57\%}
+      \item A/B testing showed that integrating the model helped
+            \textbf{increase revenue per visitor by 9.57\%}
       \item The model is now in production across all of TripAdvisor Vacation Rentals' sites\\*
     \end{itemize}
 
@@ -139,31 +140,30 @@
     MD\textemdash PhD, managing various research projects and lab members. \\*
     {\smallheaderfont notable accomplishments}:
     \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
-      \item Streamlined lab data processing and analytical techniques,
-        resulting in a publishable 100x (3 hours manually $\rightarrow$ 30 seconds)
-        reduction on time spent in critical image preprocessing steps and
-        numerous batch processing steps for other tasks
-      \item Designed, ran, and analyzed a pilot study that was instrumental for
-        landing a \$2.7 million dollar NIH R01 grant to study the etiology of
-        post traumatic stress disorder via neuroimaging and genetics using
-        transgenic mouse models
-      \item Authorship on 10 total conference posters, conference
-        presentations, and journal articles
-      \item Trained and mentored 10 undergraduate and postbaccalaureate student
-        employees and volunteers\\*
+      \item Streamlined lab data processing and analytical techniques, including a
+        method that speed up a critical data processing step by approximately 360x
+        (3 hours to 30 seconds). Implemented numerous other batch data processing
+        steps for other tasks.
+      \item Designed and conducted a pilot study that helped win a \$2.7 million
+        dollar NIH R01 grant to study the etiology of post traumatic stress
+        disorder.
+      \item Lead author on five research papers (one submitted, four nearing
+        submission), three conference abstracts and presentations, coauthor on many
+        more submitted and pending papers and abstracts
+      \item Trained and mentored 10 undergraduate and post-baccalaureate student
+        employees and volunteers
     \end{itemize}
+
 %------------------------------------------------
-    \iftoggle{cv}{
-  \item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
+\iftoggle{cv}
+{\item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
     {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
     {\smallheaderfont summary:} \\*
     RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed
     to a study investigating multi-sensory integration in patients with
     schizophrenia. \\*
-\end{description}
-}{
-  \end{description}
-}
+\end{description}}
+{\end{description}}
 %\newpage
 %------------------------------------------------
 %\section{research internships}
@@ -187,8 +187,7 @@
     for a study investigating stress in humans.\\*
 %------------------------------------------------
 \end{description}
-}{
-}
+}{}
 %----------------------------------------------------------------------------------------
 %	Education
 %----------------------------------------------------------------------------------------
@@ -213,7 +212,7 @@
 
 %------------------------------------------------
 \newpage
-\section{computer skills}
+\section{technical skills}
 \begin{description}
    \item {\smallheaderfont programming languages, notable libraries, and tools} \\*
         Java, \textbf{R} (caret, ggplot2, plyr), Python (scikit-learn, gensim,
@@ -221,24 +220,23 @@
         \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
         MSSQL). Some experience with Javascript, HTML, CSS, D3.js, C++,
         Matlab, and Amazon Web Services (EC2, S3, Redshift).
-    \item {\smallheaderfont data science techniques} \\*
+    \item {\smallheaderfont machine learning / data analysis methods} \\*
         data munging, supervised learning (random forests, gradient boosting,
-        neural networks, regression, SVMs), unsupervised learning
-        (autoencoders, self-organizing maps, DBSCAN, k-means/mediods, EM),
-        outlier analysis, novelty detection, time-series analysis,
+        regression, SVMs), unsupervised learning
+        (autoencoders, DBSCAN, k-means/mediods, EM),
+        outlier analysis, novelty detection, time-series mining,
         dimensionality reduction, and feature selection.
-    \item {\smallheaderfont software packages and operating systems} \\*
-      Linux (Ubuntu/CentOS), Microsoft Windows, Apple OS X, VirtualBox, Adobe
-      Illustrator, Adobe InDesign, Adobe Photoshop, Amira, ImageJ, MIPAV, SPM8,
-      FSL, NiftyReg, and MetaMorph.
+    \item {\smallheaderfont Visualization and miscelaneous tools} \\*
+      Bokeh, Matplotlib, ggplot, shiny, 
+
 \end{description}
 
 
 \iftoggle{cv}{
 \section{publications}
-} {
-%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\section{selected publications}
+}
+{%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+\section{publications}
 }
 %\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
 \iftoggle{cv}{
@@ -248,8 +246,8 @@
 \printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
 \printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, heading=subbibliography]
 \end{refsection}
-}{
-%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+}
+{%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \begin{refsection}
 \nocite{*}
@@ -257,7 +255,7 @@
 \end{refsection}
 \begin{refsection}
 \nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, keyword={selected}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=inproceedings, title={selected conference proceedings}, keyword={selected}, heading=subbibliography]
 %\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
 \end{refsection}
 }

@@ -126,7 +126,7 @@
   \par\vspace{\parskip}
   {%
     \LARGE\headingfont\color{headercolor}%
-    \@sectioncolor #1%
+    \@sectioncolor \centering #1%
   }
   \par\vspace{\parskip}
 }
