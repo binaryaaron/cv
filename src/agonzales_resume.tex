@@ -33,8 +33,8 @@
 \newfontfamily\bodyfont[]{Hack}
 \newfontfamily\thinfont[]{Hack}
 \newfontfamily\headingfont[]{Futura}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Hack}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Hack}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
+\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
 
 \rfoot{}
 %\cfoot{\thinfont{Gonzales CV; page \thepage}}
@@ -94,23 +94,33 @@
 %----------------------------------------------------------------------------------------
 %         Research/work	
 %----------------------------------------------------------------------------------------
-\section{about}
-I solve problems.
+% \section{about}
+% I solve problems.
 \iftoggle{cv}
-{\section{research/work experience}
+{\section{Research/Work Experience}
 }
-{\section{selected research/work experience}
+{\section{Selected Experience}
 }
+
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item \icon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
+    {\smallheaderfont July 2016\textemdash Current}\\*
+    {\footnotesize \emph{Greater Boston Area, MA}} \\*
+    Data scientist on the Vacation Rentals team. I focus on building
+    scalable machine-learning models with large volumes of unstructured image
+    and text data to drive both product innovation and traveler interest on our
+    platform.
+  \end{description}
+
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \icon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    % {\smallheaderfont summary}: \\*
     Data scientist intern with the Vacation Rentals team under George Bezerra, PhD.
     Developed a novel ranking system for
     720,000+ rental properties and used gradient-boosting machines to predict
     how well new properties will perform. \\*
-    {\smallheaderfont notable accomplishments}:
+    {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
       \item The model was built with approximately 5 terabytes of web traffic
             history using Hive, Python, pandas, and scikit-learn
@@ -124,13 +134,12 @@ I solve problems.
     \end{itemize}
 
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
-    {\smallheaderfont 2015\textemdash current}\\*
+    {\smallheaderfont 2015\textemdash 2016}\\*
     {\footnotesize \emph{Albuquerque, NM }} \\*
-    {\smallheaderfont summary}: \\*
-    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab.  I
-    am investigating high-performance computing resource monitoring strategies
-    using data science. We are collaborating with Los Alamos National
-    Laboratory and the Center for Advanced Research Computing. \\*
+    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab. We
+    partnered with both Los Alamos National Laboratory and the Center for
+    Advanced Research Computing to investigate applying data science techniques
+    to understand complex high-performance system behavior. \\*
 
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
@@ -138,7 +147,7 @@ I solve problems.
     {\smallheaderfont summary}: \\*
     Lead analyst in a neuroscience research lab run by Elaine Bearer,
     MD\textemdash PhD, managing various research projects and lab members. \\*
-    {\smallheaderfont notable accomplishments}:
+    {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Streamlined lab data processing and analytical techniques, including a
         method that speed up a critical data processing step by approximately 360x
@@ -192,13 +201,13 @@ I solve problems.
 %	Education
 %----------------------------------------------------------------------------------------
 
-\section{education}
+\section{Education}
 \begin{description}
 %------------------------------------------------
   \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
-    {\smallheaderfont 2014\textemdash 2016 (expected)} \\*
-    {\footnotesize \emph{The University of New Mexico  \hfill 3.8 cumulative GPA}} \\*
-    Concentrating in data mining and machine learning.
+    {\smallheaderfont 2016} \\*
+    {\footnotesize \emph{The University of New Mexico  \hfill 3.7 cumulative GPA}} \\*
+    Concentration in data mining and machine learning.
 %------------------------------------------------
 \end{description}
 \begin{description}
@@ -206,56 +215,56 @@ I solve problems.
   \item  {\largeheaderfont Bachelor of Science, Psychology } \hfill
     {\smallheaderfont 2010 }\\*
     {\footnotesize \emph{The University of New Mexico  }} \\*
-    Concentrated in neuroscience and minored in computer science.
+    Concentration in neuroscience; minored in computer science.
 %------------------------------------------------
 \end{description}
 
 %------------------------------------------------
 \newpage
-\section{technical skills}
+\section{Technical Skills}
 \begin{description}
-   \item {\smallheaderfont programming languages, notable libraries, and tools} \\*
-        Java, \textbf{R} (caret, ggplot2, plyr), Python (scikit-learn, gensim,
-        matplotlib, pandas, statsmodels, Cython, sqlalchemy), C, bash,
+   \item {\smallheaderfont Programming languages, notable libraries, and tools} \\*
+        \textbf{R}, Python (scikit-learn, gensim,
+        Matplotlib, Pandas, Statsmodels, Cython, Sqlalchemy, Keras), Spark, C, Bash,
         \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
-        MSSQL). Some experience with Javascript, HTML, CSS, D3.js, C++,
+        MSSQL). Some experience with Scala, Java, Javascript, HTML, CSS,
         Matlab, and Amazon Web Services (EC2, S3, Redshift).
-    \item {\smallheaderfont machine learning / data analysis methods} \\*
-        data munging, supervised learning (random forests, gradient boosting,
+    \item {\smallheaderfont Machine Learning / Data Science Methods} \\*
+        Deep learning, supervised learning (random forests, gradient boosting,
         regression, SVMs), unsupervised learning
-        (autoencoders, DBSCAN, k-means/mediods, EM),
-        outlier analysis, novelty detection, time-series mining,
+        (autoencoders, DBSCAN, k-means/mediods, EM), unstructured data, web
+        scraping outlier analysis, novelty detection, time-series mining,
         dimensionality reduction, and feature selection.
-    \item {\smallheaderfont Visualization and miscelaneous tools} \\*
-      Bokeh, Matplotlib, ggplot, shiny, 
+    \item {\smallheaderfont Visualization and Miscellaneous tools} \\*
+        Bokeh, Matplotlib, ggplot, shiny, and d3.js.
 
 \end{description}
 
 
 \iftoggle{cv}{
-\section{publications}
+\section{Publications}
 }
 {%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\section{publications}
+\section{Publications}
 }
 %\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
 \iftoggle{cv}{
 \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 \nocite{*}
-\printbibliography[sorting=chronological, type=article, title={articles in peer-reviewed journals}, heading=subbibliography]
-\printbibliography[sorting=chronological, type=inproceedings, title={conference proceedings}, heading=subbibliography]
-\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=misc, title={Manuscripts in Preparation}, heading=subbibliography]
 \end{refsection}
 }
 {%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \begin{refsection}
 \nocite{*}
-\printbibliography[sorting=chronological, type=article, title={articles in peer-reviewed journals}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
 \end{refsection}
 \begin{refsection}
 \nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={selected conference proceedings}, keyword={selected}, heading=subbibliography]
+\printbibliography[sorting=chronological, type=inproceedings, title={Selected Conference Proceedings}, keyword={selected}, heading=subbibliography]
 %\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
 \end{refsection}
 }
@@ -264,7 +273,7 @@ I solve problems.
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{other interests/accolades}
+\section{Other Interests and Accolades}
 \textbf{Olympic Weightlifting}
 \begin{itemize}
 \item 2014 New Mexico Games: Gold Medalist, 94kg class
