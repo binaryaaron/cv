@@ -70,7 +70,7 @@
 \RequirePackage{tikz}
 
 \newcommand{\rolefont}{%
-  \fontsize{14pt}{24pt}\selectfont%
+  \fontsize{11pt}{16pt}\selectfont%
   \thinfont%
   \color{white}%
 }
@@ -78,23 +78,23 @@
 \newcommand{\header}[4]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
-    minimum height=3.7cm] (box) at (current page.north){} ;
+    minimum height=2.5cm] (box) at (current page.north){} ;
     %\node[anchor=west](pic) at (-5.5,0){\includegraphics[width=.25\textwidth]{bertrandrussell.jpg}};
-    \node [above=0.1cm] (name) at (box) {%
-      \fontsize{36pt}{64pt}\color{header}%
+    \node [above=0.0cm] (name) at (box) {%
+      \fontsize{24pt}{36pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
     \node [anchor=north] (contact) at (name.south) {%
-      \fontsize{12pt}{20pt}\color{header}%
+      \fontsize{12pt}{18pt}\color{header}%
       \thinfont #3%
     };
     \node [anchor=north] at (contact.south) {%
-      \fontsize{10pt}{36pt}\color{header}%
+      \fontsize{10pt}{24pt}\color{header}%
       \thinfont #4%
     };
     %picture?
   \end{tikzpicture}
-  \vspace{1.5cm}
+  \vspace{0.0cm}
   % \vspace{-2\parskip}
 }
 
@@ -125,7 +125,7 @@
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{headercolor}%
+    \Large\headingfont\color{headercolor}%
     \@sectioncolor \centering #1%
   }
   \par\vspace{\parskip}
@@ -326,5 +326,5 @@
 {
   hidelinks = true ,
   pdfauthor = Aaron Gonzales,
-  pdftitle = Curriculum Vitae
+  pdftitle = Resume
 }

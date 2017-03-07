@@ -33,7 +33,7 @@
 \newfontfamily\bodyfont[]{Hack}
 \newfontfamily\thinfont[]{Hack}
 \newfontfamily\headingfont[]{Futura}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=0.95]{Futura}
 \newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
 
 \rfoot{}
@@ -43,11 +43,22 @@
 \chead{}
 \rhead{}
 
+\newenvironment{itemize1}{
+  \begin{itemize}{$\bullet$}{
+          \setlength{\leftmargin}{0.25in}}}{\end{itemize}}
+
 \newcommand{\icon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
 
 %%%%% added packages by me
 %\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
 \usepackage{etoolbox}
+\usepackage{enumitem}
+
+\newlist{myitemize}{itemize}{3}
+\setlist[myitemize,1]{label=\textbullet,leftmargin=0.25em}
+\setlist[myitemize,2]{label=$\diamond$,leftmargin=1em}
+\setlist[myitemize,3]{label=$\diamond$}
+
 \newtoggle{cv}
 \togglefalse{cv}
 \begin{document}
@@ -56,11 +67,12 @@
 \iftoggle{cv}
 {\header{Aaron}{~Gonzales}{curriculum vit\ae}}
 {\header {Aaron}{~Gonzales}
-{\{\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu},
-505.385.9209,
-\href{http://aarongonzales.net}{aarongonzales.net}\}}
-  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
-  \href{http://github.com/xysmas}{\huge{\faGithub} }}
+{\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu} |
+505.385.9209 | 
+\href{http://aarongonzales.net}{aarongonzales.net} |
+  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}} |
+\href{http://github.com/xysmas}{\huge{\faGithub}}}
+}
 }
 
 %----------------------------------------------------------------------------------------
@@ -94,8 +106,13 @@
 %----------------------------------------------------------------------------------------
 %         Research/work	
 %----------------------------------------------------------------------------------------
-% \section{about}
-% I solve problems.
+\section{About}
+Results-oriented data scientist with experience in building large predictive
+systems using cutting-edge machine learning techniques. Comfortable working
+with large data sets (billions and billions of observations; tera-to-petascale
+data), handling complex ETL processes, basic devops, and working with
+non-technical people.
+
 \iftoggle{cv}
 {\section{Research/Work Experience}
 }
@@ -103,52 +120,65 @@
 }
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \icon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
-    {\smallheaderfont July 2016\textemdash Current}\\*
-    {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist on the Vacation Rentals team. I focus on building
-    scalable machine-learning models with large volumes of unstructured image
-    and text data to drive both product innovation and traveler interest on our
-    platform.
+  \item {\largeheaderfont Data Scientist, TripAdvisor } \hfill
+    {\smallheaderfont July 2016\textemdash Current}
+    \begin{myitemize} \itemsep1pt \parskip1pt \parsep0pt
+      \item Built an internal app that supports natural-language queries
+        (e.g. {\textit "girls getaway"}) to find collections of destinations
+        using modern deep-learning word embedding techniques.
+      \begin{myitemize} \itemsep1pt \parskip1pt \parsep0pt
+        \item In use by Content Marketing to assist with content creation.
+        \item In use by SEO to dynamically improve relevance (A/B
+          tested with \textbf{6.1\% improvement over control in a primary
+          metric}).
+        \item Flights team is testing it to recommend nearby destinations for
+          travelers.
+      \end{myitemize}
+      \item Built a computer vision pipeline for all photos on the
+        Rentals platform using cutting-edge deep learning methods.
+        \begin{myitemize} \itemsep1pt \parskip0pt \parsep0pt
+          \item Developed model to flexibly detect people in photos with and
+            without faces (91\% test accuracy).
+          \item Developed scene and content classification model for all photos
+            (94\% test accuracy).
+          \item Developed image aesthetic quality assessment model (80\%
+            test accuracy).
+          \item Developed model to understand how photo content affects
+            traveler behavior.
+          \item Display marketing saw a \textbf{4.8\% increase in click-through
+            rate} and a \textbf{10.4\% increase in a key downstream metric}.
+          \item Data delivered by the pipeline is in use across the Rentals
+            platform.
+          \item Models will likely be utilized across other key TripAdvisor
+            business areas, including Content and Hotels.\\*
+        \end{myitemize}
+    \end{myitemize}
+
+
   \end{description}
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \icon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
-    {\smallheaderfont Summer 2015}\\*
-    {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist intern with the Vacation Rentals team under George Bezerra, PhD.
-    Developed a novel ranking system for
-    720,000+ rental properties and used gradient-boosting machines to predict
-    how well new properties will perform. \\*
-    {\smallheaderfont Notable accomplishments}:
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
-      \item The model was built with approximately 5 terabytes of web traffic
-            history using Hive, Python, pandas, and scikit-learn
-      \item The model scales with millions of daily visitors and self-tunes to
-            fluctuations in visitor usage patterns
+  \item {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
+    {\smallheaderfont Summer 2015}
+    % {\footnotesize \emph{Greater Boston Area, MA}} \\*
+    \begin{myitemize} \itemsep1pt \parskip1pt \parsep0pt
+      \item Developed a novel ranking system for
+            720,000+ rental properties using creative feature generation and
+            gradient-boosting machines, which went into production after
+            successful A/B testing.
+      \item Model was built using approximately 5 terabytes of traffic
+            history using Hive, Python, pandas, and scikit-learn.
+      \item Model scales with millions of daily visitors and self-tunes to
+            fluctuations in visitor usage patterns.
       \item A/B testing showed that the model \textbf{increased a key visitor conversion
-            rate by 3.46\%} and \textbf{decreased visitor bounce rate by 0.46\%}
-      \item A/B testing showed that integrating the model helped
-            \textbf{increase revenue per visitor by 9.57\%}
-      \item The model is now in production across all of TripAdvisor Vacation Rentals' sites\\*
-    \end{itemize}
-
-  \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
-    {\smallheaderfont 2015\textemdash 2016}\\*
-    {\footnotesize \emph{Albuquerque, NM }} \\*
-    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab. We
-    partnered with both Los Alamos National Laboratory and the Center for
-    Advanced Research Computing to investigate applying data science techniques
-    to understand complex high-performance system behavior. \\*
+            rate by 3.46\%}, \textbf{decreased visitor bounce rate by 0.46\%},
+            and \textbf{increased revenue per visitor by 9.57\%}.\\*
+    \end{myitemize}
 
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
-    {\smallheaderfont 2011\textemdash 2014 }\\*
-    {\footnotesize \emph{Albuquerque, NM }} \\*
-    {\smallheaderfont summary}: \\*
-    Lead analyst in a neuroscience research lab run by Elaine Bearer,
-    MD\textemdash PhD, managing various research projects and lab members. \\*
-    {\smallheaderfont Notable accomplishments}:
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+    {\smallheaderfont 2011\textemdash 2014 }
+    % {\smallheaderfont summary}: \\*
+    \begin{myitemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Streamlined lab data processing and analytical techniques, including a
         method that speed up a critical data processing step by approximately 360x
         (3 hours to 30 seconds). Implemented numerous other batch data processing
@@ -161,7 +191,7 @@
         more submitted and pending papers and abstracts
       \item Trained and mentored 10 undergraduate and post-baccalaureate student
         employees and volunteers
-    \end{itemize}
+    \end{myitemize}
 
 %------------------------------------------------
 \iftoggle{cv}
@@ -204,39 +234,35 @@
 \section{Education}
 \begin{description}
 %------------------------------------------------
-  \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
-    {\smallheaderfont 2016} \\*
-    {\footnotesize \emph{The University of New Mexico  \hfill 3.7 cumulative GPA}} \\*
-    Concentration in data mining and machine learning.
+  \item {\largeheaderfont Master of Science, Computer Science}, The University
+    of New Mexico \hfill 
+    {\smallheaderfont 2016}
+    % {\footnotesize \emph{The University of New Mexico  \hfill 3.7 cumulative GPA}} \\*
+    % Concentration in data mining and machine learning.
 %------------------------------------------------
-\end{description}
-\begin{description}
+% \end{description}
+% \begin{description}
 %------------------------------------------------
-  \item  {\largeheaderfont Bachelor of Science, Psychology } \hfill
-    {\smallheaderfont 2010 }\\*
-    {\footnotesize \emph{The University of New Mexico  }} \\*
-    Concentration in neuroscience; minored in computer science.
+  \item  {\largeheaderfont Bachelor of Science, Psychology}, The University of
+    New Mexico \hfill
+    {\smallheaderfont 2010 }
+    % {\footnotesize \emph{The University of New Mexico  }} \\*
+    % Concentration in neuroscience; minored in computer science.
 %------------------------------------------------
 \end{description}
 
 %------------------------------------------------
-\newpage
-\section{Technical Skills}
+% \newpage
+\section{Technical Skills And Tools}
 \begin{description}
    \item {\smallheaderfont Programming languages, notable libraries, and tools} \\*
-        \textbf{R}, Python (scikit-learn, gensim,
-        Matplotlib, Pandas, Statsmodels, Cython, Sqlalchemy, Keras), Spark, C, Bash,
-        \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
-        MSSQL). Some experience with Scala, Java, Javascript, HTML, CSS,
+        \textbf{R}, Python (Numpy, Scipy, scikit-learn, TensorFlow, gensim,
+        Pandas, Statsmodels, Cython, Sqlalchemy, Keras, Jupyter, pyspark,
+        Bokeh, seaborn), Spark, C, Bash,
+        \LaTeX, git, MongoDB, Hadoop, Hive, SQL (Postgres,
+        Sql Server), Linux (Ubuntu/Centos) admin, cloud/distributed system development.
+        Some experience with Scala, Java, Javascript,
         Matlab, and Amazon Web Services (EC2, S3, Redshift).
-    \item {\smallheaderfont Machine Learning / Data Science Methods} \\*
-        Deep learning, supervised learning (random forests, gradient boosting,
-        regression, SVMs), unsupervised learning
-        (autoencoders, DBSCAN, k-means/mediods, EM), unstructured data, web
-        scraping outlier analysis, novelty detection, time-series mining,
-        dimensionality reduction, and feature selection.
-    \item {\smallheaderfont Visualization and Miscellaneous tools} \\*
-        Bokeh, Matplotlib, ggplot, shiny, and d3.js.
 
 \end{description}
 
@@ -245,7 +271,7 @@
 \section{Publications}
 }
 {%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\section{Publications}
+% \section{Publications}
 }
 %\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
 \iftoggle{cv}{
@@ -258,27 +284,20 @@
 }
 {%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\begin{refsection}
-\nocite{*}
-\printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
-\end{refsection}
-\begin{refsection}
-\nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={Selected Conference Proceedings}, keyword={selected}, heading=subbibliography]
+% \begin{refsection}
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+% \end{refsection}
+% \begin{refsection}
+% \nocite{*}
+% \printbibliography[sorting=chronological, type=inproceedings, title={Selected Conference Proceedings}, keyword={selected}, heading=subbibliography]
 %\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
-\end{refsection}
+% \end{refsection}
 }
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Other Interests and Accolades}
-\textbf{Olympic Weightlifting}
-\begin{itemize}
-\item 2014 New Mexico Games: Gold Medalist, 94kg class
-\item 2013 New Mexico Games: Silver Medalist, 85kg class
-\item 2013 Barnholth Memorial Invitational: Silver Medalist, 85kg class
-\end{itemize}
 
 \end{document}
