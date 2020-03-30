@@ -23,11 +23,21 @@
 \addbibresource{agbib.bib} % Specify the bibliography file to include publications
 \usepackage{marvosym}
 \usepackage{fontspec}
-\usepackage{fontawesome}
+% \defaultfontfeatures{Path = /usr/local/texlive/2018/texmf-dist/fonts/opentype/public/fontawesome/}
+% \usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+% \RequirePackage{unicode-math}
+
+% \newfontfamily{\FAFR}{Font Awesome 5 Free Regular}
+% \newfontfamily{\FAFS}{Font Awesome 5 Free Solid}
+% \newfontfamily{\FAB}{Font Awesome 5 Brands Regular}
+% \def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+% \def\faPhone{\FAFS \symbol{"F095}} % Phone
+% \def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
+% \def\faGithub{\FAB \symbol{"F09B}} % Github
+% \def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
 
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 \newfontfamily\bodyfont[]{Hack}
@@ -43,24 +53,26 @@
 \chead{}
 \rhead{}
 
-\newcommand{\icon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
+\newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
+\newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
 
 %%%%% added packages by me
 %\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
 \usepackage{etoolbox}
 \newtoggle{cv}
-\togglefalse{cv}
+% \togglefalse{cv}
+\toggletrue{cv}
 \begin{document}
 
 % \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \iftoggle{cv}
 {\header{Aaron}{~Gonzales}{curriculum vit\ae}}
 {\header {Aaron}{~Gonzales}
-{\{\href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu},
+{\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
 505.385.9209,
 \href{http://aarongonzales.net}{aarongonzales.net}\}}
-  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
-  \href{http://github.com/xysmas}{\huge{\faGithub} }}
+  % {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+  % \href{http://github.com/binaryaaron}{\huge{\faGithub} }}
 }
 
 %----------------------------------------------------------------------------------------
@@ -97,30 +109,98 @@
 % \section{about}
 % I solve problems.
 \iftoggle{cv}
-{\section{Research/Work Experience}
+{\section{Experience}
 }
 {\section{Selected Experience}
 }
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \icon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
-    {\smallheaderfont July 2016\textemdash Current}\\*
-    {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist on the Vacation Rentals team. I focus on building
-    scalable machine-learning models with large volumes of unstructured image
-    and text data to drive both product innovation and traveler interest on our
-    platform.
+  \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter } \hfill
+    {\smallheaderfont May 2019 \textemdash  current}\\*
+    {\footnotesize \emph{Boulder, CO}} \\*
+    Working on Account Security related work to detect and measure the
+    incidence of compromise on our platform.
+
+    Served as a technical lead and provided process improvement, technical
+    guidance, roadmap planning, and data-science organization wide
+    improvements. Mentored colleagues. Reviews work for the greater Health data
+    science team, working on anti-abuse, spam, fake account, and misinformation
+    problems at Twitter.
+
+    Also serve as the technical lead for data science effectiveness, a virtual
+    team that develops tooling, processes, and relationships with peer teams
+    to make doing data science at Twitter better for all.
+
+    Serve as a Global Lead for Twitter's
+    Alas BRG for Hispanic and Latinx employees, serve on company-wide
+    organizations, and as a co-chair for our Latinx engineers group at Twitter.
+
   \end{description}
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \icon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
+  \item \twittericon {\largeheaderfont Data Scientist, Twitter } \hfill
+    {\smallheaderfont July 2017 \textemdash  May 2019}\\*
+    {\footnotesize \emph{Boulder, CO}} \\*
+    Worked with the Developer and Enterprise Solutions group to help improve our
+    developer platform, vet new product ideas, and make datasets that enabled
+    teams to generate insights and make decisions quickly.
+
+    {\smallheaderfont Notable accomplishments}:
+    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+      \item Developed an open-source python API for our premium and enterprise search
+          products (see the Search Tweets Python link to Github for more info. As of
+          April 2019, the library has been installed over 18,000 times and has > 100
+          stars on github.
+      \item Managed developer education project to provided real-world example analyses
+        using Twitter data to lower barriers to adoption and support developers \& data
+        scientists to build their own solutions with Twitter data products. See the Do
+        more with Twitter data series links for more info.
+      \item Identified clusters of applications abusing Twitter's APIs using time-series mining
+      \item Identified risk factors in developer applications to enable programmatic
+            review of applications to use our APIs.
+    \end{itemize}
+  \end{description}
+
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item \tripicon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
+    {\smallheaderfont July 2016\textemdash July 2017}\\*
+    {\footnotesize \emph{Greater Boston Area, MA}} \\*
+    Data scientist for the Vacation Rentals group.
+    {\smallheaderfont Notable accomplishments}:
+    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+      \item Designed and built a computer vision pipeline for all photos on the Rentals
+        platform using deep learning methods. Includes models built to
+        detect people (with and without faces), content (e.g., beach, bedroom,
+        kitchen), and aesthetic quality. Using the
+        data from the pipeline, Display marketing saw a 4.8\% increase in click-through
+        rate and a 10.4\% increase in ROAS.
+      \item Built an internal app that supports natural-language
+        queries (e.g. "girls getaway") to find collections of destinations using
+        deep-learning word embedding techniques. Used across teams 
+        to help find data-driven destinations, dynamically improve relevance
+        (A/B tested with 6.1\% improvement over control in a primary metric), 
+        and to recommend nearby destinations for travelers.
+      \item Designed and built a modeling pipeline to predict property availability,
+        assisting our product team's ability to encourage better traveler experiences
+        and owner behavior.
+      \item Developed methods to extract high-information snippets from reviews to
+        display on search result pages to boost SEO rankings.
+      \item Developed a common team codebase providing shared tools, common access
+        methods, and other utility code that is in heavy use by the team. It has
+        allowed our data scientists and engineers to get up-to-speed more quickly and
+        iterate faster on projects.
+    \end{itemize}
+  \end{description}
+
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist intern with the Vacation Rentals team under George Bezerra, PhD.
+    Data scientist intern with the Vacation Rentals team.
+    {\smallheaderfont Notable accomplishments}:
     Developed a novel ranking system for
     720,000+ rental properties and used gradient-boosting machines to predict
     how well new properties will perform. \\*
-    {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
       \item The model was built with approximately 5 terabytes of web traffic
             history using Hive, Python, pandas, and scikit-learn
@@ -130,7 +210,7 @@
             rate by 3.46\%} and \textbf{decreased visitor bounce rate by 0.46\%}
       \item A/B testing showed that integrating the model helped
             \textbf{increase revenue per visitor by 9.57\%}
-      \item The model is now in production across all of TripAdvisor Vacation Rentals' sites\\*
+      \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
     \end{itemize}
 
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
@@ -220,25 +300,25 @@
 \end{description}
 
 %------------------------------------------------
-\newpage
-\section{Technical Skills}
-\begin{description}
-   \item {\smallheaderfont Programming languages, notable libraries, and tools} \\*
-        \textbf{R}, Python (scikit-learn, gensim,
-        Matplotlib, Pandas, Statsmodels, Cython, Sqlalchemy, Keras), Spark, C, Bash,
-        \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
-        MSSQL). Some experience with Scala, Java, Javascript, HTML, CSS,
-        Matlab, and Amazon Web Services (EC2, S3, Redshift).
-    \item {\smallheaderfont Machine Learning / Data Science Methods} \\*
-        Deep learning, supervised learning (random forests, gradient boosting,
-        regression, SVMs), unsupervised learning
-        (autoencoders, DBSCAN, k-means/mediods, EM), unstructured data, web
-        scraping outlier analysis, novelty detection, time-series mining,
-        dimensionality reduction, and feature selection.
-    \item {\smallheaderfont Visualization and Miscellaneous tools} \\*
-        Bokeh, Matplotlib, ggplot, shiny, and d3.js.
+% \newpage
+% \section{Technical Skills}
+% \begin{description}
+%    \item {\smallheaderfont Programming languages, notable libraries, and tools} \\*
+%         \textbf{R}, Python (scikit-learn, gensim,
+%         Matplotlib, Pandas, Statsmodels, Cython, Sqlalchemy, Keras), Spark, C, Bash,
+%         \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
+%         MSSQL). Some experience with Scala, Java, Javascript, HTML, CSS,
+%         Matlab, and Amazon Web Services (EC2, S3, Redshift).
+%     \item {\smallheaderfont Machine Learning / Data Science Methods} \\*
+%         Deep learning, supervised learning (random forests, gradient boosting,
+%         regression, SVMs), unsupervised learning
+%         (autoencoders, DBSCAN, k-means/mediods, EM), unstructured data, web
+%         scraping outlier analysis, novelty detection, time-series mining,
+%         dimensionality reduction, and feature selection.
+%     \item {\smallheaderfont Visualization and Miscellaneous tools} \\*
+%         Bokeh, Matplotlib, ggplot, shiny, and d3.js.
 
-\end{description}
+% \end{description}
 
 
 \iftoggle{cv}{
@@ -247,25 +327,35 @@
 {%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \section{Publications}
 }
-%\printbibsection{article}{articles in peer-reviewed journals} % Print all articles from the bibliography
+
 \iftoggle{cv}{
 \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 \nocite{*}
-\printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
-\printbibliography[sorting=chronological, type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
-\printbibliography[sorting=chronological, type=misc, title={Manuscripts in Preparation}, heading=subbibliography]
+
+\newrefcontext[sorting=chronological]
+\printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+
+\newrefcontext[sorting=chronological]
+\printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+
+% \newrefcontext[sorting=chronological]
+% \printbibliography[type=misc, title={Manuscripts in Preparation}, heading=subbibliography]
 \end{refsection}
 }
+%else non CV
 {%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
 %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+
 \begin{refsection}
 \nocite{*}
-\printbibliography[sorting=chronological, type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+\newrefcontext[sorting=chronological]
+\printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
 \end{refsection}
+
 \begin{refsection}
 \nocite{*}
-\printbibliography[sorting=chronological, type=inproceedings, title={Selected Conference Proceedings}, keyword={selected}, heading=subbibliography]
-%\printbibliography[sorting=chronological, type=misc, title={manuscripts in preparation}, keyword={selected}, heading=subbibliography]
+\newrefcontext[sorting=chronological]
+\printbibliography[type=inproceedings, title={Selected Conference Proceedings}, keyword={selected}, heading=subbibliography]
 \end{refsection}
 }
 
