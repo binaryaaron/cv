@@ -1,4 +1,5 @@
 # prerequsites
+# helpful gist https://gist.github.com/peterhurford/75957ba9335e755013b87254ec85fab1
 
 brew_cask_install() {
     echo "\nInstalling $1"
@@ -19,8 +20,23 @@ brew_install() {
 
 brew_cask_install basictex
 brew_install biber
+brew tap homebrew/cask-fonts
+brew_cask_install font-hack
+
 sudo tlmgr update --self
 sudo tlmgr install texliveonfly 
+sudo tlmgr install xelatex
+sudo tlmgr install adjustbox
+sudo tlmgr install tcolorbox
+sudo tlmgr install collectbox
+sudo tlmgr install ucs
+sudo tlmgr install environ
+sudo tlmgr install trimspaces
+sudo tlmgr install titling
+sudo tlmgr install enumitem
+sudo tlmgr install rsfs
+sudo tlmgr install biblatex
+sudo tlmgr install biber
 
 
 sudo texliveonfly -c xelatex agonzales_resume.tex
