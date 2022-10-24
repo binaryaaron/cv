@@ -60,8 +60,13 @@
 %\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
 \usepackage{etoolbox}
 \newtoggle{cv}
-% \togglefalse{cv}
-\toggletrue{cv}
+
+% block to take doc args
+\ifx\docmode\undefined
+\togglefalse{cv}
+\else 
+  \toggletrue{cv}
+\fi
 \begin{document}
 
 % \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
@@ -113,14 +118,9 @@
 % \section{about}
 {
   \section{Summary}
-  Data Scientist and ML professional with a blend of statistics, machine
+  Data and machine learning professional with a blend of statistics, machine
   learning, engineering, research, and leadership skills who is comfortable
-  working across the data science and machine-learning lifecycle, including
-  designing, prototyping, validating, and productionizing models, data, and
-  tools. Proactively works across organizational boundaries to solve problems
-  and mentor others. Passionate about technical leadership and inclusion and
-  diversity efforts.
-}
+  working across the machine-learning lifecycle.  }
 % I solve problems.
 \iftoggle{cv}
 {\section{Experience}
@@ -129,28 +129,56 @@
 }
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter } \hfill
-    {\smallheaderfont May 2019 \textemdash  current}\\*
-    {\footnotesize \emph{Boulder, CO}} \\*
-    Part of the Health data science team, which focuses on on anti-abuse,
-    spam, fake accounts, and misinformation problems at Twitter.
-
-    {\smallheaderfont Notable accomplishments}:
+  \item \twittericon {\largeheaderfont Senior Machine Learning Research Engineer, Twitter } \hfill
+    {\smallheaderfont June 2020 \textemdash  current}\\*
+    {\footnotesize \emph{Remote - USA}} \\*
+    Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
+    (META) team tasked with Responsible Machine Learning development and
+    research at Twitter.
+    % {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
 
-    \item Built a model to detected accounts that are potentially compromised
-    \item Served as a technical lead and provided process improvement,
-      technical guidance, roadmap planning, and organization-wide improvements.
-      Actively mentors colleagues. Reviews work for the greater Health data science
-      team.
-    \item Formed the data science effectiveness team and am serving as the
-      technical lead. This is virtual team that develops tooling, education,
-      processes, and relationships with peer teams to make doing data science
-      at Twitter better for all.
-    \item Serve as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx
+    \item  Served as a technical lead and provided process improvement,
+    technical guidance, roadmap planning, and organization-wide improvements. 
+    
+    \item Designed and built a data collection system that would eventually
+    automate team measurement and impact projects going forward. Reduced time
+    for future similar research projects from months of manual effort to < 1
+    week
+    
+    \item Led workstream to design and build tools for machine learning
+    practitioners to identify weaknesses in model performance that have been
+    used internally by multiple teams
+    
+    \item Presented at conferences (ACM FAccT, The Data Science Conference)
+    about building and scaling an applied ML research team
+    
+    \item Contributes to company working groups around Python development, data
+    architecture, and Latinx employee support.
+  \end{itemize}
+  \end{description}
+
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter } \hfill
+    {\smallheaderfont May 2019 \textemdash  June 2020}\\*
+    {\footnotesize \emph{Boulder, CO}} \\*
+    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+
+      \item Tech Lead for the Health data science team, which focuses on on
+      anti-abuse, spam, fake accounts, and misinformation problems at Twitter.
+      
+      \item Built a model to detected accounts that are potentially compromised
+      
+      \item As tech lead, provided process improvement, technical guidance, roadmap
+      planning, and organization-wide improvements.
+      
+      \item Formed team to develops tooling, education, processes, and relationships
+      with peer teams to make doing data science at Twitter better for all.
+      
+      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx
       employees, serve on company-wide organizations, and as a co-chair for our
       Latinx engineers group at Twitter.
-
+      
   \end{itemize}
 
   \end{description}
@@ -159,20 +187,19 @@
   \item \twittericon {\largeheaderfont Data Scientist, Twitter } \hfill
     {\smallheaderfont July 2017 \textemdash  May 2019}\\*
     {\footnotesize \emph{Boulder, CO}} \\*
-    Worked with the Developer and Enterprise Solutions group to help improve our
-    developer platform, vet new product ideas, and make datasets that enabled
-    teams to generate insights and make decisions quickly.
-
-    {\smallheaderfont Notable accomplishments}:
+    Worked with the Developer and Enterprise Solutions group to help improve
+    Twitter’s developer platform, vet new product ideas, and make datasets that
+    enabled teams to generate insights and make decisions quickly.
+    
+    % {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
       \item Developed an open-source python API for our premium and enterprise search
-          products (see the Search Tweets Python link to Github for more info. As of
-          April 2019, the library has been installed over 18,000 times and has > 100
-          stars on github.
-      \item Managed developer education project to provided real-world example analyses
-        using Twitter data to lower barriers to adoption and support developers \& data
-        scientists to build their own solutions with Twitter data products. See the Do
-        more with Twitter data series links for more info.
+          products (see the Search Tweets Python link to Github for more info) which has been downloaded and used 
+          many thousands of times.
+      \item Led project to provide real-world examples using Twitter data ton
+      and support developers and data scientists to build their own solutions
+      with Twitter data products. See the Do more with Twitter data series links
+      for more info.
       \item Identified clusters of applications abusing Twitter's APIs using time-series mining
       \item Identified risk factors in developer applications to enable programmatic
             review of applications to use Twitter APIs.
@@ -183,31 +210,27 @@
   \item \tripicon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
     {\smallheaderfont July 2016\textemdash July 2017}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist for the Vacation Rentals group.
-    {\smallheaderfont Notable accomplishments}:
+    % {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
-      \item Designed and built a computer vision pipeline for all photos on the Rentals
-        platform using deep learning methods. Includes models built to
-        detect people (with and without faces), content (e.g., beach, bedroom,
-        kitchen), and aesthetic quality. Using the
-        data from the pipeline, Display marketing saw a 4.8\% increase in click-through
-        rate and a 10.4\% increase in ROAS.
-      \item Built an internal app that supports natural-language
-        queries (e.g. "girls getaway") to find collections of destinations using
-        deep-learning word embedding techniques. Used across teams 
-        to help find data-driven destinations, dynamically improve relevance
-        (A/B tested with 6.1\% improvement over control in a primary metric), 
-        and to recommend nearby destinations for travelers.
-      \item Designed and built a modeling pipeline to predict property availability,
-        assisting our product team's ability to encourage better traveler experiences
-        and owner behavior.
-      \item Developed methods to extract high-information snippets from reviews to
-        display on search result pages to boost SEO rankings.
-      \item Developed a common team codebase providing shared tools, common access
-        methods, and other utility code that is in heavy use by the team. It has
-        allowed our data scientists and engineers to get up-to-speed more quickly and
-        iterate faster on projects.
-    \end{itemize}
+      \item Designed and built a computer vision system that includes models to
+      detect people, content (e.g., beach, bedroom, kitchen), and rate aesthetic
+      quality.
+
+      \item Computer vision system lead to immediate 4.8\% increases in primary
+      click-through rate and a 10.4\% increase in return on ad spend. It was
+      broadly adopted for other purposes across TripAdvisor.
+
+      \item Built an app that enables natural-language queries (e.g. ”girls getaway”)
+      to find collections of destinations, which led to a 6.1\% improvement in a
+      primary metric and was used by many teams. 
+
+      \item Developed methods to extract high-information snippets from reviews
+      to display on search-result pages to boost SEO rankings.
+
+      \item Developed a common team codebase providing shared tools, common
+      access methods, and other utility code that allowed our data scientists
+      and engineers to get up-to-speed more quickly and iterate faster on
+      projects.  \end{itemize}
   \end{description}
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
@@ -215,22 +238,21 @@
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
     Data scientist intern with the Vacation Rentals team.
-    {\smallheaderfont Notable accomplishments}:
+    % {\smallheaderfont Notable accomplishments}:
     Developed a novel ranking system for
     720,000+ rental properties and used gradient-boosting machines to predict
     how well new properties will perform. \\*
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
-      \item The model was built with approximately 5 terabytes of web traffic
-            history using Hive, Python, pandas, and scikit-learn
-      \item The model scales with millions of daily visitors and self-tunes to
+      \item The model scaled with millions of daily visitors and self-tunes to
             fluctuations in visitor usage patterns
       \item A/B testing showed that the model \textbf{increased a key visitor conversion
             rate by 3.46\%} and \textbf{decreased visitor bounce rate by 0.46\%}
-      \item A/B testing showed that integrating the model helped
+      \item A/B testing showed that integrating the model into rankings helped
             \textbf{increase revenue per visitor by 9.57\%}
       \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
     \end{itemize}
 
+  \iftoggle{cv}{
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
     {\smallheaderfont 2015\textemdash 2016}\\*
     {\footnotesize \emph{Albuquerque, NM }} \\*
@@ -238,6 +260,7 @@
     partnered with both Los Alamos National Laboratory and the Center for
     Advanced Research Computing to investigate applying data science techniques
     to understand complex high-performance system behavior. \\*
+  }{}
 
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
@@ -245,7 +268,7 @@
     {\smallheaderfont summary}: \\*
     Lead analyst in a neuroscience research lab run by Elaine Bearer,
     MD\textemdash PhD, managing various research projects and lab members. \\*
-    {\smallheaderfont Notable accomplishments}:
+    % {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Streamlined lab data processing and analytical techniques, including a
         method that speed up a critical data processing step by approximately 360x
@@ -254,10 +277,10 @@
       \item Designed and conducted a pilot study that helped win a \$2.7 million
         dollar NIH R01 grant to study the etiology of post traumatic stress
         disorder.
-      \item Lead author on five research papers (one submitted, four nearing
-        submission), three conference abstracts and presentations, coauthor on many
-        more submitted and pending papers and abstracts
-      \item Trained and mentored 10 undergraduate and post-baccalaureate student
+      \item Lead author on several research papers, three conference abstracts
+      and presentations, coauthor on many more submitted and pending papers and
+      abstracts
+      \item Trained and mentored 10 undergraduate and gradute student
         employees and volunteers
     \end{itemize}
 
@@ -343,7 +366,7 @@
 \section{Publications}
 }
 {%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-\section{Publications}
+\section{Selected Publications}
 }
 
 \iftoggle{cv}{
