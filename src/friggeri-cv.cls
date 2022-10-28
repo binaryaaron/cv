@@ -19,7 +19,8 @@
 
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+% \definecolor{lightgray}{HTML}{999999}
+\definecolor{lightgray}{HTML}{717171}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -187,13 +188,16 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+\RequirePackage[style=numeric, maxnames=10, sorting=ydnt, backend=biber]{biblatex}
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[book]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
 \DeclareFieldFormat[misc]{title}{#1\par}
 \DeclareFieldFormat[report]{title}{#1\par}
+\DeclareFieldFormat[techreport]{title}{#1\par}
+\DeclareFieldFormat[blogpost]{title}{#1\par}
+\DeclareFieldFormat[talk]{title}{#1\par}
 
 \DeclareBibliographyDriver{article}{%
   \printfield{title}%
@@ -201,7 +205,7 @@
   \printnames{author}%
   \par%
   \newblock%
-  {%
+    {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \usebibmacro{journal+issuetitle}%
     \setunit{\space}%
@@ -254,6 +258,68 @@
   \par\vspace{0.3\baselineskip}
 }
 
+\DeclareFieldFormat{institution}{%
+  \mkbibparens{
+    {\textbf{#1}}
+  }
+}
+    
+
+\DeclareBibliographyDriver{talk}{%
+  \printfield{title}%
+  \newblock%
+  \par%
+  \newblock
+  {%
+    \footnotesize\addfontfeature{Color=lightgray}%
+    \newblock%
+    \printnames{author}%
+    \setunit{\addperiod\space}%
+    \printfield{type}%
+    \setunit{\addcomma\space}%
+    \printlist{institution}%
+    \setunit{\addcomma\space}%
+    \printfield{year}%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+\DeclareFieldFormat{url}{%
+  \mkbibparens{\ifhyperref
+      {\href{#1}{#1}}
+      {\nolinkurl{#1}{#1}}
+  }}
+
+\DeclareFieldFormat{shorturl}{%
+  \mkbibparens{\ifhyperref
+      {\href{#1}{#1}}
+      {\nolinkurl{#1}{#1}}
+  }}
+
+\DeclareBibliographyDriver{blogpost}{%
+  \printfield{title}%
+  \newblock%
+  \par%
+  \newblock
+  {%
+    \footnotesize\addfontfeature{Color=lightgray}%
+    \newblock%
+    \printnames{author}%
+    \setunit{\addperiod\space}%
+    \printfield{type}%
+    \setunit{\addcomma\space}%
+    \printlist{institution}%
+    \setunit{\addcomma\space}%
+    \printfield{year}%
+    \setunit{\addperiod\space}%
+    \printfield{url}%
+    \setunit{\addperiod\space}%
+    \printfield{shorturl}%
+  }
+  \par\vspace{0.3\baselineskip}
+}
+
+
 \DeclareBibliographyDriver{misc}{%
   \printfield{title}%
   \newblock%
@@ -263,6 +329,10 @@
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \printfield{booktitle}%
+    \setunit*{\addcomma\space}%
+    \printfield{institution}%
+    \setunit*{\addcomma\space}%
+    \printfield{type}%
     \setunit*{\addcomma\space}%
     \printfield{note}%
     \setunit*{\addcomma\space}%
@@ -278,13 +348,14 @@
   \printfield{title}%
   \newblock%
   \printnames{author}%
+  \setunit{\space}%
   \par%
   \newblock%
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \printfield{type}%
     \setunit{\space}%
-    \printfield{number}%
+    \printfield{institution}%
     \setunit{\addcomma\space}%
     \printfield{year}%
     \newunit%
@@ -320,11 +391,31 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=1.5cm,top=2cm,right=1.90cm,bottom=1.0cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1.4cm,top=2cm,right=1.90cm,bottom=1.0cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
-\hypersetup
-{
-  hidelinks = true ,
+\RequirePackage{xcolor}
+
+\hypersetup{
+  hidelinks   = true, %Colours links instead of ugly boxes
+  % urlcolor     = blue, %Colour for external hyperlinks
+  % linkcolor    = blue, %Colour of internal links
+  % citecolor   = red %Colour of citations
   pdfauthor = Aaron Gonzales,
   pdftitle = Curriculum Vitae
 }
+
+\def\blx@auxinit@bibtex#1{%
+  \blx@auxwrite\blx@auxout@bibtex
+    {\def\do##1{,\blx@stripbib{##1}}}
+    {\ifx\blx@auxout@bibtex\@mainaux
+     \else
+       \blx@msg@aux
+     \fi
+     \string\bibstyle{mybiblatex}\blx@nl
+     \string\bibdata{%
+       \blx@ctrlfile@bibtex\blxauxsuffix
+       \ifx#1\@empty
+       \else
+         \dolistloop#1%
+       \fi}\blx@nl
+     \string\citation{biblatex-control}}}
