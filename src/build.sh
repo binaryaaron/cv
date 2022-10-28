@@ -39,6 +39,3 @@ sudo tlmgr install biblatex
 sudo tlmgr install biber
 
 
-sudo texliveonfly -c xelatex agonzales_resume.tex
-biber agonzales_resume.bib
-sudo texliveonfly -c xelatex agonzales_resume.tex
