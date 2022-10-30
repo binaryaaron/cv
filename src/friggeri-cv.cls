@@ -148,19 +148,38 @@
 
 \setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
 }{%
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{18.8cm}{%
-    \textbf{#2}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
-  }\\}
 
+% \newcommand{\entry}[4]{%
+%   #1&\parbox[t]{18.8cm}{%
+%     \textbf{#2}%
+%     \hfill%
+%     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+%     #4\vspace{\parsep}%
+%   }\\}
+
+% \newcommand{\entry}[4]{%
+% \parbox[t]{\textwidth}{%
+%      \textbf{#1}%
+%      \hfill%
+%      {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+%      #4\vspace{\parsep}} &#2\\%
+% }
+ 
+
+\newcommand{\entry}[4]{%
+\parbox[t]{0.9\textwidth}{%
+     \textbf{#1}%
+     \hfill%
+     {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+     \textit{#3}\\*%
+     #4\vspace{\parsep}} &#2\\%
+}
+ 
 
 %%%%%%%%%%%%%%
 % Side block %
