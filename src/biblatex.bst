@@ -1830,6 +1830,7 @@ FUNCTION {output:entry} {
   output:fields.1
   output:fields.2
   output:fields.3
+  output:myfields
   output:compat.1
   output:compat.2
   output:compat.3
@@ -1893,6 +1894,9 @@ FUNCTION {customc}        { type$ output:entry }
 FUNCTION {customd}        { type$ output:entry }
 FUNCTION {custome}        { type$ output:entry }
 FUNCTION {customf}        { type$ output:entry }
+% mine
+FUNCTION {talk}           { type$ output:entry }
+FUNCTION {blog}           { type$ output:entry }
 
 FUNCTION {conference}     { "inproceedings" output:entry }
 FUNCTION {electronic}     { "online"        output:entry }
@@ -1902,6 +1906,7 @@ FUNCTION {phdthesis}      { "thesis"        output:entry }
 FUNCTION {techreport}     { "report"        output:entry }
 FUNCTION {www}            { "online"        output:entry }
 FUNCTION {default.type}   { "misc"          output:entry }
+
 
 % -------------------------------------------------------------------
 % Input
