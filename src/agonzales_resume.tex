@@ -27,17 +27,19 @@
 % \usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
+\usepackage{enumitem}
+\setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
 \RequirePackage[quiet]{fontspec}
 % \RequirePackage{unicode-math}
 
-% \newfontfamily{\FAFR}{Font Awesome 5 Free Regular}
-% \newfontfamily{\FAFS}{Font Awesome 5 Free Solid}
-% \newfontfamily{\FAB}{Font Awesome 5 Brands Regular}
-% \def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
-% \def\faPhone{\FAFS \symbol{"F095}} % Phone
-% \def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
-% \def\faGithub{\FAB \symbol{"F09B}} % Github
-% \def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
+\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
+\newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
+\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
+\def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+\def\faPhone{\FAFS \symbol{"F095}} % Phone
+\def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
+\def\faGithub{\FAB \symbol{"F09B}} % Github
+\def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
 
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 \newfontfamily\bodyfont[]{Hack}
@@ -78,10 +80,12 @@
 }
 {\header{Aaron}{~Gonzales}
   {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
-  505.385.9209,
-  \href{http://aarongonzales.net}{aarongonzales.net}\}}
-  % {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
-  % \href{http://github.com/binaryaaron}{\huge{\faGithub} }}
+  505.385.9209\}
+  % \href{http://aarongonzales.net}{aarongonzales.net}\}
+  }
+  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+  \href{http://github.com/binaryaaron}{\huge{\faGithub} }
+  }
 }
 
 %----------------------------------------------------------------------------------------
@@ -128,34 +132,35 @@
 {\section{Selected Experience}
 }
 
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \twittericon {\largeheaderfont Senior Machine Learning Research Engineer, Twitter } \hfill
-    {\smallheaderfont June 2020 \textemdash  current}\\*
-    {\footnotesize \emph{Remote - USA}} \\*
-    Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
-    (META) team tasked with Responsible Machine Learning development and
-    research at Twitter.\\*
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
 
-    \item As a technical lead, provided process improvement, technical guidance,
-    mentorship, review, roadmap planning, and organization-wide improvements. 
-    
-    \item Designed and built a data collection system that
-    automated enabled researchers to measure phenomenon more rapidly. Reduced time
-    for future research projects from months of manual effort to < 1
-    week.
-    
-    \item Led workstream to design and build tools for machine learning
-    practitioners to identify weaknesses in model performance that have been
-    used internally by multiple teams.
-    
-    \item Presented at conferences (ACM FAccT, The Data Science Conference)
-    about building and scaling an applied ML research team.
-    
-    \item Active member of company working groups that support Python development, data
-    infrastructure problems, and Latinx employees.
-  \end{itemize}
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item \twittericon {\largeheaderfont Senior Machine Learning Research Engineer, Twitter}
+    \hfill {\smallheaderfont June 2020 \textemdash current}\\*
+    {\footnotesize \emph{Remote - USA}}\\*
+      Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
+      (META) team tasked with Responsible Machine Learning development and
+      research at Twitter.\\*
+      \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+
+        \item As a technical lead, provided process improvement, technical guidance,
+        mentorship, review, roadmap planning, and organization-wide improvements. 
+        
+        \item Designed and built a data collection system that
+        automated enabled researchers to measure phenomenon more rapidly. Reduced time
+        for future research projects \textbf{from months of manual effort to < 1 week}.
+        
+        \item Led workstream to design and build tools for machine learning
+        practitioners to identify weaknesses in model performance that have been
+        used internally by multiple teams.
+        
+        \item Presented at conferences (ACM FAccT \cite{facct_2022_talk}, The Data Science Conference \cite{datascience_2022_talk})
+        about building and scaling an applied ML research team.
+        
+        \item Active member of company working groups that support Python development, data
+        infrastructure problems, and Latinx employees.
+      \end{itemize}
   \end{description}
+
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter} \hfill
@@ -163,7 +168,7 @@
     {\footnotesize \emph{Boulder, CO}} \\*
     Tech Lead for the Health data science team, which worked on
     anti-abuse, spam, fake accounts, and misinformation problems at Twitter. \\*
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item As tech lead, provided process improvement, mentorship, technical guidance, roadmap
       planning, and organization-wide improvements.
       
@@ -189,8 +194,7 @@
     Worked with the Developer and Enterprise Solutions group to help improve
     Twitter's developer platform, vet new product ideas, and make datasets that
     enabled teams to generate insights and make decisions quickly.\\*
-    
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Developed an open-source python API for our premium and enterprise search
           products (\cite{search_tweets_python}) which has been downloaded and used 
           many thousands of times.
@@ -212,8 +216,8 @@
   \item \tripicon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
     {\smallheaderfont July 2016\textemdash July 2017}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    % {\smallheaderfont Notable accomplishments}:
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+    Data Scientist for the Vacation Rentals group bulding scalable models to tackle business problems.\\*
+    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Designed and built a computer vision system that includes models to
       detect people, content (e.g., beach, bedroom, kitchen), and rate aesthetic
       quality.
@@ -239,11 +243,9 @@
   \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
     {\smallheaderfont Summer 2015}\\*
     {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist intern with the Vacation Rentals team.
-    % {\smallheaderfont Notable accomplishments}:
-    Developed a novel ranking system for
-    720,000+ rental properties and used gradient-boosting machines to predict
-    how well new properties will perform. \\*
+    Data scientist intern with the Vacation Rentals team.  Developed a novel
+    ranking system for 720,000+ rental properties and used gradient-boosting
+    machines to predict how well new properties will perform. \\*
     \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
 
       \item The model scaled with millions of daily visitors and self-tunes to
@@ -269,10 +271,8 @@
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
     {\footnotesize \emph{Albuquerque, NM }} \\*
-    {\smallheaderfont summary}: \\*
     Lead analyst in a neuroscience research lab run by Elaine Bearer,
     MD\textemdash PhD, managing various research projects and lab members. \\*
-    % {\smallheaderfont Notable accomplishments}:
     \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
       \item Streamlined lab data processing and analytical techniques, including a
         method that speed up a critical data processing step by approximately 360x
