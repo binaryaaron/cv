@@ -55,14 +55,8 @@
 \RequirePackage[quiet]{fontspec}
 \RequirePackage{unicode-math}
 
-%\newfontfamily\bodyfont[]{Helvetica Neue}
-%\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
-%\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
-
 \defaultfontfeatures{Mapping=tex-text}
-%\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
-%\setmathfont{XITS Math}
 
 %%%%%%%%%%
 % Header %
@@ -76,27 +70,58 @@
   \color{white}%
 }
 
+% \newcommand{\header}[4]{%
+%   % \tikzstyle{bag}
+%   \begin{tikzpicture}[remember picture,overlay]
+%     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
+%     minimum height=5cm] (box) at (current page.north){} ;
+%     % minimum height=3.7cm] (box) at (current page.north){} ;
+%     %% first node is title
+%     \node [above=0.1cm] (name) at (box) {%
+%       \fontsize{36pt}{64pt}\color{header}%
+%       {\thinfont #1}{\bodyfont  #2}
+%     };
+%     \node [anchor=north] (contact) at (name.south) {%
+%       \fontsize{12pt}{20pt}\color{header}%
+%       \thinfont #3%
+%     };
+%     \node [anchor=north, align=left](summary) at (contact.south) {%
+%       % \fontsize{10pt}{36pt}\color{header}%
+%       % \parbox[center]{\textwidth}{ \thinfont #4 } };
+%        \thinfont #4 };
+    
+%   \end{tikzpicture}
+%   \vspace{0.5cm}
+%   % \vspace{-2\parskip}
+% }
+
+\newfontfamily\titlesummaryfont{Fira Code Light}
+\newcommand{\summaryfont}{%
+  \fontsize{11pt}{11pt}\selectfont%
+  \titlesummaryfont%
+  \color{white}%
+}
+
+\tikzstyle{bag} = [align=center, anchor=north]
 \newcommand{\header}[4]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
-    minimum height=3.7cm] (box) at (current page.north){} ;
-    %\node[anchor=west](pic) at (-5.5,0){\includegraphics[width=.25\textwidth]{bertrandrussell.jpg}};
-    \node [above=0.1cm] (name) at (box) {%
-      \fontsize{36pt}{64pt}\color{header}%
-      {\thinfont #1}{\bodyfont  #2}
+    minimum height=3.5cm] (box) at (current page.north){} ;
+
+    %% first node is title
+    \node [below=0.25cm] (name) at (box.north) {%
+      \fontsize{20pt}{36pt}\color{header}%
+      {\thinfont #1} {\bodyfont #2}
     };
-    \node [anchor=north] (contact) at (name.south) {%
-      \fontsize{12pt}{20pt}\color{header}%
-      \thinfont #3%
-    };
-    \node [anchor=north] at (contact.south) {%
-      \fontsize{10pt}{36pt}\color{header}%
-      \thinfont #4%
-    };
-    %picture?
+    \node [bag] (contact) at (name.south) {%
+      \fontsize{10pt}{10pt}\color{header}%
+      \thinfont #3\\ \\};
+
+    \node[align=center, text width=15cm] (summary) at (contact.south) {%
+      \parbox[center]{\textwidth}{\summaryfont #4}};
+    
   \end{tikzpicture}
-  \vspace{1.5cm}
-  % \vspace{-2\parskip}
+  \vspace{2cm}
 }
 
 
@@ -126,7 +151,7 @@
 \renewcommand{\section}[1]{
   \par\vspace{\parskip}
   {%
-    \LARGE\headingfont\color{headercolor}%
+    \Large\headingfont\color{headercolor}%
     \@sectioncolor \centering #1%
   }
   \par\vspace{\parskip}
@@ -154,22 +179,9 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 
-% \newcommand{\entry}[4]{%
-%   #1&\parbox[t]{18.8cm}{%
-%     \textbf{#2}%
-%     \hfill%
-%     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-%     #4\vspace{\parsep}%
-%   }\\}
-
-% \newcommand{\entry}[4]{%
-% \parbox[t]{\textwidth}{%
-%      \textbf{#1}%
-%      \hfill%
-%      {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-%      #4\vspace{\parsep}} &#2\\%
-% }
- 
+\newenvironment{myitemize}{
+  \begin{itemize}{\itemsep0.5pt \parskip0pt \parsep0pt}{}%
+}{\end{itemize}}
 
 \newcommand{\entry}[4]{%
 \parbox[t]{0.9\textwidth}{%
@@ -179,7 +191,8 @@
      \textit{#3}\\*%
      #4\vspace{\parsep}} &#2\\%
 }
- 
+
+
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -207,19 +220,19 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=numeric, maxnames=10, sorting=ydnt, backend=biber]{biblatex}
+\RequirePackage[style=ieee, maxnames=12, sorting=ydnt, backend=biber, natbib=true, autocite=superscript]{biblatex}
 
-\DeclareFieldFormat[article]{title}{#1\par}
-\DeclareFieldFormat[book]{title}{#1\par}
-\DeclareFieldFormat[inproceedings]{title}{#1\par}
-\DeclareFieldFormat[misc]{title}{#1\par}
-\DeclareFieldFormat[report]{title}{#1\par}
-\DeclareFieldFormat[techreport]{title}{#1\par}
-\DeclareFieldFormat[blogpost]{title}{#1\par}
-\DeclareFieldFormat[talk]{title}{#1\par}
+% \DeclareFieldFormat[article]{title}{\small\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[book]{title}{#1\par}
+% \DeclareFieldFormat[inproceedings]{title}{\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[misc]{title}{\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[report]{title}{\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[techreport]{title}{\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[blogpost]{title}{\addfontfeature{Color=darkgray}#1\par}
+% \DeclareFieldFormat[talk]{title}{\addfontfeature{Color=darkgray}#1\par}
 
 \DeclareBibliographyDriver{article}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \printnames{author}%
   \par%
@@ -260,7 +273,7 @@
 
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \printnames{author}%
   \par%
@@ -282,10 +295,9 @@
     {\textbf{#1}}
   }
 }
-    
 
 \DeclareBibliographyDriver{talk}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \par%
   \newblock
@@ -304,8 +316,8 @@
 }
 
 \DeclareFieldFormat{url}{%
-  \mkbibparens{\ifhyperref
-      {\href{#1}{#1}}
+  {\ifhyperref
+      {\footnotesize\href{#1}{#1}}
       {\nolinkurl{#1}{#1}}
   }}
 
@@ -316,7 +328,7 @@
   }}
 
 \DeclareBibliographyDriver{blogpost}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \par%
   \newblock
@@ -329,18 +341,19 @@
     \setunit{\addcomma\space}%
     \printlist{institution}%
     \setunit{\addcomma\space}%
-    \printfield{year}%
-    \setunit{\addperiod\space}%
+    \printfield{year}\addperiod%
+  }%
+  \newblock
+  \par
+  {
     \printfield{url}%
-    \setunit{\addperiod\space}%
-    \printfield{shorturl}%
   }
-  \par\vspace{0.3\baselineskip}
+  \par\vspace{0.2\baselineskip}
 }
 
 
 \DeclareBibliographyDriver{misc}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \printnames{author}%
   \par%
@@ -364,7 +377,7 @@
 }
 
 \DeclareBibliographyDriver{report}{%
-  \printfield{title}%
+  \small\printfield{title}%
   \newblock%
   \printnames{author}%
   \setunit{\space}%
@@ -382,19 +395,15 @@
   \par\vspace{0.3\baselineskip}
 }
 
+
+\DeclareFieldFormat*{title}{\small\addfontfeature{Color=black}{#1}\par}
+
 \DeclareNameFormat{author}{%
-  \small\addfontfeature{Color=lightgray}%
+  \footnotesize\addfontfeature{Color=lightgray}%
   \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {}%
-}
-
-\newcommand{\printbibsection}[2]{
-  \begin{refsection}
-    \nocite{*}
-    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=subbibliography]
-  \end{refsection}
 }
 
 \DeclareSortingScheme{chronological}{
@@ -410,7 +419,7 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=1.4cm,top=2cm,right=1.90cm,bottom=1.0cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1.25cm,top=2cm,right=1.75cm,bottom=1.0cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \RequirePackage{xcolor}
 

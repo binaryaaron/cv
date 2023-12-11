@@ -12,7 +12,7 @@ resume:
 	xelatex '\input{agonzales_resume.tex}'
 
 cv:
- # sets variable docmode which activates flag in doc content
+# sets variable docmode which activates flag in doc content
 	xelatex '\def\docmode{c} \input{agonzales_resume.tex}'
 	biber agonzales_resume
 	xelatex '\def\docmode{c} \input{agonzales_resume.tex}'
@@ -23,11 +23,11 @@ all:
 	cv
 	resume
 
-build_env: build.sh agonzales_resume.tex
-	sudo build.sh
-	sudo texliveonfly -c xelatex agonzales_resume.tex
-	biber agonzales_resume
-	sudo texliveonfly -c xelatex agonzales_resume.tex
+build_env: build.sh
+	bash build.sh
+# sudo texliveonfly -c xelatex agonzales_resume.tex
+# biber agonzales_resume
+# sudo texliveonfly -c xelatex agonzales_resume.tex
 
 
 clean:

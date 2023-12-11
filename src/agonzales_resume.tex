@@ -23,27 +23,27 @@
 \addbibresource{agbib.bib} % Specify the bibliography file to include publications
 \usepackage{marvosym}
 \usepackage{fontspec}
-% \defaultfontfeatures{Path = /usr/local/texlive/2018/texmf-dist/fonts/opentype/public/fontawesome/}
-% \usepackage{fontawesome}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{enumitem}
 \setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
 \RequirePackage[quiet]{fontspec}
-% \RequirePackage{unicode-math}
 
-\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}
+
+\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}[Scale=0.6]
 \newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
-\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}
+\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}[Scale=0.6]
 \def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
 \def\faPhone{\FAFS \symbol{"F095}} % Phone
 \def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
 \def\faGithub{\FAB \symbol{"F09B}} % Github
 \def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
+\newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
+\newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
 
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 \newfontfamily\bodyfont[]{Hack}
-\newfontfamily\thinfont[]{Hack}
+\newfontfamily\thinfont{Hack}
 \newfontfamily\headingfont[]{Futura}
 \newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
 \newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
@@ -55,8 +55,6 @@
 \chead{}
 \rhead{}
 
-\newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
-\newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
 
 %%%%% added packages by me
 %\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
@@ -65,28 +63,33 @@
 
 % block to take doc args
 \ifx\docmode\undefined
-\togglefalse{cv}
+  \togglefalse{cv}
 \else 
   \toggletrue{cv}
 \fi
+
 \begin{document}
 
 % \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \iftoggle{cv}
-{\header{Aaron}{~Gonzales}{curriculum vit\ae}
-  {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
-  505.385.9209,
-  \href{http://aarongonzales.net}{aarongonzales.net}\}}
-}
-{\header{Aaron}{~Gonzales}
-  {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
-  505.385.9209\}
-  % \href{http://aarongonzales.net}{aarongonzales.net}\}
+  {\header{Aaron}{~Gonzales}{curriculum vit\ae}
+    {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
+    505.385.9209,
+    \href{http://aarongonzales.net}{aarongonzales.net}\}}
   }
-  {~\href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
-  \href{http://github.com/binaryaaron}{\huge{\faGithub} }
+  {\header{Aaron}{~Gonzales}
+    %% contact line
+    {
+      [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
+      505.385.9209,
+      \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+      \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
+    }
+    %% summary
+    {Data and machine learning professional with a blend of statistics, machine
+    learning, engineering, research, and leadership skills who works across
+    the machine-learning lifecycle.}
   }
-}
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -120,27 +123,45 @@
 %         Research/work	
 %----------------------------------------------------------------------------------------
 % \section{about}
-{
-  \section{Summary}
-  Data and machine learning professional with a blend of statistics, machine
-  learning, engineering, research, and leadership skills who is comfortable
-  working across the machine-learning lifecycle.  }
+% {
+  % \section{Summary}
+  % \section{}
 % I solve problems.
-\iftoggle{cv}
-{\section{Experience}
-}
-{\section{Selected Experience}
-}
+% \iftoggle{cv}
+% {\section{Experience}
+% }
+% {\section{Selected Experience}
+% }
+
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt
+  \item {\largeheaderfont Staff Machine Learning Engineer, Mozilla.ai}
+    \hfill {\smallheaderfont April 2023 \textemdash current}\\*
+    {\footnotesize \emph{Remote - USA}}\\*
+    Mozilla.ai is a brand-new company funded by the Mozilla Foundation with a
+    mission to make developing trustworth AI easier. I was hired to be the lead
+    engineer and help build the entire technical foundation of our burgeoning AI research organization.
+    
+    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+      \item Evalutated vendors for GPU compute resources.
+      \item Designed and built core infrastructure to enable early research work, including a remote ML development platform
+      \item Helped develop our early research strategy, development processes, and engineering culture.
+      \item Built out technical hiring program which allowed us to vet and hire early engineers/researchers.
+      \item Onboarded and mentored engineers and research scientists.
+      \item Developed basic security and privacy measures, and oversaw all technical company IT management.
+      \item Technically contributed to partnerships, including to ACM KDD 2023\autocite{kdd_2023_workshop} and the NeurIPS Large Language Model Efficiency Challenge\autocite{neurips_llm_efficiency_2023}
+      with a team from PyTorch.
+    \end{itemize}
+  \end{description}
 
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \twittericon {\largeheaderfont Senior Machine Learning Research Engineer, Twitter}
-    \hfill {\smallheaderfont June 2020 \textemdash current}\\*
+    \hfill {\smallheaderfont June 2020 \textemdash January 2023}\\*
     {\footnotesize \emph{Remote - USA}}\\*
       Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
       (META) team tasked with Responsible Machine Learning development and
       research at Twitter.\\*
-      \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+      \begin{myitemize}
 
         \item As a technical lead, provided process improvement, technical guidance,
         mentorship, review, roadmap planning, and organization-wide improvements. 
@@ -153,64 +174,41 @@
         practitioners to identify weaknesses in model performance that have been
         used internally by multiple teams.
         
-        \item Presented at conferences (ACM FAccT \cite{facct_2022_talk}, The Data Science Conference \cite{datascience_2022_talk})
-        about building and scaling an applied ML research team.
-        
-        \item Active member of company working groups that support Python development, data
-        infrastructure problems, and Latinx employees.
-      \end{itemize}
+        \item Contributed to team research\autocite{twitter_htl_racial_bias}\autocite{twitter_recsys_distributional_inequality}
+        and outreach, presenting at conferences (ACM FAccT\autocite{facct_2022_talk}, The Data Science Conference\autocite{datascience_2022_talk})
+        and more\autocite{privacy_enchancing_tech_post}.
+        \item Continued leadership in company groups as stated below.
+
+      \end{myitemize}
   \end{description}
 
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter} \hfill
-    {\smallheaderfont May 2019 \textemdash June 2020}\\*
+    {\smallheaderfont July 2017 \textemdash June 2020}\\*
     {\footnotesize \emph{Boulder, CO}} \\*
-    Tech Lead for the Health data science team, which worked on
-    anti-abuse, spam, fake accounts, and misinformation problems at Twitter. \\*
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
-      \item As tech lead, provided process improvement, mentorship, technical guidance, roadmap
-      planning, and organization-wide improvements.
-      
-      \item Developed tooling, education, and processes that allowed data scientists to work more effectively with 
-      heterogenous data sources. Tools are still used by hundreds of unique data scientists and ML engineers per week.
-
-      \item formed team to support formal development of tools for data scientists to work more effectively.
-
+    Worked with various teams, most importantly as tech lead for the Health Data Science team,
+    which worked on combating abuse, spam, fake accounts, and misinformation problems.\\*
+    \begin{myitemize}
+      \item Developed tooling, education, and processes that enabled data scientists to work more effectively with 
+      heterogenous data sources. Tools were used by hundreds of data scientists, ML, and data engineers weekly, and leadership supported 
+      me leading a small team to do this work more formally.
       \item Developed measurement strategy and pipeline for estimating numbers of compromised accounts on the platform.
-      
-      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and
-      Latinx employees, as a co-chair for our Latinx engineers group at Twitter, and on 
-      company working group for large data architecture problems.
-      
-  \end{itemize}
-
-  \end{description}
-
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \twittericon {\largeheaderfont Data Scientist, Twitter } \hfill
-    {\smallheaderfont July 2017 \textemdash  May 2019}\\*
-    {\footnotesize \emph{Boulder, CO}} \\*
-    Worked with the Developer and Enterprise Solutions group to help improve
-    Twitter's developer platform, vet new product ideas, and make datasets that
-    enabled teams to generate insights and make decisions quickly.\\*
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
-      \item Developed an open-source python API for our premium and enterprise search
-          products (\cite{search_tweets_python}) which has been downloaded and used 
-          many thousands of times.
-
-      \item Led project to develop real-world guides using Twitter data to
-      help external developers and data scientists build their own solutions
-      with Twitter data products \cite{do_more_with_twtter_data}.
-
-      \item Identified clusters of applications abusing Twitter's APIs using time-series mining, allowing
+      \item Developed open-source materials and tools for external users.\autocite{search_tweets_python}\autocite{do_more_with_twtter_data}
+      \item Identified risk factors in developer applications to enable programmatic review of customer applications to use Twitter APIs.
+      \item Identified clusters of apps abusing Twitter's APIs using time-series mining, allowing
       programmatic action to be taken against offenders.
+      \item Served on company advisory group for data architecture.
+      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx employees.
+    \end{myitemize}
 
-      \item Identified risk factors in developer applications to enable programmatic
-            review of applications to use Twitter APIs.
-
-    \end{itemize}
 \end{description}
+
+% \begin{description} \itemsep1pt \parskip0pt \parsep0pt
+%   \item \twittericon {\largeheaderfont Data Scientist, Twitter } \hfill
+%     {\smallheaderfont July 2017 \textemdash  May 2019}\\*
+%     {\footnotesize \emph{Boulder, CO}} \\*
+% \end{description}
 
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \tripicon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
@@ -236,9 +234,12 @@
       \item Developed a common team codebase providing shared tools, common
       access methods, and other utility code that allowed our data scientists
       and engineers to get up-to-speed more quickly and iterate faster on
-      projects.  \end{itemize}
+      projects.
+    \end{itemize}
   \end{description}
 
+
+\iftoggle{cv}{
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt
   \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
     {\smallheaderfont Summer 2015}\\*
@@ -257,6 +258,8 @@
 
       \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
     \end{itemize}
+\end{description}
+}{}
 
   \iftoggle{cv}{
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
@@ -268,6 +271,7 @@
     to understand complex high-performance system behavior. \\*
   }{}
 
+  \iftoggle{cv}{
   \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
     {\smallheaderfont 2011\textemdash 2014 }\\*
     {\footnotesize \emph{Albuquerque, NM }} \\*
@@ -287,7 +291,7 @@
       \item Trained and mentored 10 undergraduate and gradute student
         employees and volunteers.
     \end{itemize}
-
+  }{}
 %------------------------------------------------
 \iftoggle{cv}
 {\item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
@@ -297,7 +301,7 @@
     to a study investigating multi-sensory integration in patients with
     schizophrenia. \\*
 \end{description}}
-{\end{description}}
+% {\end{description}}
 %\newpage
 %------------------------------------------------
 %\section{research internships}
@@ -321,7 +325,7 @@
     for a study investigating stress in humans.\\*
 %------------------------------------------------
 \end{description}
-}{}
+}{} %%else nothing
 %----------------------------------------------------------------------------------------
 %	Education
 %----------------------------------------------------------------------------------------
@@ -344,32 +348,11 @@
 %------------------------------------------------
 \end{description}
 
-%------------------------------------------------
-% \newpage
-% \section{Technical Skills}
-% \begin{description}
-%    \item {\smallheaderfont Programming languages, notable libraries, and tools} \\*
-%         \textbf{R}, Python (scikit-learn, gensim,
-%         Matplotlib, Pandas, Statsmodels, Cython, Sqlalchemy, Keras), Spark, C, Bash,
-%         \LaTeX, git, svn, MongoDB, Hadoop, Hive, SQL (Postgres,
-%         MSSQL). Some experience with Scala, Java, Javascript, HTML, CSS,
-%         Matlab, and Amazon Web Services (EC2, S3, Redshift).
-%     \item {\smallheaderfont Machine Learning / Data Science Methods} \\*
-%         Deep learning, supervised learning (random forests, gradient boosting,
-%         regression, SVMs), unsupervised learning
-%         (autoencoders, DBSCAN, k-means/mediods, EM), unstructured data, web
-%         scraping outlier analysis, novelty detection, time-series mining,
-%         dimensionality reduction, and feature selection.
-%     \item {\smallheaderfont Visualization and Miscellaneous tools} \\*
-%         Bokeh, Matplotlib, ggplot, shiny, and d3.js.
-
-% \end{description}
-
 
 \iftoggle{cv}{
 \section{Publications}
 }
-{%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+{
 \section{Selected Publications}
 }
 
@@ -387,20 +370,11 @@
 % \printbibliography[type=misc, title={Manuscripts in Preparation}, heading=subbibliography]
 \end{refsection}
 }
-%else non CV
+%%%%%%%%%%%%% . else non CV
 {%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
-
-% \begin{refsection}
-% \nocite{*}
-% \newrefcontext[sorting=chronological]
-% \printbibliography[title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
-% \end{refsection}
-
-% \begin{refsection}
-\nocite{*}
 \newrefcontext[sorting=chronological]
-\printbibliography[keyword={selected}, heading=subbibliography]
+\nocite{network_induced_memory_contention,comp_brain_phenotyping_paper,skullstrip}
+\leavevmode\printbibliography[heading=none, keyword={selected}]
 % \end{refsection}
 }
 
@@ -408,12 +382,12 @@
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Other Interests and Accolades}
-\textbf{Olympic Weightlifting}
-\begin{itemize}
-\item 2014 New Mexico Games: Gold Medalist, 94kg class
-\item 2013 New Mexico Games: Silver Medalist, 85kg class
-\item 2013 Barnholth Memorial Invitational: Silver Medalist, 85kg class
-\end{itemize}
+% \section{Other Interests and Accolades}
+% \textbf{Olympic Weightlifting}
+% \begin{itemize}
+% \item 2014 New Mexico Games: Gold Medalist, 94kg class
+% \item 2013 New Mexico Games: Silver Medalist, 85kg class
+% \item 2013 Barnholth Memorial Invitational: Silver Medalist, 85kg class
+% \end{itemize}
 
 \end{document}
