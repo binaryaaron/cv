@@ -70,32 +70,8 @@
   \color{white}%
 }
 
-% \newcommand{\header}[4]{%
-%   % \tikzstyle{bag}
-%   \begin{tikzpicture}[remember picture,overlay]
-%     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
-%     minimum height=5cm] (box) at (current page.north){} ;
-%     % minimum height=3.7cm] (box) at (current page.north){} ;
-%     %% first node is title
-%     \node [above=0.1cm] (name) at (box) {%
-%       \fontsize{36pt}{64pt}\color{header}%
-%       {\thinfont #1}{\bodyfont  #2}
-%     };
-%     \node [anchor=north] (contact) at (name.south) {%
-%       \fontsize{12pt}{20pt}\color{header}%
-%       \thinfont #3%
-%     };
-%     \node [anchor=north, align=left](summary) at (contact.south) {%
-%       % \fontsize{10pt}{36pt}\color{header}%
-%       % \parbox[center]{\textwidth}{ \thinfont #4 } };
-%        \thinfont #4 };
-    
-%   \end{tikzpicture}
-%   \vspace{0.5cm}
-%   % \vspace{-2\parskip}
-% }
+\newfontfamily\titlesummaryfont{Helvetica Neue Light}
 
-\newfontfamily\titlesummaryfont{Fira Code Light}
 \newcommand{\summaryfont}{%
   \fontsize{11pt}{11pt}\selectfont%
   \titlesummaryfont%
@@ -117,7 +93,7 @@
       \fontsize{10pt}{10pt}\color{header}%
       \thinfont #3\\ \\};
 
-    \node[align=center, text width=15cm] (summary) at (contact.south) {%
+    \node[align=center, text width=16.5cm] (summary) at (contact.south) {%
       \parbox[center]{\textwidth}{\summaryfont #4}};
     
   \end{tikzpicture}
@@ -154,7 +130,7 @@
     \Large\headingfont\color{headercolor}%
     \@sectioncolor \centering #1%
   }
-  \par\vspace{\parskip}
+  \par
 }
 
 \renewcommand{\subsection}[2]{
@@ -163,7 +139,6 @@
   \par\vspace{.25\parskip}%
 }
 
-%\pagestyle{empty}
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 
@@ -193,6 +168,18 @@
 }
 
 
+% \item[\tripicon~\largeheaderfont{Data Scientist, TripAdvisor}]{\hfill \smallheaderfont{July 2016\textemdash~July 2017}\\}
+
+\newenvironment{job}[7]{%
+\begin{description} \itemsep1pt \parskip0pt \parsep0pt%
+  \item[#1~\largeheaderfont{#2, #3}]{\hfill \smallheaderfont{#4\textemdash#5}\\}%
+  {\footnotesize \emph{#6}} \\*%
+  #7%
+  \par\vspace{0.25\baselineskip}%
+}
+{\end{description}}
+
+
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -220,7 +207,7 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=ieee, maxnames=12, sorting=ydnt, backend=biber, natbib=true, autocite=superscript]{biblatex}
+\RequirePackage[style=ieee, maxnames=13, sorting=ydnt, backend=biber, natbib=true, autocite=superscript]{biblatex}
 
 % \DeclareFieldFormat[article]{title}{\small\addfontfeature{Color=darkgray}#1\par}
 % \DeclareFieldFormat[book]{title}{#1\par}
@@ -240,13 +227,16 @@
     {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \usebibmacro{journal+issuetitle}%
-    \setunit{\space}%
+    \setunit*{\addperiod\space}%
+    \printfield{month}\setunit{\space}%
+    \printfield{year}%
+    \setunit*{\addperiod\space}%
+    % \setunit{\addperiod\space}%
     \printfield{pages}%
-    \newunit%
-    \printlist{publisher}%
-    \setunit*{\addcomma\space}%
-    \printfield{note}%
-    \newunit%
+    % \newunit%
+    % \setunit*{\addperiod\space}%
+    % \printlist{publisher}%
+    % \setunit*{\addperiod\space}%
   }
   \par\vspace{0.3\baselineskip}
 }
@@ -290,11 +280,6 @@
   \par\vspace{0.3\baselineskip}
 }
 
-\DeclareFieldFormat{institution}{%
-  \mkbibparens{
-    {\textbf{#1}}
-  }
-}
 
 \DeclareBibliographyDriver{talk}{%
   \small\printfield{title}%
@@ -315,18 +300,6 @@
   \par\vspace{0.3\baselineskip}
 }
 
-\DeclareFieldFormat{url}{%
-  {\ifhyperref
-      {\footnotesize\href{#1}{#1}}
-      {\nolinkurl{#1}{#1}}
-  }}
-
-\DeclareFieldFormat{shorturl}{%
-  \mkbibparens{\ifhyperref
-      {\href{#1}{#1}}
-      {\nolinkurl{#1}{#1}}
-  }}
-
 \DeclareBibliographyDriver{blogpost}{%
   \small\printfield{title}%
   \newblock%
@@ -340,15 +313,14 @@
     \printfield{type}%
     \setunit{\addcomma\space}%
     \printlist{institution}%
-    \setunit{\addcomma\space}%
+    \setunit{\addperiod\space}%
     \printfield{year}\addperiod%
   }%
   \newblock
-  \par
   {
     \printfield{url}%
   }
-  \par\vspace{0.2\baselineskip}
+  \par\vspace{0.3\baselineskip}
 }
 
 
@@ -396,10 +368,46 @@
 }
 
 
-\DeclareFieldFormat*{title}{\small\addfontfeature{Color=black}{#1}\par}
+% \renewbibmacro*{journal+issuetitle}{%
+%   \usebibmacro{journal}%
+%   \setunit*{\addspace}%
+%   \printfield{volume}%
+%   % \setunit{\addcomma\space}%
+%   % \printfield{eid}%
+%   % \setunit{\addspace}%
+%   \usebibmacro{note+pages}%
+%   \newunit%
+%   }
+
+\DeclareFieldFormat*{title}{\small\addfontfeature{Color=black}{\textbf{#1}}\par}
+
+\DeclareFieldFormat*{type}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
+
+\DeclareFieldFormat{institution}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
+
+\DeclareFieldFormat{url}{%
+  {\ifhyperref
+      {\footnotesize\href{#1}{#1}}
+      {\footnotesize\nolinkurl{#1}{#1}}
+  }}
+
+\DeclareFieldFormat{shorturl}{%
+  \mkbibparens{\ifhyperref
+      {\footnotesize\href{#1}{#1}}
+      {\footnotesize\nolinkurl{#1}{#1}}
+  }}
+
+
+\DeclareFieldFormat{author}{%
+  \footnotesize\addfontfeature{Color=darkgray}%
+  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
+  \ifthenelse{\value{listcount}<\value{liststop}}
+    {\addcomma\space}
+    {}%
+}
 
 \DeclareNameFormat{author}{%
-  \footnotesize\addfontfeature{Color=lightgray}%
+  \footnotesize\addfontfeature{Color=darkgray}%
   \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}

@@ -80,15 +80,15 @@
   {\header{Aaron}{~Gonzales}
     %% contact line
     {
-      [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
-      505.385.9209,
-      \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}},
+      [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net} |
+      505.385.9209 |
+      \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}}~|
       \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
     }
     %% summary
-    {Data and machine learning professional with a blend of statistics, machine
-    learning, engineering, research, and leadership skills who works across
-    the machine-learning lifecycle.}
+    {Machine learning professional with a blend of statistics, machine
+    learning, engineering, research, and leadership skills with experience across
+    the entire machine-learning lifecycle.}
   }
 
 %----------------------------------------------------------------------------------------
@@ -133,16 +133,13 @@
 % {\section{Selected Experience}
 % }
 
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item {\largeheaderfont Staff Machine Learning Engineer, Mozilla.ai}
-    \hfill {\smallheaderfont April 2023 \textemdash current}\\*
-    {\footnotesize \emph{Remote - USA}}\\*
+\begin{job}
+  {}{Staff Machine Learning Engineer}{Mozilla.ai}{April 2023}{current}{Remote - USA}{
     Mozilla.ai is a brand-new company funded by the Mozilla Foundation with a
-    mission to make developing trustworth AI easier. I was hired to be the lead
-    engineer and help build the entire technical foundation of our burgeoning AI research organization.
+    mission to make developing trustworthy AI easier. Hired to be the lead
+    engineer and help build the entire technical foundation of a burgeoning AI research organization.
     
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
-      \item Evalutated vendors for GPU compute resources.
+    \begin{myitemize}
       \item Designed and built core infrastructure to enable early research work, including a remote ML development platform
       \item Helped develop our early research strategy, development processes, and engineering culture.
       \item Built out technical hiring program which allowed us to vet and hire early engineers/researchers.
@@ -150,19 +147,16 @@
       \item Developed basic security and privacy measures, and oversaw all technical company IT management.
       \item Technically contributed to partnerships, including to ACM KDD 2023\autocite{kdd_2023_workshop} and the NeurIPS Large Language Model Efficiency Challenge\autocite{neurips_llm_efficiency_2023}
       with a team from PyTorch.
-    \end{itemize}
-  \end{description}
+    \end{myitemize}
+  }
+\end{job}
 
-
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \twittericon {\largeheaderfont Senior Machine Learning Research Engineer, Twitter}
-    \hfill {\smallheaderfont June 2020 \textemdash January 2023}\\*
-    {\footnotesize \emph{Remote - USA}}\\*
+\begin{job}
+  {\twittericon}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote - USA}{
       Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
       (META) team tasked with Responsible Machine Learning development and
       research at Twitter.\\*
       \begin{myitemize}
-
         \item As a technical lead, provided process improvement, technical guidance,
         mentorship, review, roadmap planning, and organization-wide improvements. 
         
@@ -180,13 +174,12 @@
         \item Continued leadership in company groups as stated below.
 
       \end{myitemize}
-  \end{description}
+  }
+  \end{job}
 
 
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \twittericon {\largeheaderfont Senior Data Scientist, Twitter} \hfill
-    {\smallheaderfont July 2017 \textemdash June 2020}\\*
-    {\footnotesize \emph{Boulder, CO}} \\*
+\begin{job}
+  {\twittericon}{Senior Data Scientist}{Twitter}{July 2017}{June 2020}{Boulder, CO}{
     Worked with various teams, most importantly as tech lead for the Health Data Science team,
     which worked on combating abuse, spam, fake accounts, and misinformation problems.\\*
     \begin{myitemize}
@@ -200,22 +193,16 @@
       programmatic action to be taken against offenders.
       \item Served on company advisory group for data architecture.
       \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx employees.
+
     \end{myitemize}
+  }
+\end{job}
 
-\end{description}
 
-% \begin{description} \itemsep1pt \parskip0pt \parsep0pt
-%   \item \twittericon {\largeheaderfont Data Scientist, Twitter } \hfill
-%     {\smallheaderfont July 2017 \textemdash  May 2019}\\*
-%     {\footnotesize \emph{Boulder, CO}} \\*
-% \end{description}
-
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \tripicon {\largeheaderfont Data Scientist, TripAdvisor } \hfill
-    {\smallheaderfont July 2016\textemdash July 2017}\\*
-    {\footnotesize \emph{Greater Boston Area, MA}} \\*
+\begin{job}
+  {\tripicon}{Data Scientist}{Tripadvisor}{July 2016}{July 2017}{Greater Boston Area}{
     Data Scientist for the Vacation Rentals group bulding scalable models to tackle business problems.\\*
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+    \begin{myitemize}
       \item Designed and built a computer vision system that includes models to
       detect people, content (e.g., beach, bedroom, kitchen), and rate aesthetic
       quality.
@@ -235,8 +222,9 @@
       access methods, and other utility code that allowed our data scientists
       and engineers to get up-to-speed more quickly and iterate faster on
       projects.
-    \end{itemize}
-  \end{description}
+    \end{myitemize}
+  }
+  \end{job}
 
 
 \iftoggle{cv}{
@@ -353,29 +341,22 @@
 \section{Publications}
 }
 {
-\section{Selected Publications}
+\section{Selected Publications and Artifacts}
 }
-
 \iftoggle{cv}{
-\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-\nocite{*}
-
-\newrefcontext[sorting=chronological]
-\printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
-
-\newrefcontext[sorting=chronological]
-\printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
-
-% \newrefcontext[sorting=chronological]
-% \printbibliography[type=misc, title={Manuscripts in Preparation}, heading=subbibliography]
-\end{refsection}
+  \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+  \nocite{*}
+  \newrefcontext[sorting=chronological]
+  \printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+  \newrefcontext[sorting=chronological]
+  \printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+  \end{refsection}
 }
-%%%%%%%%%%%%% . else non CV
-{%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-\newrefcontext[sorting=chronological]
-\nocite{network_induced_memory_contention,comp_brain_phenotyping_paper,skullstrip}
-\leavevmode\printbibliography[heading=none, keyword={selected}]
-% \end{refsection}
+{
+  %%%%%%%%%%%%% . else non CV
+  \newrefcontext[sorting=chronological]
+  \nocite{network_induced_memory_contention,comp_brain_phenotyping_paper,skullstrip,do_more_with_twitter_data}
+  \leavevmode\printbibliography[heading=none, keyword={selected}]
 }
 
 %----------------------------------------------------------------------------------------
