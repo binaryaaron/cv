@@ -177,9 +177,16 @@
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 
-\newenvironment{myitemize}{
-  \begin{itemize}{\itemsep0.5pt \parskip0pt \parsep0pt}{}%
-}{\end{itemize}}
+% \newenvironment{myitemize}{
+%   \begin{itemize}{\itemsep10pt \parskip0pt \parsep0pt}{}%
+% }{\end{itemize}}
+\newenvironment{myitemize}
+{ \begin{itemize}
+    \setlength{\itemsep}{2pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  } 
+
 
 \newcommand{\entry}[4]{%
 \parbox[t]{0.9\textwidth}{%
@@ -190,6 +197,15 @@
      #4\vspace{\parsep}} &#2\\%
 }
 
+
+\newenvironment{edu}[4]{%
+% degree, year, school, extra_gpa
+\begin{description} \itemsep5pt \parskip0pt \parsep0pt%
+\item[\smallheaderfont{#1}]{\hfill \smallheaderfont{#2}\\}%
+{\footnotesize \emph{#3} \hfill #4}%
+\par\vspace{0.20\baselineskip}% manual spacing
+}%
+{\end{description}}
 
 
 \newenvironment{job}[7]{%
@@ -268,9 +284,12 @@
   \usebibmacro{author}%
   \newunit\newblock%
 }
+
+
+%% manually adds vspace at the end after calling finentry
 \newcommand{\bibend}{%
   \usebibmacro{finentry}%
-  \par\vspace{0.5\baselineskip}%
+  \par\vspace{0.4\baselineskip}%
 }
 
 % % each of these is finnicky.
@@ -400,7 +419,7 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=1.25cm,top=2cm,right=1.75cm,bottom=1.0cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1.25cm,top=1.75cm,right=1.75cm,bottom=1.25cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \RequirePackage{xcolor}
 

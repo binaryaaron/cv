@@ -50,7 +50,6 @@
 
 \begin{document}
 
-% \newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 \iftoggle{cv}
   {\header{Aaron}{~Gonzales}{curriculum vit\ae}
     {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
@@ -66,73 +65,32 @@
       \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
     }
     %% summary
-    {Machine learning professional with a blend of statistics, machine
-    learning, engineering, research, and leadership skills with experience across
-    the entire machine-learning lifecycle.}
+    {Machine learning professional who blends responsible machine
+    learning, engineering, research, and leadership skills to solve problems.}
   }
 
-%----------------------------------------------------------------------------------------
-%	SIDEBAR SECTION
-%----------------------------------------------------------------------------------------
-
-% \begin{aside} % In the aside, each new line forces a line break
-% \section{contact}
-% \href{mailto:agonzales@cs.unm.edu}{agonzales@cs.unm.edu}
-% \href{http://aarongonzales.net}{aarongonzales.net}
-% 505.385.9209
-% %1332 Vassar NE
-% %Albuquerque, NM 87106
-% \href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin}\ }, \href{http://github.com/xysmas}{\scriptsize{\faGithub} }
-% %\href{http://lnkd.in/b8kfQSe}{\scriptsize{\faLinkedin} \ \ \normalsize{aaronknowsdata} }
-% %\href{http://github.com/xysmas}{\scriptsize{\faGithub} \ \ \normalsize{xysmas}}
-% ~
-% %\section{languages}
-% \section{programming at a glance}
-% Java, Python, R
-% ~
-% \section{about}
-% Computer science graduate student with strong analytical skills and extensive
-% research experience seeking a data science position after May 2016 graduation.
-% \end{aside}
-
-% \section{about}
-% Computer science graduate student with strong analytical skills and extensive
-% research experience seeking a data science position after May 2016 graduation.
-
-%----------------------------------------------------------------------------------------
-%         Research/work	
-%----------------------------------------------------------------------------------------
-% \section{about}
-% {
-  % \section{Summary}
-  % \section{}
-% I solve problems.
-% \iftoggle{cv}
-% {\section{Experience}
-% }
-% {\section{Selected Experience}
-% }
-
 \begin{job}
-  {}{Staff Machine Learning Engineer}{Mozilla.ai}{April 2023}{current}{Remote - USA}{
+  {}{Staff Machine Learning Engineer}{Mozilla.ai}{April 2023}{current}{Remote \textemdash USA}{
     Mozilla.ai is a brand-new company funded by the Mozilla Foundation with a
     mission to make developing trustworthy AI easier. Hired to be the lead
-    engineer and help build the entire technical foundation of a burgeoning AI research organization.
-    
+    engineer and help build the entire technical foundation of a burgeoning AI research organization.\\*
     \begin{myitemize}
       \item Designed and built core infrastructure to enable early research work, including a remote ML development platform
       \item Helped develop our early research strategy, development processes, and engineering culture.
       \item Built out technical hiring program which allowed us to vet and hire early engineers/researchers.
       \item Onboarded and mentored engineers and research scientists.
       \item Developed basic security and privacy measures, and oversaw all technical company IT management.
-      \item Technically contributed to partnerships, including to ACM KDD 2023\autocite{kdd_2023_workshop} and the NeurIPS Large Language Model Efficiency Challenge\autocite{neurips_llm_efficiency_2023}
-      with a team from PyTorch.
+      \item Technically contributed to partnerships, including to ACM KDD
+            2023 \autocite{kdd_2023_workshop} and the NeurIPS Large Language Model
+            Efficiency Challenge \autocite{neurips_llm_efficiency_2023} with a team
+            from PyTorch.
+
     \end{myitemize}
   }
 \end{job}
 
 \begin{job}
-  {\twittericon}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote - USA}{
+  {\twittericon}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote \textemdash USA}{
       Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
       (META) team tasked with Responsible Machine Learning development and
       research at Twitter.\\*
@@ -142,15 +100,18 @@
         
         \item Designed and built a data collection system that
         automated enabled researchers to measure phenomenon more rapidly. Reduced time
-        for future research projects \textbf{from months of manual effort to < 1 week}.
+        for future research projects from months of manual effort to < 1 week.
         
         \item Led workstream to design and build tools for machine learning
-        practitioners to identify weaknesses in model performance that have been
-        used internally by multiple teams.
+        practitioners to identify biases and weaknesses in model performance
+        that were in use by multiple teams.
         
-        \item Contributed to team research\autocite{twitter_htl_racial_bias}\autocite{twitter_recsys_distributional_inequality}
-        and outreach, presenting at conferences (ACM FAccT\autocite{facct_2022_talk}, The Data Science Conference\autocite{datascience_2022_talk})
-        and more\autocite{privacy_enchancing_tech_post}.
+        \item Contributed to team research\autocite{twitter_htl_racial_bias}
+        \autocite{twitter_recsys_distributional_inequality} and outreach,
+        presenting at conferences (ACM FAccT \autocite{facct_2022_talk}, The
+        Data Science Conference \autocite{datascience_2022_talk}) and more
+        \autocite{privacy_enchancing_tech_post}.
+
         \item Continued leadership in company groups as stated below.
 
       \end{myitemize}
@@ -163,16 +124,29 @@
     Worked with various teams, most importantly as tech lead for the Health Data Science team,
     which worked on combating abuse, spam, fake accounts, and misinformation problems.\\*
     \begin{myitemize}
-      \item Developed tooling, education, and processes that enabled data scientists to work more effectively with 
-      heterogenous data sources. Tools were used by hundreds of data scientists, ML, and data engineers weekly, and leadership supported 
-      me leading a small team to do this work more formally.
-      \item Developed measurement strategy and pipeline for estimating numbers of compromised accounts on the platform.
-      \item Developed open-source materials and tools for external users.\autocite{search_tweets_python}\autocite{do_more_with_twitter_data}
-      \item Identified risk factors in developer applications to enable programmatic review of customer applications to use Twitter APIs.
-      \item Identified clusters of apps abusing Twitter's APIs using time-series mining, allowing
-      programmatic action to be taken against offenders.
-      \item Served on company advisory group for data architecture.
-      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx employees.
+      \item Developed tooling, education, and processes that enabled data
+      scientists to work more effectively with heterogenous data sources. Tools
+      were used by hundreds of data scientists, ML, and data engineers weekly,
+      and leadership supported me leading a small team to do this work more
+      formally.
+      
+      \item Developed strategy, model, and pipeline for identifing potentially
+      compromised accounts.
+      
+      \item Developed open-source materials and tools for external
+      users.\autocite{search_tweets_python} \autocite{do_more_with_twitter_data}
+      
+      \item Identified risk factors in developer applications to enable
+      programmatic review of customer applications to use Twitter APIs.
+      
+      \item Identified clusters of apps abusing Twitter's APIs using time-series
+      mining, allowing programmatic action to be taken against offenders.
+      
+      \item Served on company advisory groups for data architecture, open-source
+      development, and Python development.
+      
+      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and
+      Latinx employees.
 
     \end{myitemize}
   }
@@ -185,17 +159,17 @@
     \begin{myitemize}
       \item Designed and built a computer vision system that includes models to
       detect people, content (e.g., beach, bedroom, kitchen), and rate aesthetic
-      quality.
+      quality, with basic measures to prevent unwanted bias.
 
       \item Above system was adopted by other groups at TripAdvisor and powered multiple
-      systems. In Vacation Rentals, it lead to a \textbf{4.8\% increases} in primary
-      click-through rate metric and a \textbf{10.4\% increase} in return on ad spend.
+      systems. In Vacation Rentals, it lead to a \textbf{4.8\% increases} in a primary
+      click-through rate metric and a \textbf{10.4\% increase} in revenue from ad expenditures.
 
-      \item Built an app that enables natural-language queries (e.g. ”girls getaway”)
+      \item Built an NLP app that enables natural-language queries (e.g. "girls getaway")
       to find collections of destinations, which led to a \textbf{6.1\% improvement} in a
       primary metric and was used by many teams. 
 
-      \item Developed methods to extract high-information snippets from reviews
+      \item Developed language-modeling tools to extract high-information snippets from reviews
       to display on search-result pages to boost SEO rankings.
 
       \item Developed a common team codebase providing shared tools, common
@@ -299,23 +273,10 @@
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-\begin{description}
-%------------------------------------------------
-  \item {\largeheaderfont Master of Science, Computer Science}  \hfill 
-    {\smallheaderfont 2016} \\*
-    {\footnotesize \emph{The University of New Mexico  \hfill 3.7 cumulative GPA}} \\*
-    Concentration in data mining and machine learning.
-%------------------------------------------------
-\end{description}
-\begin{description}
-%------------------------------------------------
-  \item  {\largeheaderfont Bachelor of Science, Psychology } \hfill
-    {\smallheaderfont 2010 }\\*
-    {\footnotesize \emph{The University of New Mexico  }} \\*
-    Concentration in neuroscience; minored in computer science.
-%------------------------------------------------
-\end{description}
-
+\begin{edu}{Master of Science, Computer Science}{2016}{University of New Mexico}{3.7 cumulative gpa}
+\end{edu}
+\begin{edu}{Bachelor of Science, Psychology}{2010}{University of New Mexico}{}
+\end{edu}
 
 \iftoggle{cv}{
 \section{Publications}
