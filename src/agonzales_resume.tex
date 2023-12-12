@@ -26,27 +26,9 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{enumitem}
-\setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
 \RequirePackage[quiet]{fontspec}
 
-
-\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}[Scale=0.6]
-\newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
-\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}[Scale=0.6]
-\def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
-\def\faPhone{\FAFS \symbol{"F095}} % Phone
-\def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
-\def\faGithub{\FAB \symbol{"F09B}} % Github
-\def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
-\newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
-\newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
-
-\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-\newfontfamily\bodyfont[]{Hack}
-\newfontfamily\thinfont{Hack}
-\newfontfamily\headingfont[]{Futura}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
+\setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
 
 \rfoot{}
 %\cfoot{\thinfont{Gonzales CV; page \thepage}}
@@ -56,8 +38,6 @@
 \rhead{}
 
 
-%%%%% added packages by me
-%\newbibmacro*{name:bold}[2]{\iffieldequalstr{hash}{a924b9d23960e50ebbd52c9af2c9dd44}{\bfseries}{}}
 \usepackage{etoolbox}
 \newtoggle{cv}
 
@@ -187,7 +167,7 @@
       heterogenous data sources. Tools were used by hundreds of data scientists, ML, and data engineers weekly, and leadership supported 
       me leading a small team to do this work more formally.
       \item Developed measurement strategy and pipeline for estimating numbers of compromised accounts on the platform.
-      \item Developed open-source materials and tools for external users.\autocite{search_tweets_python}\autocite{do_more_with_twtter_data}
+      \item Developed open-source materials and tools for external users.\autocite{search_tweets_python}\autocite{do_more_with_twitter_data}
       \item Identified risk factors in developer applications to enable programmatic review of customer applications to use Twitter APIs.
       \item Identified clusters of apps abusing Twitter's APIs using time-series mining, allowing
       programmatic action to be taken against offenders.

@@ -51,11 +51,34 @@
 %%%%%%%%%
 % Fonts %
 %%%%%%%%%
-
 \RequirePackage[quiet]{fontspec}
 \RequirePackage{unicode-math}
-
 \defaultfontfeatures{Mapping=tex-text}
+
+\newfontfamily{\FAFR}{Font Awesome 6 Free Regular}[Scale=0.6]
+\newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
+\newfontfamily{\FAB}{Font Awesome 6 Brands Regular}[Scale=0.6]
+\def\faEmail{{\FAFR \symbol{"F0E0}}} % Email
+\def\faPhone{\FAFS \symbol{"F095}} % Phone
+\def\faLinkedin{\FAB \symbol{"F08C}} % Linkedin
+\def\faGithub{\FAB \symbol{"F09B}} % Github
+\def\faStackOverflow{\FAB \symbol{"F16C}} % StackOverflow
+
+\newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
+\newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
+
+\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
+
+\newfontfamily\bodyfont[]{Hack}
+\newfontfamily\thinfont{Hack}
+\newfontfamily\headingfont[]{Futura}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
+\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.9]{Futura}
+\newfontfamily\mono{Fira Code}
+\newcommand{\smallmono}[1]{{%
+  \scriptsize \mono{#1}%
+}}
+
 
 
 %%%%%%%%%%
@@ -78,13 +101,13 @@
   \color{white}%
 }
 
+% following tweaks made to have summary section in the header.
 \tikzstyle{bag} = [align=center, anchor=north]
 \newcommand{\header}[4]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
     minimum height=3.5cm] (box) at (current page.north){} ;
 
-    %% first node is title
     \node [below=0.25cm] (name) at (box.north) {%
       \fontsize{20pt}{36pt}\color{header}%
       {\thinfont #1} {\bodyfont #2}
@@ -143,7 +166,7 @@
 \pagestyle{fancy}
 
 %%%%%%%%%%%%%%%%%%%%
-% List environment %
+% List and description environment %
 %%%%%%%%%%%%%%%%%%%%
 
 \setlength{\tabcolsep}{0pt}
@@ -168,14 +191,14 @@
 }
 
 
-% \item[\tripicon~\largeheaderfont{Data Scientist, TripAdvisor}]{\hfill \smallheaderfont{July 2016\textemdash~July 2017}\\}
 
 \newenvironment{job}[7]{%
+% icon, title, company, start date, end date, location, body
 \begin{description} \itemsep1pt \parskip0pt \parsep0pt%
   \item[#1~\largeheaderfont{#2, #3}]{\hfill \smallheaderfont{#4\textemdash#5}\\}%
   {\footnotesize \emph{#6}} \\*%
   #7%
-  \par\vspace{0.25\baselineskip}%
+  \par\vspace{0.25\baselineskip}% manual spacing
 }
 {\end{description}}
 
@@ -206,47 +229,70 @@
 %%%%%%%%%%%%%%%%
 % Bibliography %
 %%%%%%%%%%%%%%%%
-
 \RequirePackage[style=ieee, maxnames=13, sorting=ydnt, backend=biber, natbib=true, autocite=superscript]{biblatex}
+\usepackage{xurl}
 
-% \DeclareFieldFormat[article]{title}{\small\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[book]{title}{#1\par}
-% \DeclareFieldFormat[inproceedings]{title}{\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[misc]{title}{\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[report]{title}{\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[techreport]{title}{\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[blogpost]{title}{\addfontfeature{Color=darkgray}#1\par}
-% \DeclareFieldFormat[talk]{title}{\addfontfeature{Color=darkgray}#1\par}
+\DeclareFieldFormat*{title}{\addfontfeature{Color=black}{\small{\textbf{#1}}\par}}
+\DeclareFieldFormat*{date}{\footnotesize\addfontfeature{Color=lightgray}{\mkbibparens{#1}}}
+\DeclareFieldFormat*{type}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
+\DeclareFieldFormat*{institution}{\footnotesize\addfontfeature{Color=lightgray}{\textit{#1}}}
+\DeclareFieldFormat*[article]{pages}{\mkbibparens{#1}}
 
+
+\DeclareFieldFormat{url}{%
+  {\ifhyperref
+    {\smallmono{\url{#1}}}%
+    {\smallmono{\nolinkurl{#1}{#1}}}%
+  }}
+
+\DeclareFieldFormat{shorturl}{%
+  \mkbibparens{\ifhyperref
+      {\footnotesize\url{#1}{#1}}
+      {\footnotesize\nolinkurl{#1}{#1}}
+  }}
+
+
+\DeclareNameFormat{author}{%
+  \footnotesize\addfontfeature{Color=darkgray}%
+  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
+  \ifthenelse{\value{listcount}<\value{liststop}}
+    {\addcomma\space}
+    {\addperiod}%
+}
+
+\newcommand{\bibtitleauthor}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{title}%
+  \setunit{\addspace}%
+  \usebibmacro{author}%
+  \newunit\newblock%
+}
+\newcommand{\bibend}{%
+  \usebibmacro{finentry}%
+  \par\vspace{0.5\baselineskip}%
+}
+
+% % each of these is finnicky.
+% % 
 \DeclareBibliographyDriver{article}{%
-  \small\printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \par%
-  \newblock%
+  \bibtitleauthor
     {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=lightgray}%
+    \usebibmacro{date}%
+    \setunit{\addperiod\space}%
     \usebibmacro{journal+issuetitle}%
-    \setunit*{\addperiod\space}%
-    \printfield{month}\setunit{\space}%
-    \printfield{year}%
-    \setunit*{\addperiod\space}%
-    % \setunit{\addperiod\space}%
+    \usebibmacro{eprint}%
+    \setunit{\addspace}\newblock
+    \setunit*{\addperiod}%
     \printfield{pages}%
-    % \newunit%
-    % \setunit*{\addperiod\space}%
-    % \printlist{publisher}%
-    % \setunit*{\addperiod\space}%
+    \setunit*{\addperiod}%
   }
-  \par\vspace{0.3\baselineskip}
+  \bibend
 }
 
 \DeclareBibliographyDriver{book}{%
-  \printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \par%
-  \newblock%
+\bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \printlist{publisher}%
@@ -258,85 +304,63 @@
     \printlist{location}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \bibend
 }
 
 
 \DeclareBibliographyDriver{inproceedings}{%
-  \small\printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \par%
-  \newblock%
+  \bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}%
     \printfield{booktitle}%
     \setunit{\addcomma\space}%
-    \printfield{year}%
-    \setunit{\addcomma\space}%
+    \usebibmacro{date}%
+    \setunit{\period\space}%
     \printlist{location}%
-    \newunit%
+    \setunit{\addperiod}
   }
-  \par\vspace{0.3\baselineskip}
+  \bibend
 }
 
 
 \DeclareBibliographyDriver{talk}{%
-  \small\printfield{title}%
-  \newblock%
-  \par%
-  \newblock
+  \bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}%
-    \newblock%
-    \printnames{author}%
-    \setunit{\addperiod\space}%
     \printfield{type}%
     \setunit{\addcomma\space}%
     \printlist{institution}%
     \setunit{\addcomma\space}%
-    \printfield{year}%
+    \usebibmacro{date}%
+    \setunit{\addperiod\space}%
   }
-  \par\vspace{0.3\baselineskip}
+  \printfield{url}%
+  \bibend
 }
 
 \DeclareBibliographyDriver{blogpost}{%
-  \small\printfield{title}%
-  \newblock%
-  \par%
-  \newblock
+  \bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}%
-    \newblock%
-    \printnames{author}%
-    \setunit{\addperiod\space}%
     \printfield{type}%
     \setunit{\addcomma\space}%
     \printlist{institution}%
     \setunit{\addperiod\space}%
-    \printfield{year}\addperiod%
+    \usebibmacro{date}
+    \setunit{\addperiod\space}%
   }%
-  \newblock
-  {
-    \printfield{url}%
-  }
-  \par\vspace{0.3\baselineskip}
+  \printfield{url}%
+  \bibend
 }
 
 
 \DeclareBibliographyDriver{misc}{%
-  \small\printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \par%
-  \newblock%
+  \bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
-    \printfield{booktitle}%
+    \printfield{type}%
     \setunit*{\addcomma\space}%
     \printfield{institution}%
-    \setunit*{\addcomma\space}%
-    \printfield{type}%
     \setunit*{\addcomma\space}%
     \printfield{note}%
     \setunit*{\addcomma\space}%
@@ -345,16 +369,11 @@
     \printlist{location}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \bibend
 }
 
 \DeclareBibliographyDriver{report}{%
-  \small\printfield{title}%
-  \newblock%
-  \printnames{author}%
-  \setunit{\space}%
-  \par%
-  \newblock%
+  \bibtitleauthor
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
     \printfield{type}%
@@ -364,55 +383,9 @@
     \printfield{year}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \bibend
 }
 
-
-% \renewbibmacro*{journal+issuetitle}{%
-%   \usebibmacro{journal}%
-%   \setunit*{\addspace}%
-%   \printfield{volume}%
-%   % \setunit{\addcomma\space}%
-%   % \printfield{eid}%
-%   % \setunit{\addspace}%
-%   \usebibmacro{note+pages}%
-%   \newunit%
-%   }
-
-\DeclareFieldFormat*{title}{\small\addfontfeature{Color=black}{\textbf{#1}}\par}
-
-\DeclareFieldFormat*{type}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
-
-\DeclareFieldFormat{institution}{\footnotesize\addfontfeature{Color=lightgray}{#1}}
-
-\DeclareFieldFormat{url}{%
-  {\ifhyperref
-      {\footnotesize\href{#1}{#1}}
-      {\footnotesize\nolinkurl{#1}{#1}}
-  }}
-
-\DeclareFieldFormat{shorturl}{%
-  \mkbibparens{\ifhyperref
-      {\footnotesize\href{#1}{#1}}
-      {\footnotesize\nolinkurl{#1}{#1}}
-  }}
-
-
-\DeclareFieldFormat{author}{%
-  \footnotesize\addfontfeature{Color=darkgray}%
-  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
-  \ifthenelse{\value{listcount}<\value{liststop}}
-    {\addcomma\space}
-    {}%
-}
-
-\DeclareNameFormat{author}{%
-  \footnotesize\addfontfeature{Color=darkgray}%
-  \nameparts{#1}\ifblank{\namepartgiven}{}{\namepartgiven\space}\namepartfamily%
-  \ifthenelse{\value{listcount}<\value{liststop}}
-    {\addcomma\space}
-    {}%
-}
 
 \DeclareSortingScheme{chronological}{
   \sort[direction=descending]{\field{year}}

@@ -44,6 +44,7 @@ chktex \
 latexindent \
 marvosym \
 biblatex-ieee \
-lastpage
+lastpage \
+xurl
 
 
