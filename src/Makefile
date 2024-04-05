@@ -25,14 +25,9 @@ all:
 
 build_env: build.sh
 	bash build.sh
-# sudo texliveonfly -c xelatex agonzales_resume.tex
-# biber agonzales_resume
-# sudo texliveonfly -c xelatex agonzales_resume.tex
-
 
 clean:
 	for ext in dvi ps pdf out aux log idx ind ilg toc bbl blg bcf run.xml; \
 		do rm -f "$(SRC_BASE_NAME).$$ext";                                 \
 		rm -f "$(CV_BASE_NAME).$$ext";                                 \
 	done
-    

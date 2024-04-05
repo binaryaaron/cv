@@ -7,7 +7,7 @@ brew_cask_install() {
     if brew list "$1" &>/dev/null; then
         echo "${1} is already installed"
     else
-        brew install --cask $1 && echo "$1 is installed"
+        brew install --cask "$1" && echo "$1 is installed"
     fi
 }
 brew_install() {
@@ -46,5 +46,3 @@ marvosym \
 biblatex-ieee \
 lastpage \
 xurl
-
-

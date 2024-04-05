@@ -51,223 +51,209 @@
 \begin{document}
 
 \iftoggle{cv}
-  {\header{Aaron}{~Gonzales}{curriculum vit\ae}
-    {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
+{\header{Aaron}{~Gonzales}{curriculum vit\ae}
+  {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
     505.385.9209,
     \href{http://aarongonzales.net}{aarongonzales.net}\}}
+}
+{\header{Aaron}{~Gonzales}
+  %% contact line
+  {
+    [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net} |
+        505.385.9209 |
+        \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}}~|
+        \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
   }
-  {\header{Aaron}{~Gonzales}
-    %% contact line
-    {
-      [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net} |
-      505.385.9209 |
-      \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}}~|
-      \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
-    }
-    %% summary
-    {Machine learning professional who blends responsible machine
+  %% summary
+  {Machine learning professional who blends responsible machine
     learning, engineering, research, and leadership skills to solve problems.}
-  }
+}
 
 \begin{job}
   {}{Staff Machine Learning Engineer}{Mozilla.ai}{April 2023}{current}{Remote \textemdash USA}{
-    Mozilla.ai is a brand-new company funded by the Mozilla Foundation with a
-    mission to make developing trustworthy AI easier. Hired to be the lead
-    engineer and help build the entire technical foundation of a burgeoning AI research organization.\\*
+    Mozilla.ai is a new company funded by the Mozilla Foundation with a
+    mission to make developing trustworthy AI easier. Hired as the lead
+    engineer to help build the entire technical foundation of a burgeoning AI research organization.\\*
     \begin{myitemize}
-      \item Designed and built core infrastructure to enable early research work, including a remote ML development platform
-      \item Helped develop our early research strategy, development processes, and engineering culture.
-      \item Built out technical hiring program which allowed us to vet and hire early engineers/researchers.
-      \item Onboarded and mentored engineers and research scientists.
-      \item Developed basic security and privacy measures, and oversaw all technical company IT management.
-      \item Technically contributed to partnerships, including to ACM KDD
-            2023 \autocite{kdd_2023_workshop} and the NeurIPS Large Language Model
-            Efficiency Challenge \autocite{neurips_llm_efficiency_2023} with a team
-            from PyTorch.
+      \item Designed and built our generative AI/ML research and experimentation platform using OSS work where
+      available, and continued with a small team to iterate and enhance the platform.
 
+      \item Established engineering culture and practice, including coding standards, CI/workflow/automation
+      enhancements, API design styles, abstraction patterns, etc.
+
+      \item Managed all technical company IT management and procurement.
+
+      \item Developed technical hiring program for engineers and researchers.
+
+      \item Above work enabled team to contributed to multiple external workshops
+      \autocite{neurips_llm_efficiency_2023, kdd_2023_workshop} and develop a more cohesive roadmap.
     \end{myitemize}
   }
 \end{job}
 
 \begin{job}
   {\twittericon}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote \textemdash USA}{
-      Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
-      (META) team tasked with Responsible Machine Learning development and
-      research at Twitter.\\*
-      \begin{myitemize}
-        \item As a technical lead, provided process improvement, technical guidance,
-        mentorship, review, roadmap planning, and organization-wide improvements. 
-        
-        \item Designed and built a data collection system that
-        automated enabled researchers to measure phenomenon more rapidly. Reduced time
-        for future research projects from months of manual effort to < 1 week.
-        
-        \item Led workstream to design and build tools for machine learning
-        practitioners to identify biases and weaknesses in model performance
-        that were in use by multiple teams.
-        
-        \item Contributed to team research\autocite{twitter_htl_racial_bias}
-        \autocite{twitter_recsys_distributional_inequality} and outreach,
-        presenting at conferences (ACM FAccT \autocite{facct_2022_talk}, The
-        Data Science Conference \autocite{datascience_2022_talk}) and more
-        \autocite{privacy_enchancing_tech_post}.
+    Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
+    (META) team tasked with Responsible Machine Learning development and
+    research at Twitter.\\*
+    \begin{myitemize}
+      \item As a technical lead, provided process improvement, technical guidance, mentorship, review, roadmap
+      planning, and organization-wide improvements.
 
-        \item Continued leadership in company groups as stated below.
+      \item Designed and built a data collection system, tools, and workflows that reduced time in critical
+      phases of common research projects from weeks of manual work to days with more reliable results.
+      This led to company-wide adoption of a model quality/bias metric that we developed.
 
-      \end{myitemize}
+      \item Led workstream to design and build tools for machine learning practitioners to identify biases and
+      weaknesses in model performance that were in use by multiple teams.
+
+      \item Outside of the above, contributed to team
+      research\autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality} and outreach,
+      presenting at conferences (ACM FAccT \autocite{facct_2022_talk}, The Data Science Conference
+      \autocite{datascience_2022_talk}) and more \autocite{privacy_enchancing_tech_post}.
+
+      \item Continued leadership in company groups as stated below.
+
+    \end{myitemize}
   }
-  \end{job}
-
+\end{job}
 
 \begin{job}
   {\twittericon}{Senior Data Scientist}{Twitter}{July 2017}{June 2020}{Boulder, CO}{
     Worked with various teams, most importantly as tech lead for the Health Data Science team,
     which worked on combating abuse, spam, fake accounts, and misinformation problems.\\*
     \begin{myitemize}
-      \item Developed tooling, education, and processes that enabled data
-      scientists to work more effectively with heterogenous data sources. Tools
-      were used by hundreds of data scientists, ML, and data engineers weekly,
-      and leadership supported me leading a small team to do this work more
-      formally.
-      
-      \item Developed strategy, model, and pipeline for identifing potentially
-      compromised accounts.
-      
-      \item Developed open-source materials and tools for external
-      users.\autocite{search_tweets_python} \autocite{do_more_with_twitter_data}
-      
-      \item Identified risk factors in developer applications to enable
-      programmatic review of customer applications to use Twitter APIs.
-      
-      \item Identified clusters of apps abusing Twitter's APIs using time-series
-      mining, allowing programmatic action to be taken against offenders.
-      
-      \item Served on company advisory groups for data architecture, open-source
-      development, and Python development.
-      
-      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and
-      Latinx employees.
+      \item Developed tooling, education, and processes that enabled data scientists to work more effectively
+      with heterogenous data sources. Tools were used by hundreds of data scientists, ML, and data
+      engineers weekly, and leadership supported me leading a small team to do this work more formally.
+
+      \item Developed strategy, model, and pipeline for identifing potentially compromised accounts.
+
+      \item Developed open-source libraries and tools for external
+      users.\autocite{search_tweets_python,do_more_with_twitter_data}
+
+      \item Identified risk factors in developer applications to enable programmatic review of customer
+      applications to use Twitter APIs.
+
+      \item Identified clusters of apps abusing Twitter's APIs using time-series mining, allowing programmatic
+      action to be taken against offenders.
+
+      \item Served on company advisory groups for data architecture, open-source development, and Python
+      development.
+
+      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx employees.
 
     \end{myitemize}
   }
 \end{job}
 
-
 \begin{job}
   {\tripicon}{Data Scientist}{Tripadvisor}{July 2016}{July 2017}{Greater Boston Area}{
-    Data Scientist for the Vacation Rentals group bulding scalable models to tackle business problems.\\*
+    Data Scientist for the Vacation Rentals group building scalable models to tackle business problems.\\*
     \begin{myitemize}
-      \item Designed and built a computer vision system that includes models to
-      detect people, content (e.g., beach, bedroom, kitchen), and rate aesthetic
-      quality, with basic measures to prevent unwanted bias.
+      \item Designed and built a computer vision system that includes models to detect people, content (e.g.,
+      beach, bedroom, kitchen), and rate aesthetic quality, with basic measures to prevent unwanted bias.
 
-      \item Above system was adopted by other groups at TripAdvisor and powered multiple
-      systems. In Vacation Rentals, it lead to a \textbf{4.8\% increases} in a primary
-      click-through rate metric and a \textbf{10.4\% increase} in revenue from ad expenditures.
+      \item Above system was adopted by other groups at TripAdvisor and powered multiple systems. In Vacation
+      Rentals, it lead to a \textbf{4.8\% increases} in a primary click-through rate metric and a
+      \textbf{10.4\% increase} in revenue from ad expenditures.
 
-      \item Built an NLP app that enables natural-language queries (e.g. "girls getaway")
-      to find collections of destinations, which led to a \textbf{6.1\% improvement} in a
-      primary metric and was used by many teams. 
+      \item Built an NLP app that enables natural-language queries (e.g.\ ``girls getaway'') to find
+      collections of destinations, which led to a \textbf{6.1\% improvement} in a primary metric and was
+      used by many teams.
 
-      \item Developed language-modeling tools to extract high-information snippets from reviews
-      to display on search-result pages to boost SEO rankings.
+      \item Developed language-modeling tools to extract high-information snippets from reviews to display on
+      search-result pages to boost SEO rankings.
 
-      \item Developed a common team codebase providing shared tools, common
-      access methods, and other utility code that allowed our data scientists
-      and engineers to get up-to-speed more quickly and iterate faster on
-      projects.
+      \item Developed a common team codebase providing shared tools, common access methods, and other utility
+      code that allowed our data scientists and engineers to get up-to-speed more quickly and iterate
+      faster on projects.
     \end{myitemize}
   }
-  \end{job}
-
+\end{job}
 
 \iftoggle{cv}{
-\begin{description} \itemsep1pt \parskip0pt \parsep0pt
-  \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
-    {\smallheaderfont Summer 2015}\\*
-    {\footnotesize \emph{Greater Boston Area, MA}} \\*
-    Data scientist intern with the Vacation Rentals team.  Developed a novel
-    ranking system for 720,000+ rental properties and used gradient-boosting
-    machines to predict how well new properties will perform. \\*
-    \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+  \begin{description} \itemsep1pt \parskip0pt \parsep0pt
+    \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
+          {\smallheaderfont Summer 2015}\\*
+          {\footnotesize \emph{Greater Boston Area, MA}} \\*
+          Data scientist intern with the Vacation Rentals team.  Developed a novel
+          ranking system for 720,000+ rental properties and used gradient-boosting
+          machines to predict how well new properties will perform. \\*
+          \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
 
-      \item The model scaled with millions of daily visitors and self-tunes to
-            fluctuations in visitor usage patterns.
+            \item The model scaled with millions of daily visitors and self-tunes to fluctuations in visitor usage
+                  patterns.
 
-      \item A/B testing showed that the model \textbf{increased a key visitor
-      conversion rate by 3.46\%}, \textbf{decreased visitor bounce rate by
-      0.46\%}, and \textbf{increase revenue per visitor by 9.57\%}.
+            \item A/B testing showed that the model \textbf{increased a key visitor conversion rate by 3.46\%},
+                  \textbf{decreased visitor bounce rate by 0.46\%}, and \textbf{increase revenue per visitor by
+                    9.57\%}.
 
-      \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
-    \end{itemize}
-\end{description}
+            \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
+          \end{itemize}
+  \end{description}
 }{}
 
-  \iftoggle{cv}{
+\iftoggle{cv}{
   \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
-    {\smallheaderfont 2015\textemdash 2016}\\*
-    {\footnotesize \emph{Albuquerque, NM }} \\*
-    Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab. We
-    partnered with both Los Alamos National Laboratory and the Center for
-    Advanced Research Computing to investigate applying data science techniques
-    to understand complex high-performance system behavior. \\*
-  }{}
+  {\smallheaderfont 2015\textemdash 2016}\\*
+  {\footnotesize \emph{Albuquerque, NM }} \\*
+  Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab. We
+  partnered with both Los Alamos National Laboratory and the Center for
+  Advanced Research Computing to investigate applying data science techniques
+  to understand complex high-performance system behavior. \\*
+}{}
 
-  \iftoggle{cv}{
-  \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill 
-    {\smallheaderfont 2011\textemdash 2014 }\\*
-    {\footnotesize \emph{Albuquerque, NM }} \\*
-    Lead analyst in a neuroscience research lab run by Elaine Bearer,
-    MD\textemdash PhD, managing various research projects and lab members. \\*
-    \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
-      \item Streamlined lab data processing and analytical techniques, including a
-        method that speed up a critical data processing step by approximately 360x
-        (3 hours to 30 seconds). Implemented numerous other batch data processing
-        steps for other tasks.
-      \item Designed and conducted a pilot study that helped win a \$2.7 million
-        dollar NIH R01 grant to study the etiology of post traumatic stress
-        disorder.
-      \item Lead author on several research papers, three conference abstracts
-      and presentations, coauthor on many more submitted and pending papers and
-      abstracts.
-      \item Trained and mentored 10 undergraduate and gradute student
-        employees and volunteers.
-    \end{itemize}
-  }{}
+\iftoggle{cv}{
+  \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill
+  {\smallheaderfont 2011\textemdash 2014 }\\*
+  {\footnotesize \emph{Albuquerque, NM }} \\*
+  Lead analyst in a neuroscience research lab run by Elaine Bearer,
+  MD\textemdash PhD, managing various research projects and lab members. \\*
+  \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+    \item Streamlined lab data processing and analytical techniques, including a method that speed up a
+          critical data processing step by approximately 360x (3 hours to 30 seconds). Implemented numerous
+          other batch data processing steps for other tasks.
+    \item Designed and conducted a pilot study that helped win a \$2.7 million dollar NIH R01 grant to study
+          the etiology of post traumatic stress disorder.
+    \item Lead author on several research papers, three conference abstracts and presentations, coauthor on
+          many more submitted and pending papers and abstracts.
+    \item Trained and mentored 10 undergraduate and gradute student employees and volunteers.
+  \end{itemize}
+}{}
 %------------------------------------------------
 \iftoggle{cv}
 {\item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
-    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
-    {\smallheaderfont summary:} \\*
-    RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed
-    to a study investigating multi-sensory integration in patients with
-    schizophrenia. \\*
-\end{description}}
-% {\end{description}}
-%\newpage
+  {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
+  {\smallheaderfont summary:} \\*
+  RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed
+  to a study investigating multi-sensory integration in patients with
+  schizophrenia. \\*
+}
+
 %------------------------------------------------
 %\section{research internships}
-  \iftoggle{cv}{
-\begin{description}
-  \item  {\largeheaderfont Student Volunteer } {\smallheaderfont \hfill 2008\textemdash 2010} \\*
-    {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
-    Assisted with a study ran by Pilar Sanjuan, PhD investigating substance use
-    and post-traumatic stress disorder (PTSD) in recently returned combat
-    veterans. \\*
-\end{description}
+\iftoggle{cv}{
+  \begin{description}
+    \item  {\largeheaderfont Student Volunteer } \smallheaderfont{\hfill 2008\textemdash 2010} \\*
+          {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
+          Assisted with a study ran by Pilar Sanjuan, PhD investigating substance use
+          and post-traumatic stress disorder (PTSD) in recently returned combat
+          veterans. \\*
+  \end{description}
 
-%%%%%%% sets this to remove the sidebar %%%%%%%%%%
-%\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+  %%%%%%% sets this to remove the sidebar %%%%%%%%%%
+  %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
 
-\begin{description}
-  \item  {\largeheaderfont Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
-    {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
-    Assisted Akaysha Tang, PhD, with a study investigating stress regulation in
-    rats and assisted an expert in troubleshooting and repairing an EEG system
-    for a study investigating stress in humans.\\*
-%------------------------------------------------
-\end{description}
-}{} %%else nothing
+  \begin{description}
+    \item  \largeheaderfont{Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
+          {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
+          Assisted Akaysha Tang, PhD, with a study investigating stress regulation in
+          rats and assisted an expert in troubleshooting and repairing an EEG system
+          for a study investigating stress in humans.\\*
+          %------------------------------------------------
+  \end{description}
+}{} %%else nothing in the CV section.
 %----------------------------------------------------------------------------------------
 %	Education
 %----------------------------------------------------------------------------------------
@@ -279,18 +265,18 @@
 \end{edu}
 
 \iftoggle{cv}{
-\section{Publications}
+  \section{Publications}
 }
 {
-\section{Selected Publications and Artifacts}
+  \section{Selected Publications and Artifacts}
 }
 \iftoggle{cv}{
   \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
-  \nocite{*}
-  \newrefcontext[sorting=chronological]
-  \printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
-  \newrefcontext[sorting=chronological]
-  \printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+    \nocite{*}
+    \newrefcontext[sorting=chronological]
+    \printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+    \newrefcontext[sorting=chronological]
+    \printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
   \end{refsection}
 }
 {
