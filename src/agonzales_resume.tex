@@ -18,15 +18,46 @@
 % sidebar, changed fonts, margins for the 2nd+ page, etc.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\DocumentMetadata{
+ testphase=phase-II,
+ pdfversion=2.0
+}
 
-\addbibresource{agbib.bib} % Specify the bibliography file to include publications
+
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage{microtype}
+
+
+
 \usepackage{marvosym}
-\usepackage{fontspec}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{enumitem}
-\RequirePackage[quiet]{fontspec}
+\usepackage[a-2b]{pdfx}
+% \usepackage{datetime} % for \pdfdate command
+\usepackage[T1]{fontenc}
+% \usepackage{lmodern}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text,Ligatures={NoRequired,NoCommon}}
+
+
+\usepackage{hyperref}
+\hypersetup{% 
+    % pdftitle={aaron gonzales resume},
+    % pdfauthor={aaron gonzales},
+    % pdfkeywords={resume} {aaron gonzales} {machine learning} {technical lead},
+    hidelinks,
+    pdflang={en},
+    pdfstartpage={},
+}
+
+
+\usepackage[document]{ragged2e}
+
+
+\addbibresource{agbib.bib} % Specify the bibliography file to include publications
 
 \setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
 
@@ -65,100 +96,97 @@
         \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
   }
   %% summary
-  {Machine learning professional who blends responsible machine
-    learning, engineering, research, and leadership skills to solve problems.}
+  {Machine learning engineer and technical lead who blends responsible machine
+    learning, engineering, research, and leadership to accelerate teams.}
 }
 
-\begin{job}
-  {}{Staff Machine Learning Engineer}{Mozilla.ai}{April 2023}{current}{Remote \textemdash USA}{
-    Mozilla.ai is a new company funded by the Mozilla Foundation with a
-    mission to make developing trustworthy AI easier. Hired as the lead
-    engineer to help build the entire technical foundation of a burgeoning AI research organization.\\*
-    \begin{myitemize}
-      \item Designed and built our generative AI/ML research and experimentation platform using OSS work where
-      available, and continued with a small team to iterate and enhance the platform.
-
-      \item Established engineering culture and practice, including coding standards, CI/workflow/automation
-      enhancements, API design styles, abstraction patterns, etc.
-
-      \item Managed all technical company IT management and procurement.
-
-      \item Developed technical hiring program for engineers and researchers.
-
-      \item Above work enabled team to contributed to multiple external workshops
-      \autocite{neurips_llm_efficiency_2023, kdd_2023_workshop} and develop a more cohesive roadmap.
-    \end{myitemize}
-  }
-\end{job}
+\section{Experience}
 
 \begin{job}
-  {\twittericon}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote \textemdash USA}{
-    Tech Lead for the Machine Learning Ethics, Transparency, and Accountability
-    (META) team tasked with Responsible Machine Learning development and
-    research at Twitter.\\*
+  {}{Staff Machine Learning Engineer/Architect}{Mozilla.ai}{April 2023}{current}{Remote, USA}{
+    Hired as Lead/Founding Engineer to develop Mozilla.ai's foundational research and development platform.
+    
+
     \begin{myitemize}
-      \item As a technical lead, provided process improvement, technical guidance, mentorship, review, roadmap
-      planning, and organization-wide improvements.
+      \item Established engineering culture and practice, including coding standards, developer tooling, CI/CD
+      pipelines, API design styles, abstraction patterns, and a technical hiring program.
 
-      \item Designed and built a data collection system, tools, and workflows that reduced time in critical
-      phases of common research projects from weeks of manual work to days with more reliable results.
-      This led to company-wide adoption of a model quality/bias metric that we developed.
+      \item Designed and built a platform for large language model (LLM) research and product iteration on a
+      cloud-based GPU cluster. Continued with a small team to iterate and enhance the platform.
 
-      \item Led workstream to design and build tools for machine learning practitioners to identify biases and
-      weaknesses in model performance that were in use by multiple teams.
+      \item Managed procurement, setup, and relationships of cloud and IT vendors.
+      \item Coordinated Neurips and KDD workshops \autocite{kdd_2023_workshop,neurips_llm_efficiency_2023}.
 
-      \item Outside of the above, contributed to team
-      research\autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality} and outreach,
-      presenting at conferences (ACM FAccT \autocite{facct_2022_talk}, The Data Science Conference
-      \autocite{datascience_2022_talk}) and more \autocite{privacy_enchancing_tech_post}.
-
-      \item Continued leadership in company groups as stated below.
 
     \end{myitemize}
   }
 \end{job}
 
+
 \begin{job}
-  {\twittericon}{Senior Data Scientist}{Twitter}{July 2017}{June 2020}{Boulder, CO}{
-    Worked with various teams, most importantly as tech lead for the Health Data Science team,
-    which worked on combating abuse, spam, fake accounts, and misinformation problems.\\*
+  {}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote, USA}{
+    Technical Lead for the Machine Learning Ethics, Transparency, and Accountability team that owned
+    Responsible Machine Learning development and research at Twitter.
+    
+
     \begin{myitemize}
-      \item Developed tooling, education, and processes that enabled data scientists to work more effectively
-      with heterogenous data sources. Tools were used by hundreds of data scientists, ML, and data
-      engineers weekly, and leadership supported me leading a small team to do this work more formally.
 
-      \item Developed strategy, model, and pipeline for identifing potentially compromised accounts.
+      \item Improved processes, gave technical guidance, mentored other engineers, and led
+      organization-wide improvements.
 
-      \item Developed open-source libraries and tools for external
-      users.\autocite{search_tweets_python,do_more_with_twitter_data}
+      \item Built a system of feature pipelines and tools for researchers that accelerated critical team
+      research by 20x while ensuring more reliable results.
 
-      \item Identified risk factors in developer applications to enable programmatic review of customer
-      applications to use Twitter APIs.
+      \item Led projects to build tools into Twitter's internal Tensorflow Extended ecosystem that enabled teams to
+      rapidly identify undue biases and weaknesses in model performance.
 
-      \item Identified clusters of apps abusing Twitter's APIs using time-series mining, allowing programmatic
-      action to be taken against offenders.
+      \item Helped push adoption of team work, leading to company-wide adoption of our model quality metrics and tools. Presented work in multiple forums.
+      \autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality,facct_2022_talk,datascience_2022_talk,privacy_enchancing_tech_post}
 
-      \item Served on company advisory groups for data architecture, open-source development, and Python
-      development.
-
-      \item Served as a Global Lead for Twitter's Alas BRG for Hispanic and Latinx employees.
+      \item Continued service on company advisory groups, including efforts to select a new Twitter-wide data processing stack that would 
+      lead to 3-5x speedups in key data pipelines.
 
     \end{myitemize}
   }
 \end{job}
 
 \begin{job}
-  {\tripicon}{Data Scientist}{Tripadvisor}{July 2016}{July 2017}{Greater Boston Area}{
-    Data Scientist for the Vacation Rentals group building scalable models to tackle business problems.\\*
+  {}{Senior Data Scientist}{Twitter}{July 2017}{June 2020}{Boulder, CO}{
+    Data scientist on several teams, most importantly as tech lead for the Health Data Science team,
+    which worked on integrity, combating abuse, identifying fake accounts, and studying misinformation problems.
+    
+
     \begin{myitemize}
-      \item Designed and built a computer vision system that includes models to detect people, content (e.g.,
-      beach, bedroom, kitchen), and rate aesthetic quality, with basic measures to prevent unwanted bias.
+      \item Developed tooling, education, and processes that enabled data scientists to expand and streamline analyses 
+      with complex and heterogeneous data sources, which were used by hundreds of data scientists, ML, and data
+      engineers weekly.
 
-      \item Above system was adopted by other groups at TripAdvisor and powered multiple systems. In Vacation
-      Rentals, it lead to a \textbf{4.8\% increases} in a primary click-through rate metric and a
-      \textbf{10.4\% increase} in revenue from ad expenditures.
+      \item Developed strategy, model, and data pipeline for identifying potentially compromised accounts.
 
-      \item Built an NLP app that enables natural-language queries (e.g.\ ``girls getaway'') to find
+      \item Developed open-source client libraries for Twitter API products,
+      which were used by thousands of API customers
+      \autocite{search_tweets_python,do_more_with_twitter_data}.
+
+      \item Built risk model for developers wanting to use Twitter APIs, and model for identifying clusters of
+      applications abusing Twitter's API rate limits, allowing programmatic remediation.
+
+      \item Served on company advisory groups for data architecture, open-source software, Python development,
+      and as a global lead for Twitter's Hispanic/Latinx employees resource group.
+
+    \end{myitemize}
+  }
+\end{job}
+
+\begin{job}
+  {}{Data Scientist}{Tripadvisor}{July 2016}{July 2017}{Greater Boston Area, MA}{
+    Built scalable ML models for the Vacation Rentals group.
+    \begin{myitemize}
+      \item Designed and built a computer vision feature engineering system that
+      includes models to detect humans, extract content, and rate aesthetic
+      quality of all photo assets, increasing a primary click-through rate
+      metric by 4.8\% and increase in revenue from ad expenditures by 10.4\%.
+
+      \item Built a language model and interface that enables natural-language queries (e.g.\ ``girls getaway'') to find
       collections of destinations, which led to a \textbf{6.1\% improvement} in a primary metric and was
       used by many teams.
 
@@ -166,7 +194,7 @@
       search-result pages to boost SEO rankings.
 
       \item Developed a common team codebase providing shared tools, common access methods, and other utility
-      code that allowed our data scientists and engineers to get up-to-speed more quickly and iterate
+      code that allowed data scientists and engineers to get up-to-speed more quickly and iterate
       faster on projects.
     \end{myitemize}
   }
@@ -259,10 +287,23 @@
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-\begin{edu}{Master of Science, Computer Science}{2016}{University of New Mexico}{3.7 cumulative gpa}
+\begin{edu}{Master of Science, Computer Science}{2016}{University of New Mexico}
 \end{edu}
-\begin{edu}{Bachelor of Science, Psychology}{2010}{University of New Mexico}{}
+\begin{edu}{Bachelor of Science, Psychology}{2010}{University of New Mexico}
 \end{edu}
+
+\section{Technical Skills}
+
+\begin{skilltype}
+  {Languages}{Python, SQL, shell, Scala}
+\end{skilltype}
+\begin{skilltype}
+  {ML/Data/AI frameworks}{Spark, Tensorflow, Kubeflow, TFX, Pytorch, Pandas, scikit-learn, Keras, vllm, Ray}
+\end{skilltype}
+
+\begin{skilltype}
+  {Dev and ML Ops frameworks/platforms}{Google Cloud, Coreweave, Oracle Cloud, Kubernetes, Helm, Airflow, Bazel}
+\end{skilltype}
 
 \iftoggle{cv}{
   \section{Publications}
@@ -282,8 +323,10 @@
 {
   %%%%%%%%%%%%% . else non CV
   \newrefcontext[sorting=chronological]
-  \nocite{network_induced_memory_contention,comp_brain_phenotyping_paper,skullstrip,do_more_with_twitter_data}
-  \leavevmode\printbibliography[heading=none, keyword={selected}]
+  \nocite{network_induced_memory_contention,
+    % comp_brain_phenotyping_paper,
+    skullstrip,do_more_with_twitter_data} \leavevmode\printbibliography[heading=none,
+    keyword={selected}] 
 }
 
 %----------------------------------------------------------------------------------------

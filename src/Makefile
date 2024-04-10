@@ -1,23 +1,21 @@
 SHELL=/bin/bash
-SRC_BASE_NAME=agonzales_resume
+SRC_BASE_NAME=resume_tagged
 CV_BASE_NAME=agonzales_cv
 
 basic: agonzales_resume.tex
-	xelatex agonzales_resume.tex
+	xelatex -shell-escape -output-driver="xdvipdfmx -z 0" '\input{agonzales_resume.tex}'
 
 resume:
-	xelatex '\input{agonzales_resume.tex}'
-	biber agonzales_resume
-	xelatex '\input{agonzales_resume.tex}'
-	xelatex '\input{agonzales_resume.tex}'
+	xelatex -shell-escape -output-driver="xdvipdfmx -z 0" '\input{$(SRC_BASE_NAME)}'
+	biber $(SRC_BASE_NAME)
+	xelatex -shell-escape -output-driver="xdvipdfmx -z 0" '\input{agonzales_resume.tex}'
+	xelatex -shell-escape -output-driver="xdvipdfmx -z 0" '\input{agonzales_resume.tex}'
 
-cv:
-# sets variable docmode which activates flag in doc content
-	xelatex '\def\docmode{c} \input{agonzales_resume.tex}'
-	biber agonzales_resume
-	xelatex '\def\docmode{c} \input{agonzales_resume.tex}'
-	xelatex '\def\docmode{c} \input{agonzales_resume.tex}'
-	mv agonzales_resume.pdf agonzales_cv.pdf
+new-resume: $(SRC_BASE_NAME).tex clean
+	lualatex $(SRC_BASE_NAME) | texlogfilter
+	biber $(SRC_BASE_NAME)
+	lualatex $(SRC_BASE_NAME) | texlogfilter
+	lualatex $(SRC_BASE_NAME) | texlogfilter
 
 all:
 	cv

@@ -28,7 +28,6 @@ brew_cask_install font-hack
 
 sudo tlmgr update --self
 sudo tlmgr install texliveonfly  \
-xelatex \
 adjustbox \
 tcolorbox \
 collectbox \
@@ -45,4 +44,13 @@ latexindent \
 marvosym \
 biblatex-ieee \
 lastpage \
-xurl
+xurl \
+datetime  \
+textpos \
+fmtcount  \
+collection-fontsrecommended \
+xmpincl \
+hyperxmp \
+ifmtarg \
+footmisc
+

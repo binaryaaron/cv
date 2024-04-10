@@ -1,4 +1,4 @@
-\ProvidesClass{friggeri-cv}[2012/04/30 CV class]
+\ProvidesClass{ag-cv}[2012/04/30 CV class]
 \NeedsTeXFormat{LaTeX2e}
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -29,22 +29,6 @@
 \definecolor{blue}{HTML}{6CE0F1}
 \definecolor{extra}{HTML}{F96935}
 
-\ifdefined\@cv@print
-  \colorlet{extra}{gray}
-  \colorlet{green}{gray}
-  \colorlet{orange}{gray}
-  \colorlet{purple}{gray}
-  \colorlet{brown}{gray}
-  \colorlet{blue}{gray}
-  \colorlet{red}{gray}
-  \colorlet{fillheader}{gray}
-  \colorlet{header}{white}
-  % \colorlet{fillheader}{white}
-  % \colorlet{header}{gray}
-\else
-  \colorlet{fillheader}{gray}
-  \colorlet{header}{white}
-\fi
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
 
@@ -53,7 +37,7 @@
 %%%%%%%%%
 \RequirePackage[quiet]{fontspec}
 \RequirePackage{unicode-math}
-\defaultfontfeatures{Mapping=tex-text,Ligatures={NoRequired,NoCommon}}
+\defaultfontfeatures{Mapping=tex-text}
 
 \newfontfamily{\FAFR}{Font Awesome 6 Free Regular}[Scale=0.6]
 \newfontfamily{\FAFS}{Font Awesome 6 Free Solid}
@@ -67,14 +51,13 @@
 \newcommand{\tripicon}{\includegraphics[scale=0.05]{trip_logo.jpg}}%
 \newcommand{\twittericon}{\includegraphics[scale=0.05]{Twitter_Logo_Blue.png}}%
 
-\setmainfont[Ligatures={NoRequired,NoCommon,NoContextual},Mapping=tex-text,Color=textcolor]{Times New Roman}
-
+\setmainfont[Mapping=tex-text,Color=textcolor, Scale=0.9]{Helvetica Neue}
 \newfontfamily\bodyfont[Mapping=tex-text,Color=textcolor]{Helvetica Neue}
 \newfontfamily\thinfont[Mapping=tex-text,Color=textcolor]{Helvetica Neue}
-\newfontfamily\headingfont[Mapping=tex-text,Color=textcolor]{Helvetica Neue}
-% \newfontfamily\headingfont[]{Futura}
-\newfontfamily\largeheaderfont[Color=textcolor, Scale=1.15]{Futura}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.85]{Futura}
+
+\newfontfamily\headingfont[Mapping=tex-text,Color=headercolor, Scale=1.5]{Fira Code}
+\newfontfamily\largeheaderfont[Color=textcolor, Scale=1]{Fira Code}
+\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.85]{Fira Code}
 \newfontfamily\mono{Fira Code}
 \newcommand{\smallmono}[1]{{%
   \scriptsize \mono{#1}%
@@ -82,118 +65,63 @@
 
 
 
-%%%%%%%%%%
-% Header %
-%%%%%%%%%%
-
-\RequirePackage{tikz}
-
-\newcommand{\rolefont}{%
-  \fontsize{14pt}{24pt}\selectfont%
-  \thinfont%
-  \color{white}%
-}
-
-\newfontfamily\titlesummaryfont{Helvetica Neue}
-
-\newcommand{\summaryfont}{%
-  \fontsize{11pt}{11pt}\selectfont%
-  \titlesummaryfont%
-  \color{white}%
-}
-
-% following tweaks made to have summary section in the header.
-\tikzstyle{bag} = [align=center, anchor=north]
-\newcommand{\header}[4]{%
-  \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth,
-    minimum height=3.5cm] (box) at (current page.north){} ;
-
-    \node [below=0.25cm] (name) at (box.north) {%
-      \fontsize{20pt}{36pt}\color{header}%
-      {\thinfont #1} {\bodyfont #2}
-    };
-    \node [bag] (contact) at (name.south) {%
-      \fontsize{10pt}{10pt}\color{header}%
-      \thinfont #3\\ \\};
-
-    \node[align=center, text width=16.5cm] (summary) at (contact.south) {%
-      \parbox[center]{\textwidth}{\summaryfont #4}};
-    
-  \end{tikzpicture}
-  \vspace{2cm}
-}
-
 
 %%%%%%%%%%%%%
 % Structure %
 %%%%%%%%%%%%%
 \RequirePackage{parskip}
-
-\newcounter{colorCounter}
-\def\@sectioncolor#1#2#3{%
-  {%
-    \color{%
-      \ifcase\value{colorCounter}%
-        red\or%
-        blue\or%
-        orange\or%
-        green\or%
-        purple\or%
-        brown\or%
-        extra\else%
-        headercolor\fi%
-    } #1#2#3%
-  }%
-  \stepcounter{colorCounter}%
-}
-
-\renewcommand{\section}[1]{
-  \par\vspace{\parskip}
-  {%
-    \Large\headingfont\color{headercolor}%
-    \@sectioncolor \centering #1%
-  }
-  \par
-}
-
-\renewcommand{\subsection}[2]{
-  \par\vspace{.5\parskip}%
-  \Large\headingfont\color{headercolor} #2%
-  \par\vspace{.25\parskip}%
-}
-
 \RequirePackage{fancyhdr}
-\pagestyle{fancy}
+
 
 %%%%%%%%%%%%%%%%%%%%
 % List and description environment %
 %%%%%%%%%%%%%%%%%%%%
 
 \setlength{\tabcolsep}{0pt}
-\newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
-}{%
-  \end{tabular*}
+
+\newenvironment{myitemize}
+  {\begin{itemize}%
+    { \setlength{\labelwidth}{0em}%
+     \setlength{\labelsep}{0em}%
+     \setlength{\itemsep}{1mm}%
+     \setlength{\parsep}{0mm}%
+     \setlength{\parskip}{2mm}%
+     \setlength{\leftmargin}{0cm}%
+     \setlength{\rightmargin}{0.25cm}%
+     \setlength{\itemindent}{0em} %
+    }%
+  }%
+{\end{itemize}}
+
+
+
+\RequirePackage{titlesec}
+
+
+\titleformat{name=\section,numberless}[hang]
+{\bfseries\headingfont} % format
+{} % label
+{0.0em} % sep, all the way left since this has no label
+{} % before-code
+[\vspace{1mm}\titlerule]
+
+\titleformat{name=\subsection}[runin]
+{\vspace{1mm}\titlerule \vspace{1mm}\bfseries\largeheaderfont} % format
+{-} % label
+{0.0em} % sep, all the way left since this has no label
+{} % before-code
+[]
+
+
+
+% icon, title, company, start date, end date, location, body
+\newenvironment{job}[7]{%gt
+\subsection{#1 #2,~#3}
+{\smallheaderfont \hspace{\wordsep}#6 \hfill #4\textemdash#5\par}%
+  #7%
 }
-\renewcommand{\bfseries}{\headingfont\color{headercolor}}
+{}
 
-% \newenvironment{myitemize}{
-%   \begin{itemize}{\itemsep10pt \parskip0pt \parsep0pt}{}%
-% }{\end{itemize}}
-\newenvironment{myitemize}{
-  \begin{itemize}{ \setlength{\itemsep}{2pt} \setlength{\parskip}{0pt} \setlength{\parsep}{2pt}}{}%
-}{\end{itemize}} 
-
-
-\newcommand{\entry}[4]{%
-\parbox[t]{0.9\textwidth}{%
-     \textbf{#1}%
-     \hfill%
-     {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
-     \textit{#3}\\*%
-     #4\vspace{\parsep}} &#2\\%
-}
 
 
 \newenvironment{edu}[3]{%
@@ -204,17 +132,6 @@
 {\end{description}}
 
 
-\newenvironment{job}[7]{%
-% icon, title, company, start date, end date, location, body
-\begin{description} \itemsep1pt \parskip1pt \parsep1pt%
-  \item[#1~\largeheaderfont{#2, #3}]{\hfill \smallheaderfont{#4\textemdash#5}, \emph{#6}\par}%
-  \par\vspace{0.10cm}
-  % \begin{sloppypar}
-  #7%
-  \par\vspace{0.45\baselineskip}% manual spacing
-  % \end{sloppypar}
-}
-{\end{description}}
 
 \newenvironment{skilltype}[2]{%
 % name, skills
@@ -223,30 +140,22 @@
 }%
 {\end{description}
 }
+% \newenvironment{job}[7]{%
+% % icon, title, company, start date, end date, location, body
+% \subsection[#1~#2, #3]
+% \parbox[t]{0.95\textwidth}{
+% \begin{description} \itemsep1pt \parskip1pt \parsep1pt%
+%   \item[#1~\largeheaderfont{#2, #3}]{\hfill \smallheaderfont{#4\textemdash#5}, \emph{#6}\par}%
+%   \par\vspace{0.10cm}%
+%   % \begin{sloppypar}
+%   #7%
+%   \par\vspace{0.45\baselineskip}% manual spacing
+%   % \end{sloppypar}
+% \end{description} }%
+% }
 
 
 
-%%%%%%%%%%%%%%
-% Side block %
-%%%%%%%%%%%%%%
-
-\RequirePackage[absolute,overlay]{textpos}
-\setlength{\TPHorizModule}{1cm}
-\setlength{\TPVertModule}{1cm}
-\newenvironment{aside}{%
-  \let\oldsection\section
-  \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
-  }
-  \begin{textblock}{3.6}(1.5, 4.33)
-  \begin{flushright}
-  \obeycr
-}{%
-  \restorecr
-  \end{flushright}
-  \end{textblock}
-  \let\section\oldsection
-}
 
 %%%%%%%%%%%%%%%%
 % Bibliography %
@@ -264,14 +173,14 @@
 \DeclareFieldFormat{url}{%
   {\ifhyperref
     {\smallmono{\url{#1}}}%
-    {\smallmono{\nolinkurl{#1}{#1}}}%
+    {\smallmono{\nolinkurl{#1}}}%
   }}
 
-\DeclareFieldFormat{shorturl}{%
-  \mkbibparens{\ifhyperref
-      {\footnotesize\url{#1}{#1}}
-      {\footnotesize\nolinkurl{#1}{#1}}
-  }}
+% \DeclareFieldFormat{shorturl}{%
+%   \mkbibparens{\ifhyperref
+%       {\footnotesize\url{#1}{#1}}
+%       {\footnotesize\nolinkurl{#1}{#1}}
+%   }}
 
 
 \DeclareNameFormat{author}{%
@@ -359,8 +268,8 @@
     \usebibmacro{date}%
     \setunit{\addperiod\space}%
   }
-  \printfield{url}%
-  \bibend
+  \printfield{urlraw}%
+  \bibend%
 }
 
 \DeclareBibliographyDriver{blogpost}{%
@@ -375,7 +284,7 @@
     \setunit{\addperiod\space}%
   }%
   \printfield{url}%
-  \bibend
+  \bibend%
 }
 
 
@@ -412,7 +321,7 @@
 }
 
 
-\DeclareSortingScheme{chronological}{
+\DeclareSortingTemplate{chronological}{
   \sort[direction=descending]{\field{year}}
   \sort[direction=descending]{\field{month}}
 }
@@ -425,18 +334,7 @@
 
 %original is bottom=2.5 cm
 %\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
-\RequirePackage[left=1.25cm,top=1.75cm,right=1.75cm,bottom=1.25cm,nohead,nofoot]{geometry}
-% \RequirePackage{hyperref}
-% \RequirePackage{xcolor}
-
-% \hypersetup{
-%   hidelinks   = true, %Colours links instead of ugly boxes
-%   % urlcolor     = blue, %Colour for external hyperlinks
-%   % linkcolor    = blue, %Colour of internal links
-%   % citecolor   = red %Colour of citations
-%   pdfauthor = Aaron Gonzales,
-%   pdftitle = resume
-% }
+\RequirePackage[left=1.15cm,top=1.75cm,right=1.75cm,bottom=1.25cm,nohead,nofoot]{geometry}
 
 \def\blx@auxinit@bibtex#1{%
   \blx@auxwrite\blx@auxout@bibtex
