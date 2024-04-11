@@ -79,20 +79,6 @@
 
 \setlength{\tabcolsep}{0pt}
 
-\newenvironment{myitemize}
-  {\begin{itemize}%
-    { \setlength{\labelwidth}{0em}%
-     \setlength{\labelsep}{0em}%
-     \setlength{\itemsep}{1mm}%
-     \setlength{\parsep}{0mm}%
-     \setlength{\parskip}{2mm}%
-     \setlength{\leftmargin}{0cm}%
-     \setlength{\rightmargin}{0.25cm}%
-     \setlength{\itemindent}{0em} %
-    }%
-  }%
-{\end{itemize}}
-
 
 
 \RequirePackage{titlesec}
@@ -107,18 +93,26 @@
 
 \titleformat{name=\subsection}[runin]
 {\vspace{1mm}\titlerule \vspace{1mm}\bfseries\largeheaderfont} % format
-{-} % label
+{} % label
 {0.0em} % sep, all the way left since this has no label
 {} % before-code
 []
 
 
+\RequirePackage{enumitem}
+\newenvironment{myitemize}
+  {\begin{itemize}[itemsep=0.2mm,parsep=1mm,leftmargin=4mm]%
+  }%
+{\end{itemize}}
 
-% icon, title, company, start date, end date, location, body
-\newenvironment{job}[7]{%gt
-\subsection{#1 #2,~#3}
-{\smallheaderfont \hspace{\wordsep}#6 \hfill #4\textemdash#5\par}%
-  #7%
+
+% title, company, start date, end date, location, intro, body
+\newenvironment{job}[7]{%
+\subsection{#1,~#2}
+{\smallheaderfont \hspace{\wordsep}#5 \hfill #3\textemdash#4\par}%
+  #6%
+
+  #7
 }
 {}
 
@@ -140,20 +134,14 @@
 }%
 {\end{description}
 }
-% \newenvironment{job}[7]{%
-% % icon, title, company, start date, end date, location, body
-% \subsection[#1~#2, #3]
-% \parbox[t]{0.95\textwidth}{
-% \begin{description} \itemsep1pt \parskip1pt \parsep1pt%
-%   \item[#1~\largeheaderfont{#2, #3}]{\hfill \smallheaderfont{#4\textemdash#5}, \emph{#6}\par}%
-%   \par\vspace{0.10cm}%
-%   % \begin{sloppypar}
-%   #7%
-%   \par\vspace{0.45\baselineskip}% manual spacing
-%   % \end{sloppypar}
-% \end{description} }%
-% }
 
+\newenvironment{skills}[6]{%
+\section*{Technical Skills}
+\begin{skilltype}{#1}{#2} \end{skilltype}
+\begin{skilltype}{#3}{#4} \end{skilltype}
+\begin{skilltype}{#5}{#6} \end{skilltype}
+}
+{}
 
 
 

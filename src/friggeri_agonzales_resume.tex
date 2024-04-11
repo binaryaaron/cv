@@ -1,0 +1,344 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV  - modified by Aaron Gonzales
+% XeLaTeX Template
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+% Aaron Gonzales
+% changed many formatting options, did away with tabular as a style, ditched
+% sidebar, changed fonts, margins for the 2nd+ page, etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\DocumentMetadata{
+ testphase=phase-II,
+ pdfversion=2.0
+}
+
+
+
+\documentclass[print]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage{microtype}
+
+
+
+\usepackage{marvosym}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage[a-2b]{pdfx}
+% \usepackage{datetime} % for \pdfdate command
+\usepackage[T1]{fontenc}
+% \usepackage{lmodern}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text,Ligatures={NoRequired,NoCommon}}
+
+
+\usepackage{hyperref}
+\hypersetup{% 
+    % pdftitle={aaron gonzales resume},
+    % pdfauthor={aaron gonzales},
+    % pdfkeywords={resume} {aaron gonzales} {machine learning} {technical lead},
+    hidelinks,
+    pdflang={en},
+    pdfstartpage={},
+}
+
+
+\usepackage[document]{ragged2e}
+
+
+\addbibresource{agbib.bib} % Specify the bibliography file to include publications
+
+\setlist[description]{leftmargin=0.15cm,labelindent=\parindent}
+
+\rfoot{}
+%\cfoot{\thinfont{Gonzales CV; page \thepage}}
+\cfoot{}
+\lhead{}
+\chead{}
+\rhead{}
+
+
+\usepackage{etoolbox}
+\newtoggle{cv}
+
+% block to take doc args
+\ifx\docmode\undefined
+  \togglefalse{cv}
+\else 
+  \toggletrue{cv}
+\fi
+
+\begin{document}
+
+\iftoggle{cv}
+{\header{Aaron}{~Gonzales}{curriculum vit\ae}
+  {\{\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net},
+    505.385.9209,
+    \href{http://aarongonzales.net}{aarongonzales.net}\}}
+}
+{\header{Aaron}{~Gonzales}
+  %% contact line
+  {
+    [\href{mailto:aaron@aarongonzales.net}{aaron@aarongonzales.net} |
+        505.385.9209 |
+        \href{http://lnkd.in/b8kfQSe}{\Large{\faLinkedin}}~|
+        \href{http://github.com/binaryaaron}{\huge{\faGithub}}]
+  }
+  %% summary
+  {Machine learning engineer and technical lead who blends responsible machine
+    learning, engineering, research, and leadership to accelerate teams.}
+}
+
+\section{Experience}
+
+\begin{job}
+  {}{Staff Machine Learning Engineer/Architect}{Mozilla.ai}{April 2023}{current}{Remote, USA}{
+    Hired as Lead/Founding Engineer to develop Mozilla.ai's foundational research and development platform.
+    
+
+    \begin{myitemize}
+      \item Established engineering culture and practice, including coding standards, developer tooling, CI/CD
+      pipelines, API design styles, abstraction patterns, and a technical hiring program.
+
+      \item Designed and built a platform for large language model (LLM) research and product iteration on a
+      cloud-based GPU cluster. Continued with a small team to iterate and enhance the platform.
+
+      \item Managed procurement, setup, and relationships of cloud and IT vendors.
+      \item Coordinated Neurips and KDD workshops \autocite{kdd_2023_workshop,neurips_llm_efficiency_2023}.
+
+
+    \end{myitemize}
+  }
+\end{job}
+
+
+\begin{job}
+  {}{Senior Machine Learning Research Engineer}{Twitter}{June 2020}{January 2023}{Remote, USA}{
+    Technical Lead for the Machine Learning Ethics, Transparency, and Accountability team that owned
+    Responsible Machine Learning development and research at Twitter.
+    
+
+    \begin{myitemize}
+
+      \item Improved processes, gave technical guidance, mentored other engineers, and led
+      organization-wide improvements.
+
+      \item Built a system of feature pipelines and tools for researchers that accelerated critical team
+      research by 20x while ensuring more reliable results.
+
+      \item Led projects to build tools into Twitter's internal Tensorflow Extended ecosystem that enabled teams to
+      rapidly identify undue biases and weaknesses in model performance.
+
+      \item Helped push adoption of team work, leading to company-wide adoption of our model quality metrics and tools. Presented work in multiple forums.
+      \autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality,facct_2022_talk,datascience_2022_talk,privacy_enchancing_tech_post}
+
+      \item Continued service on company advisory groups, including efforts to select a new Twitter-wide data processing stack that would 
+      lead to 3-5x speedups in key data pipelines.
+
+    \end{myitemize}
+  }
+\end{job}
+
+\begin{job}
+  {}{Senior Data Scientist}{Twitter}{July 2017}{June 2020}{Boulder, CO}{
+    Data scientist on several teams, most importantly as tech lead for the Health Data Science team,
+    which worked on integrity, combating abuse, identifying fake accounts, and studying misinformation problems.
+    
+
+    \begin{myitemize}
+      \item Developed tooling, education, and processes that enabled data scientists to expand and streamline analyses 
+      with complex and heterogeneous data sources, which were used by hundreds of data scientists, ML, and data
+      engineers weekly.
+
+      \item Developed strategy, model, and data pipeline for identifying potentially compromised accounts.
+
+      \item Developed open-source client libraries for Twitter API products,
+      which were used by thousands of API customers
+      \autocite{search_tweets_python,do_more_with_twitter_data}.
+
+      \item Built risk model for developers wanting to use Twitter APIs, and model for identifying clusters of
+      applications abusing Twitter's API rate limits, allowing programmatic remediation.
+
+      \item Served on company advisory groups for data architecture, open-source software, Python development,
+      and as a global lead for Twitter's Hispanic/Latinx employees resource group.
+
+    \end{myitemize}
+  }
+\end{job}
+
+\begin{job}
+  {}{Data Scientist}{Tripadvisor}{July 2016}{July 2017}{Greater Boston Area, MA}{
+    Built scalable ML models for the Vacation Rentals group.
+    \begin{myitemize}
+      \item Designed and built a computer vision feature engineering system that
+      includes models to detect humans, extract content, and rate aesthetic
+      quality of all photo assets, increasing a primary click-through rate
+      metric by 4.8\% and increase in revenue from ad expenditures by 10.4\%.
+
+      \item Built a language model and interface that enables natural-language queries (e.g.\ ``girls getaway'') to find
+      collections of destinations, which led to a \textbf{6.1\% improvement} in a primary metric and was
+      used by many teams.
+
+      \item Developed language-modeling tools to extract high-information snippets from reviews to display on
+      search-result pages to boost SEO rankings.
+
+      \item Developed a common team codebase providing shared tools, common access methods, and other utility
+      code that allowed data scientists and engineers to get up-to-speed more quickly and iterate
+      faster on projects.
+    \end{myitemize}
+  }
+\end{job}
+
+\iftoggle{cv}{
+  \begin{description} \itemsep1pt \parskip0pt \parsep0pt
+    \item \tripicon {\largeheaderfont Data Scientist Intern, TripAdvisor } \hfill
+          {\smallheaderfont Summer 2015}\\*
+          {\footnotesize \emph{Greater Boston Area, MA}} \\*
+          Data scientist intern with the Vacation Rentals team.  Developed a novel
+          ranking system for 720,000+ rental properties and used gradient-boosting
+          machines to predict how well new properties will perform. \\*
+          \begin{itemize} \itemsep1pt \parskip1pt \parsep0pt
+
+            \item The model scaled with millions of daily visitors and self-tunes to fluctuations in visitor usage
+                  patterns.
+
+            \item A/B testing showed that the model \textbf{increased a key visitor conversion rate by 3.46\%},
+                  \textbf{decreased visitor bounce rate by 0.46\%}, and \textbf{increase revenue per visitor by
+                    9.57\%}.
+
+            \item The model was put into production across all of TripAdvisor Vacation Rentals' sites\\*
+          \end{itemize}
+  \end{description}
+}{}
+
+\iftoggle{cv}{
+  \item {\largeheaderfont Research Assistant, The University of New Mexico} \hfill
+  {\smallheaderfont 2015\textemdash 2016}\\*
+  {\footnotesize \emph{Albuquerque, NM }} \\*
+  Research assistant for Dorian Arnold, PhD, in the Scalable Systems Lab. We
+  partnered with both Los Alamos National Laboratory and the Center for
+  Advanced Research Computing to investigate applying data science techniques
+  to understand complex high-performance system behavior. \\*
+}{}
+
+\iftoggle{cv}{
+  \item {\largeheaderfont Analyst/Programmer, The University of New Mexico} \hfill
+  {\smallheaderfont 2011\textemdash 2014 }\\*
+  {\footnotesize \emph{Albuquerque, NM }} \\*
+  Lead analyst in a neuroscience research lab run by Elaine Bearer,
+  MD\textemdash PhD, managing various research projects and lab members. \\*
+  \begin{itemize} \itemsep0.5pt \parskip0pt \parsep0pt
+    \item Streamlined lab data processing and analytical techniques, including a method that speed up a
+          critical data processing step by approximately 360x (3 hours to 30 seconds). Implemented numerous
+          other batch data processing steps for other tasks.
+    \item Designed and conducted a pilot study that helped win a \$2.7 million dollar NIH R01 grant to study
+          the etiology of post traumatic stress disorder.
+    \item Lead author on several research papers, three conference abstracts and presentations, coauthor on
+          many more submitted and pending papers and abstracts.
+    \item Trained and mentored 10 undergraduate and gradute student employees and volunteers.
+  \end{itemize}
+}{}
+%------------------------------------------------
+\iftoggle{cv}
+{\item  {\largeheaderfont Research Associate} \hfill {\smallheaderfont 2010\textemdash 2011} \\*
+  {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}}  \\*
+  {\smallheaderfont summary:} \\*
+  RA in a neuroscience research group ran by Julia Stephen, PhD. Contributed
+  to a study investigating multi-sensory integration in patients with
+  schizophrenia. \\*
+}
+
+%------------------------------------------------
+%\section{research internships}
+\iftoggle{cv}{
+  \begin{description}
+    \item  {\largeheaderfont Student Volunteer } \smallheaderfont{\hfill 2008\textemdash 2010} \\*
+          {\footnotesize \emph{The Mind Research Network, Albuquerque, NM}} \hfill \\*
+          Assisted with a study ran by Pilar Sanjuan, PhD investigating substance use
+          and post-traumatic stress disorder (PTSD) in recently returned combat
+          veterans. \\*
+  \end{description}
+
+  %%%%%%% sets this to remove the sidebar %%%%%%%%%%
+  %\newgeometry{ left=1.75cm,top=2cm,right=1.75cm,bottom=1.50cm,nohead,nofoot }
+
+  \begin{description}
+    \item  \largeheaderfont{Student Volunteer}  \hfill {\smallheaderfont 2008 } \\*
+          {\footnotesize \emph{The University of New Mexico, Albuquerque, NM}\textemdash } \\*
+          Assisted Akaysha Tang, PhD, with a study investigating stress regulation in
+          rats and assisted an expert in troubleshooting and repairing an EEG system
+          for a study investigating stress in humans.\\*
+          %------------------------------------------------
+  \end{description}
+}{} %%else nothing in the CV section.
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\begin{edu}{Master of Science, Computer Science}{2016}{University of New Mexico}
+\end{edu}
+\begin{edu}{Bachelor of Science, Psychology}{2010}{University of New Mexico}
+\end{edu}
+
+\section{Technical Skills}
+
+\begin{skilltype}
+  {Languages}{Python, SQL, shell, Scala}
+\end{skilltype}
+\begin{skilltype}
+  {ML/Data/AI frameworks}{Spark, Tensorflow, Kubeflow, TFX, Pytorch, Pandas, scikit-learn, Keras, vllm, Ray}
+\end{skilltype}
+
+\begin{skilltype}
+  {Dev and ML Ops frameworks/platforms}{Google Cloud, Coreweave, Oracle Cloud, Kubernetes, Helm, Airflow, Bazel}
+\end{skilltype}
+
+\iftoggle{cv}{
+  \section{Publications}
+}
+{
+  \section{Selected Publications and Artifacts}
+}
+\iftoggle{cv}{
+  \begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+    \nocite{*}
+    \newrefcontext[sorting=chronological]
+    \printbibliography[type=article, title={Articles In Peer-Reviewed Journals}, heading=subbibliography]
+    \newrefcontext[sorting=chronological]
+    \printbibliography[type=inproceedings, title={Conference Proceedings}, heading=subbibliography]
+  \end{refsection}
+}
+{
+  %%%%%%%%%%%%% . else non CV
+  \newrefcontext[sorting=chronological]
+  \nocite{network_induced_memory_contention,
+    % comp_brain_phenotyping_paper,
+    skullstrip,do_more_with_twitter_data} \leavevmode\printbibliography[heading=none,
+    keyword={selected}] 
+}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Other Interests and Accolades}
+% \textbf{Olympic Weightlifting}
+% \begin{itemize}
+% \item 2014 New Mexico Games: Gold Medalist, 94kg class
+% \item 2013 New Mexico Games: Silver Medalist, 85kg class
+% \item 2013 Barnholth Memorial Invitational: Silver Medalist, 85kg class
+% \end{itemize}
+
+\end{document}
