@@ -10,6 +10,7 @@ resume: $(SRC_BASE_NAME).tex clean
 	lualatex $(SRC_BASE_NAME) | texlogfilter
 
 all:
+	clean
 	resume
 
 build_env: build.sh
@@ -20,3 +21,7 @@ clean:
 		do rm -f "$(SRC_BASE_NAME).$$ext";                                 \
 		rm -f "$(CV_BASE_NAME).$$ext";                                 \
 	done
+
+deploy: resume
+	cp $(SRC_BASE_NAME).pdf ~/Dropbox/resume/
+

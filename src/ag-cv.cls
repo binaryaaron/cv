@@ -56,8 +56,11 @@
 \newfontfamily\thinfont[Mapping=tex-text,Color=textcolor]{Helvetica Neue}
 
 \newfontfamily\headingfont[Mapping=tex-text,Color=headercolor, Scale=1.5]{Fira Code}
+
+\newfontfamily\smallheaderfont[Color=textcolor,WordSpace={1, 1, 1}, Scale=0.8]{Hack}
+\newfontfamily\mheaderfont[Color=textcolor,Scale=0.75]{Hack}
 \newfontfamily\largeheaderfont[Color=textcolor, Scale=1]{Fira Code}
-\newfontfamily\smallheaderfont[Color=textcolor, Scale=0.85]{Fira Code}
+
 \newfontfamily\mono{Fira Code}
 \newcommand{\smallmono}[1]{{%
   \scriptsize \mono{#1}%
@@ -108,11 +111,11 @@
 
 % title, company, start date, end date, location, intro, body
 \newenvironment{job}[7]{%
-\subsection{#1,~#2}
-{\smallheaderfont \hspace{\wordsep}#5 \hfill #3\textemdash#4\par}%
+\subsection{\mheaderfont#1,~#2}%
+{\smallheaderfont\hfill#5~|~#3\textemdash#4\par}%
   #6%
 
-  #7
+  #7%
 }
 {}
 
