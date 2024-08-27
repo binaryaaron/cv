@@ -58,19 +58,21 @@
   {Mozilla.ai}
   {April 2023}
   {current}
-  {Albuquerque, New Mexico}
+  {Boulder, Colorado}
   {
-  Engineer hired to build a new AI-research company under the Mozilla Foundation.
+  Lead engineer / architect hired to build a new AI research company under the Mozilla Foundation.
   }
 {
   \begin{myitemize}
-    \item Designed and built a platform for large-language model (LLM) research
-    and product iteration that supports fine-tuning and evalution on a cloud-based GPU cluster, enabling early
-    participation and sponsorship of Neurips and KDD workshops \autocite{kdd_2023_workshop,neurips_llm_efficiency_2023}. 
+    \item Designed and built a Kubernetes-based large-language model
+    (LLM) research and product experimentation platform from scratch. This
+    platform supported distributed training, fine-tuning, evaluation, and
+    experiment management on a cloud-based GPU cluster, leading to notable
+    participation and contributions to workshops at NeurIPS and KDD\autocite{kdd_2023_workshop,neurips_llm_efficiency_2023}. 
     \item Established engineering culture and processes, including coding
     standards, developer tooling, CI/CD pipelines, API design styles,
     abstraction patterns.
-    \item Designed and implemented a technical hiring program which led to hiring and mentoring five machine-learning engineers and researchers. 
+    \item Designed and managed a technical hiring program which led to hiring and mentoring five machine-learning engineers and researchers. 
     \item Managed procurement and integration of external IT vendors and tools.
   \end{myitemize}
 }
@@ -89,15 +91,25 @@
   }
   {
     \begin{myitemize}
-      \item Improved processes, gave technical guidance, mentored other engineers, and led organization-wide improvements.
-
-      \item Built a system of feature pipelines and tools for researchers that accelerated critical team research by 20x while ensuring more reliable results.
-
-      \item Led projects to build tools into Twitter's internal Tensorflow Extended ecosystem that enabled teams to rapidly identify undue biases and weaknesses in model performance.
-
-      \item Facilitated adoption of team results and products, leading to company-wide adoption of model quality metrics and tools. Presented work in multiple forums \autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality,facct_2022_talk,datascience_2022_talk,privacy_enchancing_tech_post}.
-
-      \item Continued service on company advisory groups, including efforts to select a new Twitter-wide data processing stack that would lead to 3-5x speedups in key data pipelines.
+      \item Built a system of feature pipelines and tools for ML researchers that
+      accelerated critical work by 20x while ensuring more reliable results.
+      
+      \item Implemented new functionalities in Twitter's Python build system,
+      notebook platform, and data platform to streamline usage for ML
+      researchers and data scientists, increasing adoption and development speed.
+      
+      \item Led projects to build tools into Twitter's internal Tensorflow
+      Extended and notebook platforms that enabled teams to rapidly identify undue biases and
+      weaknesses in model performance.
+      
+      \item Facilitated adoption of team results and products, leading to
+      company-wide adoption of model quality metrics and tools. Presented research and engineering work
+      in external venues
+      \autocite{twitter_htl_racial_bias,twitter_recsys_distributional_inequality,facct_2022_talk,datascience_2022_talk,privacy_enchancing_tech_post}.
+      
+      \item Continued service on company advisory groups, including efforts to
+      select a Twitter-wide data processing stack that would lead to 3-5x
+      speedups in key data pipelines.
     \end{myitemize}
   }
 \end{job}
@@ -112,22 +124,22 @@
   }
 {
     \begin{myitemize}
-      \item Established tools and libraries that enabled ~50 data scientists and
-      ML engineers to increase the scale of analyses by 5-50x by making PySpark,
-      Presto, and BigQuery easier to use and scale internally on disparate
-      datasets.
+      \item Enabled ~100 data scientists and ML engineers to scale common data operations by 5-50x while improving reliability by
+      building libraries and training others in distributed data processing.
       
-      \item Developed strategy, model, and data pipeline for identifying
-      potentially compromised accounts.
+      \item Managed technical auditing and review of models that identified unwanted user behaviors.
       
+      \item Engineered a comprehensive risk assessment model to evaluate
+      developer eligibility for utilizing a new Twitter API service,
+      revolutionizing the application review process and overcoming a key
+      product limitation.
+      
+      \item Shipped a model to identify clusters of applications that broke Twitter's API
+      policies, allowing programmatic remediation of thousands of abusive client applications.
+
       \item Developed open-source client libraries for Twitter API products, which
       were used by thousands of API customers
       \autocite{search_tweets_python,do_more_with_twitter_data}.
-      
-      \item Built risk model for developers applying to use Twitter's APIs, and
-      model for identifying clusters of applications abusing Twitter's API
-      policies, allowing programmatic remediation of thousands of abusive client
-      applications.
       
       \item Served on company advisory groups for data architecture, open-source
       software, Python development, and as a global lead for Twitter's
@@ -148,14 +160,13 @@
   }
   {
   \begin{myitemize}
-    \item Shipped a computer vision feature-engineering pipeline with models to
-    detect humans, extract content, and rate aesthetic quality for all photos,
-    increasing a click-through rate metric by 4.8\% and increasing revenue from
-    ad expenditures by 10.4%.
-    
-    \item Built a language model and interface that enables natural-language
-    queries to find collections of destinations, which led to a 6.1\%
-    improvement in a primary metric.
+    \item Developed and implemented a new computer vision model system to enable
+    use of listing photo content in recommendation and ranking systems,
+    resulting in a 4.8\% boost to click-through rate and a 10.4\% increase in
+    return on ad expenditures.
+
+    \item Built a natural-language query system to ease discovery of common 
+    destinations, which led to a 6.1\% improvement in a primary metric.
     
     \item Developed language-modeling tools to extract high-information snippets
     from reviews to display on search-result pages to boost SEO rankings.
@@ -172,9 +183,9 @@
 %----------------------------------------------------------------------------------------
 
 \section*{Education}
-  \begin{edu}{Master of Science, Computer Science}{2016}{University of New Mexico}
+  \begin{edu}{Master of Science, Computer Science}{May 2016}{University of New Mexico}
   \end{edu}
-  \begin{edu}{Bachelor of Science, Psychology}{2010}{University of New Mexico}
+  \begin{edu}{Bachelor of Science, Psychology}{May 2010}{University of New Mexico}
   \end{edu}
 
 % \section*{Technical Skills}
@@ -191,8 +202,8 @@
 %   \end{skilltype}
 \begin{skills}
   {Languages}{Python, SQL, shell, Scala}
-  {ML/Data/AI frameworks}{Spark, Tensorflow, Kubeflow, TFX, Pytorch, Pandas, scikit-learn, Keras, vllm, Ray}
-  {Dev and ML Ops frameworks/platforms}{Google Cloud, Coreweave, Oracle Cloud, Kubernetes, Helm, Airflow, Bazel}
+  {ML/Data/AI frameworks}{Spark, Tensorflow, Kubeflow, TFX, Pytorch, Pandas, scikit-learn, Keras, vllm, Ray, wandb, HuggingFace, llamafile}
+  {Dev and ML Ops frameworks/platforms}{Google Cloud, AWS, Coreweave, Kubernetes, Helm, Airflow, Bazel, Pants, Docker, Argo, Github Actions, Pulumi}
 \end{skills}
 
 
